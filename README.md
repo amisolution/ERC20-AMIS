@@ -17,12 +17,12 @@ Used as multi-purposes mediation instrument to interact with other contracts.
 
 ## AMIS Contract Install
 ## Pre-requisites
-Install MIST Wallet, create an account and connect to the test network first, load the contract and check your balance of ether, finney, wei.
+Install MIST Wallet, create an account and connect to the test network first.
+Load the contract and check your balance of ether, finney, wei.
 
 ## Contract Usage interaction
 Contract usage interaction development ongoing, currently in UX testing
 Visit erc20-amis.amisolution.net for details
-```
 
 ## Contribute
 
