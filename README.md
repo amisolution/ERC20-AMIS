@@ -59,7 +59,7 @@ Generating a “coupon” token that is redeemed when you use it.
 Generating a token for a “spinoff” DAO.
 Generating a token that can be used to give explicit support to an action or a campaign, like polling.
 Generating a token to enable the token holders to collect daily, monthly or yearly payments.
-All the applications the standard ERC 20 token can be used for, but with the ability to upgrade in the future as desired. All these applications and more are enabled by the MiniMe Token Contract. The most amazing part being that anyone that wants to add these features can, in a permissionless yet safe manner without affecting the parent token’s intended functionality. We are adding swarmwise features to the SWT Token.
+All the applications the standard ERC 20 token can be used for, but with the ability to upgrade in the future as desired. All these applications and more are enabled by the MiniMe Token Contract. The most amazing part being that anyone that wants to add these features can, in a permissionless yet safe manner without affecting the parent token’s intended functionality.
 
 The address of the AMIS Controller is https://etherscan.io/address/0xfd928fAa0F53fd33e45ac689AF49200CA3d87783
 
