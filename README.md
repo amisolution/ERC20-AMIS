@@ -52,7 +52,7 @@ The controller of a MiniMe token contract manages the token in a seperate smart 
 
 In our case, the AMIConverter.sol contract will be set as the controller of the MiniMe Token.
 
-By using this contract as the base token, clones can be easily generated at any given block number, this allows for incredibly powerful functionality, effectively the ability for anyone to give extra features to the token holders without having to migrate to a new contract. Some of the applications that the SWT Token based on the MiniMe token contract can be used for are:
+By using this contract as the base token, clones can be easily generated at any given block number, this allows for incredibly powerful functionality, effectively the ability for anyone to give extra features to the token holders without having to migrate to a new contract. Some of the applications that the new AMIS Token based on the MiniMe token contract can be used for are:
 
 Generating a voting token that is burned when you vote.
 Generating a “coupon” token that is redeemed when you use it.
@@ -71,7 +71,7 @@ Most notably there will be no extra tokens minted. A total of 20 000 000 tokens 
 
 Exchanging AMIS tokens to New AMIS tokens
 
-There is a function created in the AMISConverter that converts the old AMIS balance of the sender into an equal balance in new AMIS tokens, and sends your old AMIS tokens to a separate vault wallet. You must first create an allowance to the new contract so that it can transfer your ARC tokens to another wallet, so that the tokens can be exchanged into new AMIS tokens. The old AMIS is destroyed immediately by sending it to a 0x000 address.
+There is a function created in the AMISConverter that converts the old AMIS balance of the sender into an equal balance in new AMIS tokens, and sends your old AMIS tokens to a separate vault wallet. You must first create an allowance to the new contract so that it can transfer your old AMIS tokens to another wallet, so that the tokens can be exchanged into new AMIS tokens. The old AMIS is destroyed immediately by sending it to a 0x000 address.
 
 Security of the contract
 
