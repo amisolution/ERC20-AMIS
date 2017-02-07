@@ -2,6 +2,8 @@
 
 # ERC20-AMIS Token Project
 
+[![Join the chat at https://gitter.im/ERC20-AMIS/Lobby](https://badges.gitter.im/ERC20-AMIS/Lobby.svg)](https://gitter.im/ERC20-AMIS/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 > What is an AMIS Token (AMIS)? The AMIS is a transactional vehicle acting as asset management instrument for decentralized services running on the ethereum blockchain.
 Main Features:
 Run on the ethereum blockchain
