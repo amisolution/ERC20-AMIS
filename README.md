@@ -79,7 +79,9 @@ Security of the contract
 
 The contract is created using the most recent solidity compiler to date ( v0.4.9 )
 
-The new token contract code is open source and can be reviewed here : https://github.com/amisolution/ERC20-AMIS
+The new token contract code is open source and can be reviewed here : https://github.com/amisolution/ERC20-AMIS/blob/master/AMIS.sol
+is available for review on etherscan: 
+https://etherscan.io/address/0x949bEd886c739f1A3273629b3320db0C5024c719#code
 
 It is based on these codes : 
 https://github.com/ConsenSys/Tokens 
