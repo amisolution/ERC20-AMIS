@@ -71,7 +71,7 @@ Most notably there will be no extra tokens minted. A total of 20 000 000 tokens 
 
 Exchanging AMIS tokens to New AMIS tokens
 
-There is a function created in the SWTConverter that converts the old AMIS balance of the sender into an equal balance in new AMIS tokens, and sends your old AMIS tokens to a separate vault wallet. You must first create an allowance to the new contract so that it can transfer your ARC tokens to another wallet, so that the tokens can be exchanged into new AMIS tokens. The old AMIS is destroyed immediately by sending it to a 0x000 address.
+There is a function created in the AMISConverter that converts the old AMIS balance of the sender into an equal balance in new AMIS tokens, and sends your old AMIS tokens to a separate vault wallet. You must first create an allowance to the new contract so that it can transfer your ARC tokens to another wallet, so that the tokens can be exchanged into new AMIS tokens. The old AMIS is destroyed immediately by sending it to a 0x000 address.
 
 Security of the contract
 
