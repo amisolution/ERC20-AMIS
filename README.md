@@ -8,7 +8,7 @@
 Main Features:
 Run on the ethereum blockchain
 Low supply of Tokens 37.000 (37 Tokens created so far)
-Used as multi-purposes mediation instrument to interact with other contracts.
+Used as multi-purposes mediation instrument to interact with other decentrlized exchanges and smart contracts.
 
 ## Table of Contents
 - [WhitePaper](#white-paper)
@@ -124,7 +124,7 @@ You can verify your new token balance by querying the new AMIS Token contract at
 https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719
 Important!
 
-Please do not send tokens directly to the new token address using any wallet software ( MyEtherWallet / Mist / MetaMask / etc. ) they will not be converted to AMIS tokens this way and will be lost when you do so.
+Please do not send tokens directly to the new token address using any wallet software ( MyEtherWallet / Mist / MetaMask / Jaxx, Polo, etc. ) they will not be converted to AMIS tokens this way and will be lost when you do so.
 
 Timeline and duration
 
@@ -132,23 +132,33 @@ As soon as we have deployed the new AMIS token contract - we will publish the ne
 
 There is no time limit on performing the conversion, meaning that this functionality will be permanently available in our contract.
 
-If you have have any other questions, please feel free to contact us at info@amisolution.net, find us in Slack (## Support), or send a tweet to @ossbss_ami_ucc.
+If you have have any other questions, please feel free to contact us at info@amisolution.net, find us in Slack (## Support), or send a tweet to @erc20_amis
 ## install
-Install MIST Wallet, create an account and connect to the test network first.
-Load the contract and check your balance of ether, finney, wei.
+Install MIST Wallet, create an account, get some ETH and click on contract, check contract watch to query your balance of AMIS; follow this step to watch the AMIS contract:
+
+https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch-the-token-contract-in-ethereum-wallet--mist
+
+and then proceed with the AMIS Token Monitoring Activity as in:
+
+https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch-the-token-in-ethereum-wallet--mist
+
+MEW myetherwallet.com (MEW), has embedded the custom token feature to allow the query of your AMIS balance, just fill-up the AMIS token address in the appropriate section.
 
 ## Usage
-Contract usage interaction development ongoing, currently in UX testing
-Visit erc20-amis.amisolution.net for other details
+Contract usage interaction development ongoing, currently in UX testing mode
+Visit erc20-amis.amisolution.net for more details
+
+
 ## Support
-My support channel is avalaible 24h/24h 365d 
-Gitter: https://gitter.im/ERC20-AMIS/Lobby#
+My support channel is available 24h/24h 365d 
+Gitchat: https://gitter.im/ERC20-AMIS/Lobby#
 Slack: https://amisolution.slack.com/messages/erc20token
 Disqus: https://disqus.com/home/forums/amisolution-net
 
 ## Contribute
 
 PRs accepted.
+Bitcointalk link: https://bitcointalk.org/index.php?topic=1816765.0
 Standard Readme follows the Contributor Covenant Code of Conduct.
 
 ## License
