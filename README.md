@@ -152,7 +152,7 @@ Visit erc20-amis.amisolution.net for more details
 ## Support
 My support channel is available 24h/24h 365d 
 Gitchat: https://gitter.im/ERC20-AMIS/Lobby#
-Slack: https://amisolution.slack.com/messages/erc20token
+Slack: https://amisolution.herokuapp.com
 Disqus: https://disqus.com/home/forums/amisolution-net
 
 ## Contribute
