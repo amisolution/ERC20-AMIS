@@ -94,7 +94,7 @@ Options for exchanging my tokens
 
 1. Using the etherdelta platform (easy)
 Access the etherdelta trading platform and perform the conversion:
-https://etherdelta.github.io/#AMIS-0x949bEd886c739f1A3273629b3320db0C5024c719
+https://etherdelta.github.io/#0xdF36EBfFa7AB074a13e665daBC34ef4b42e59D75-0x949bEd886c739f1A3273629b3320db0C5024c719
 Using Etherdelta - you can perform the token exchange in a few steps. Please visit https://github.com/amisolution/ERC20-AMIS/master/README.md and follow the steps to import your old AMIS wallet into the app. It will then guide you to the token exchange process, which should only take a few minutes to execute.
 
 2. Perform the token exchange yourself. (advanced)
