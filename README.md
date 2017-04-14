@@ -16,6 +16,7 @@ Note: The new AMIS contract provides 20 Mio Tokens with 9 decimals; old AMIS con
 - [WhitePaper](#white-paper)
 - [Install](#install)
 - [Usage](#usage)
+- [Wiki](#wiki)
 - [Contribute](#contribute)
 - [License](#license)
 
@@ -146,12 +147,14 @@ https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch
 
 MEW myetherwallet.com (MEW), has embedded the custom token feature to allow the query of your AMIS balance, just fill-up the AMIS token address in the appropriate section.
 
-## Usage
+## usage
 Contract usage interaction development ongoing, currently in UX testing mode
 Visit erc20-amis.amisolution.net for more details
 
+## wiki
+https://github.com/amisolution/ERC20-AMIS/wiki
 
-## Support
+## support
 My support channel is available 24h/24h 365d 
 Gitchat: https://gitter.im/ERC20-AMIS/Lobby#
 Slack: https://amisolution.herokuapp.com
