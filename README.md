@@ -23,7 +23,7 @@ Note: The new AMIS contract provides 20 Mio Tokens with 9 decimals; old AMIS con
 ## white-paper
 Token exchange whitepaper
 
-The last step to completing our rebranding process is upgrading our token to ‘AMIS Token’ (AMIS). This will be a 1:2000000000 token exchange. Meaning that you will have to exchange your old tokens for new tokens. You will receive te equivalent balance of AMIS tokens on your existing account address.
+The last step to completing our rebranding process is upgrading our token to ‘AMIS Token’ (AMIS). This will be a 1:2000000000 token exchange. Meaning that you will have to exchange your old tokens for new tokens. You will receive the equivalent balance of AMIS tokens on your existing account address.
 
 This mini-whitepaper explains how this token exchange is executed.
 
@@ -49,7 +49,7 @@ Balance history is registered and available to be queried
 All MiniMe Tokens maintain a history of the balance changes that occur during each block. Two calls are introduced to read the totalSupply and the balance of any address at any block in the past.
 function totalSupplyAt(uint _blockNumber) constant returns(uint)
 function balanceOfAt(address _holder, uint _blockNumber) constant returns(uint)
-The address of the New AMIS Token is https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719
+The address of the New AMIS Token is https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719; you can also find it in Kovan https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f and ropsten https://ropsten.etherscan.io/token/0x954c1b6d130adf617652b1e628aae153fc8a1425 for testing purposes.
 
 The token controller
 
