@@ -17,7 +17,9 @@ We also introduced AMIS tokens and assets on new blockchain technology such as B
 - [WhitePaper](#white-paper)
 - [Install](#install)
 - [Usage](#usage)
+- [Gui](#gui)
 - [Wiki](#wiki)
+- [Helpdesk](#support)
 - [Contribute](#contribute)
 - [License](#license)
 
@@ -152,20 +154,20 @@ MEW myetherwallet.com (MEW), has embedded the custom token feature to allow the 
 Contract usage interaction development ongoing, currently in UX testing mode
 Visit us @Medium, Blogspot, erc20-amis.amisolution.net and / or https://erc20amis.wordpress.com/ for more details.
 
-## AMIS DEX DELTA GUI
-https://amisolution.github.io/ERC20-AMIS/amisdex
+## gui
+[![alt text][github]](https://amisolution.github.io/ERC20-AMIS/amisdex)
+
 
 ## wiki
 https://github.com/amisolution/ERC20-AMIS/wiki
 
 ## support
-My support channel is available 24h/24h 365d 
+Our support channel is available 24h/24h 365d 
 Gitchat: https://gitter.im/ERC20-AMIS/Lobby#
 Slack: https://amisolution.herokuapp.com
 Disqus: https://disqus.com/home/forums/amisolution-net
 
 ## Contribute
-
 PRs accepted.
 Bitcointalk link: https://bitcointalk.org/index.php?topic=1816765.0
 Standard Readme follows the Contributor Covenant Code of Conduct.
