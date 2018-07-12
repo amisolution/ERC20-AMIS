@@ -17,9 +17,9 @@ We also introduced AMIS tokens and assets on new blockchain technology such as B
 - [WhitePaper](#white-paper)
 - [Install](#install)
 - [Usage](#usage)
-- [Gui](#gui)
-- [Wiki](#wiki)
-- [Helpdesk](#support)
+- [Gui](#Gui)
+- [Wiki](#Wiki)
+- [Helpdesk](#Support)
 - [Contribute](#contribute)
 - [License](#license)
 
@@ -52,7 +52,7 @@ Balance history is registered and available to be queried
 All MiniMe Tokens maintain a history of the balance changes that occur during each block. Two calls are introduced to read the totalSupply and the balance of any address at any block in the past.
 function totalSupplyAt(uint _blockNumber) constant returns(uint)
 function balanceOfAt(address _holder, uint _blockNumber) constant returns(uint)
-The address of the New AMIS Token is https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719; you can also find it in Kovan https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f and ropsten https://ropsten.etherscan.io/token/0x954c1b6d130adf617652b1e628aae153fc8a1425 for testing purposes.
+The address of the [New AMIS Token is](https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719); you can also find it in [Kovan](https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f) and [ropsten](https://ropsten.etherscan.io/token/0x954c1b6d130adf617652b1e628aae153fc8a1425) for testing purposes.
 
 The token controller
 
@@ -85,9 +85,9 @@ Security of the contract
 
 The contract is created using the most recent solidity compiler to date ( v0.4.9 )
 
-The new token contract code is open source and can be reviewed here : https://github.com/amisolution/ERC20-AMIS/blob/master/AMIS.sol
+The new token contract code is open source and can be reviewed [here:](https://github.com/amisolution/ERC20-AMIS/blob/master/AMIS.sol)
 is available for review on etherscan: 
-https://etherscan.io/address/0x949bEd886c739f1A3273629b3320db0C5024c719#code
+[AMIS code on Etherscan](https://etherscan.io/address/0x949bEd886c739f1A3273629b3320db0C5024c719#code)
 
 It is based on these codes : 
 https://github.com/ConsenSys/Tokens 
@@ -127,19 +127,20 @@ You now have converted your old AMIS to new AMIS tokens.
 
 You can verify your new token balance by querying the new AMIS Token contract at :
 
-https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719
+[Etherscan](https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719)
+
 Important!
 
 Please do not send tokens directly to the new token address using any wallet software ( MyEtherWallet / Mist / MetaMask / Jaxx, Polo, etc. ) they will not be converted to AMIS tokens this way and will be lost when you do so.
 
 Timeline and duration
 
-As soon as we have deployed the new AMIS token contract - we will publish the new token address and the software to exchange your tokens on our github website https://github.com/amisolution/ERC20-AMIS/
+As soon as we have deployed the new AMIS token contract - we will publish the new token address and the interface to exchange your tokens on our github.io website (https://amisolution.github.io/ERC20-AMIS/amisdex)
 
 There is no time limit on performing the conversion, meaning that this functionality will be permanently available in our contract.
 
 If you have have any other questions, please feel free to contact us at info@amisolution.net, find us in Slack (## Support), or send a tweet to @erc20_amis
-## install
+## Install
 Install MIST Wallet, create an account, get some ETH and click on contract, check contract watch to query your balance of AMIS; follow this step to watch the AMIS contract:
 
 https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch-the-token-contract-in-ethereum-wallet--mist
@@ -148,28 +149,28 @@ and then proceed with the AMIS Token Monitoring Activity as in:
 
 https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch-the-token-in-ethereum-wallet--mist
 
-MEW myetherwallet.com (MEW), has embedded the custom token feature to allow the query of your AMIS balance, just fill-up the AMIS token address in the appropriate section.
+[MEW](https://myetherwallet.com) (MEW), has embedded the custom token feature to allow the query of your AMIS balance, just fill-up the AMIS token address in the appropriate section.
 
-## usage
+## Usage
 Contract usage interaction development ongoing, currently in UX testing mode
-Visit us @Medium, Blogspot, erc20-amis.amisolution.net and / or https://erc20amis.wordpress.com/ for more details.
-This page on github.io is here => https://amisolution.github.io/ERC20-AMIS/
+Visit us @Medium, Blogspot, erc20-amis.amisolution.net and / or (https://erc20amis.wordpress.com/) for more details.
+[This page on github.io is here => ](https://amisolution.github.io/ERC20-AMIS/)
 
-## gui
+## Gui
 [Amis Dex Delta GUI](https://amisolution.github.io/ERC20-AMIS/amisdex)
 
-## wiki
-https://github.com/amisolution/ERC20-AMIS/wiki
+## Wiki
+[Wiki](https://github.com/amisolution/ERC20-AMIS/wiki)
 
-## support
+## Support
 Our support channel is available 24h/24h 365d 
-Gitchat: https://gitter.im/ERC20-AMIS/Lobby#
-Slack: https://amisolution.herokuapp.com
-Disqus: https://disqus.com/home/forums/amisolution-net
+[Gitchat:](https://gitter.im/ERC20-AMIS/Lobby#)
+[Slack:](https://amisolution.herokuapp.com)
+[Disqus:](https://disqus.com/home/forums/amisolution-net)
 
 ## Contribute
 PRs accepted.
-Bitcointalk link: https://bitcointalk.org/index.php?topic=1816765.0
+[Bitcointalk link:](https://bitcointalk.org/index.php?topic=1816765.0)
 Standard Readme follows the Contributor Covenant Code of Conduct.
 
 ## License
