@@ -165,15 +165,15 @@ Visit us on our blogs @Medium, Blogspot, erc20-amis.amisolution.net and / or [Wo
 
 ## Support
 Our support channel is available 24h/24h 365d 
-[Gitchat: https://gitter.im/ERC20-AMIS/Lobby](https://gitter.im/ERC20-AMIS/Lobby#)
-[Slack: https://amisolution.herokuapp.com](https://amisolution.herokuapp.com)
-[Disqus: https://disqus.com/home/forums/amisolution-net](https://disqus.com/home/forums/amisolution-net)
-[Twitter: https://twitter.com/amis_erc20](https://twitter.com/amis_erc20)
+- [Gitchat: https://gitter.im/ERC20-AMIS/Lobby](https://gitter.im/ERC20-AMIS/Lobby#)
+- [Slack: https://amisolution.herokuapp.com](https://amisolution.herokuapp.com)
+- [Disqus: https://disqus.com/home/forums/amisolution-net](https://disqus.com/home/forums/amisolution-net)
+- [Twitter: https://twitter.com/amis_erc20](https://twitter.com/amis_erc20)
 
 ## Contribute
-PRs accepted.
-[Bitcointalk link:](https://bitcointalk.org/index.php?topic=1816765.0)
-Standard Readme follows the Contributor Covenant Code of Conduct.
+- PRs accepted.
+- [Bitcointalk link: https://bitcointalk.org/index.php?topic=1816765.0](https://bitcointalk.org/index.php?topic=1816765.0)
+- Standard Readme follows the Contributor Covenant Code of Conduct.
 
 ## License
 
