@@ -52,7 +52,7 @@ Balance history is registered and available to be queried
 All MiniMe Tokens maintain a history of the balance changes that occur during each block. Two calls are introduced to read the totalSupply and the balance of any address at any block in the past.
 function totalSupplyAt(uint _blockNumber) constant returns(uint)
 function balanceOfAt(address _holder, uint _blockNumber) constant returns(uint)
-The address of the [New AMIS Token is](https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719); you can also find it in [Kovan](https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f) and [ropsten](https://ropsten.etherscan.io/token/0x954c1b6d130adf617652b1e628aae153fc8a1425) for testing purposes.
+The address of the [New AMIS Token is](https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719); you can also find it in [Kovan https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f](https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f) and [ropsten https://ropsten.etherscan.io/token/0x954c1b6d130adf617652b1e628aae153fc8a1425](https://ropsten.etherscan.io/token/0x954c1b6d130adf617652b1e628aae153fc8a1425) for testing purposes.
 
 The token controller
 
@@ -85,9 +85,9 @@ Security of the contract
 
 The contract is created using the most recent solidity compiler to date ( v0.4.9 )
 
-The new token contract code is open source and can be reviewed [here:](https://github.com/amisolution/ERC20-AMIS/blob/master/AMIS.sol)
+The new token contract code is open source and can be reviewed [here:https://github.com/amisolution/ERC20-AMIS/blob/master/AMIS.sol](https://github.com/amisolution/ERC20-AMIS/blob/master/AMIS.sol)
 is available for review on etherscan: 
-[AMIS code on Etherscan](https://etherscan.io/address/0x949bEd886c739f1A3273629b3320db0C5024c719#code)
+[AMIS code on Etherscan: https://etherscan.io/address/0x949bEd886c739f1A3273629b3320db0C5024c719#code](https://etherscan.io/address/0x949bEd886c739f1A3273629b3320db0C5024c719#code)
 
 It is based on these codes : 
 https://github.com/ConsenSys/Tokens 
@@ -127,7 +127,7 @@ You now have converted your old AMIS to new AMIS tokens.
 
 You can verify your new token balance by querying the new AMIS Token contract at :
 
-[Etherscan](https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719)
+[Etherscan https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719](https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719)
 
 Important!
 
@@ -135,11 +135,12 @@ Please do not send tokens directly to the new token address using any wallet sof
 
 Timeline and duration
 
-As soon as we have deployed the new AMIS token contract - we will publish the new token address and the interface to exchange your tokens on our github.io website (https://amisolution.github.io/ERC20-AMIS/amisdex)
+As soon as we have deployed the new AMIS token contract - we will publish the new token address and the interface to exchange your tokens on our Amis Dex github.io website (https://amisolution.github.io/ERC20-AMIS/amisdex)
 
 There is no time limit on performing the conversion, meaning that this functionality will be permanently available in our contract.
 
 If you have have any other questions, please feel free to contact us at info@amisolution.net, find us in Slack (## Support), or send a tweet to @erc20_amis
+
 ## Install
 Install MIST Wallet, create an account, get some ETH and click on contract, check contract watch to query your balance of AMIS; follow this step to watch the AMIS contract:
 
@@ -153,8 +154,8 @@ https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch
 
 ## Usage
 Contract usage interaction development ongoing, currently in UX testing mode
-Visit us @Medium, Blogspot, erc20-amis.amisolution.net and / or (https://erc20amis.wordpress.com/) for more details.
-[This page on github.io is here => ](https://amisolution.github.io/ERC20-AMIS/)
+Visit us on our blogs @Medium, Blogspot, erc20-amis.amisolution.net and / or [Wordpress](https://erc20amis.wordpress.com/) for more details.
+[This page on github.io is here => https://amisolution.github.io/ERC20-AMIS](https://amisolution.github.io/ERC20-AMIS/)
 
 ## Gui
 [Amis Dex Delta GUI](https://amisolution.github.io/ERC20-AMIS/amisdex)
@@ -164,9 +165,10 @@ Visit us @Medium, Blogspot, erc20-amis.amisolution.net and / or (https://erc20am
 
 ## Support
 Our support channel is available 24h/24h 365d 
-[Gitchat:](https://gitter.im/ERC20-AMIS/Lobby#)
-[Slack:](https://amisolution.herokuapp.com)
-[Disqus:](https://disqus.com/home/forums/amisolution-net)
+[Gitchat: https://gitter.im/ERC20-AMIS/Lobby](https://gitter.im/ERC20-AMIS/Lobby#)
+[Slack: https://amisolution.herokuapp.com](https://amisolution.herokuapp.com)
+[Disqus: https://disqus.com/home/forums/amisolution-net](https://disqus.com/home/forums/amisolution-net)
+[Twitter: https://twitter.com/amis_erc20](https://twitter.com/amis_erc20)
 
 ## Contribute
 PRs accepted.
