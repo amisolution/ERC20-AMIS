@@ -150,7 +150,10 @@ MEW myetherwallet.com (MEW), has embedded the custom token feature to allow the 
 
 ## usage
 Contract usage interaction development ongoing, currently in UX testing mode
-Visit erc20-amis.amisolution.net for more details
+Visit us @Medium, Blogspot, erc20-amis.amisolution.net and / or https://erc20amis.wordpress.com/ for more details.
+
+## AMIS DEX DELTA GUI
+https://amisolution.github.io/ERC20-AMIS/amisdex
 
 ## wiki
 https://github.com/amisolution/ERC20-AMIS/wiki
