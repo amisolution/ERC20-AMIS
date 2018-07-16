@@ -140,7 +140,7 @@ As soon as we have deployed the new AMIS token contract - we will publish the ne
 
 There is no time limit on performing the conversion, meaning that this functionality will be permanently available in our contract.
 
-If you have have any other questions, please feel free to contact us at info@amisolution.net, find us in Slack (## Support), or send a tweet to @erc20_amis
+If you have have any other questions, please feel free to contact us in our [AMIS gitchat](https://gitter.im/ERC20-AMIS/Lobby#) channel, in Slack (## Support), or send a tweet to @erc20_amis.
 
 ## Install
 Install MIST Wallet, create an account, get some ETH and click on contract, check contract watch to query your balance of AMIS; follow this step to watch the AMIS contract:
