@@ -19,6 +19,7 @@ We also introduced AMIS tokens and assets on new blockchain technology such as B
 - [Usage](#usage)
 - [Gui](#Gui)
 - [Wallet](#Wallet)
+- [Exchange](#Exchange)
 - [Wiki](#Wiki)
 - [Helpdesk](#Support)
 - [Contribute](#contribute)
@@ -159,6 +160,7 @@ Visit us on our blogs @Medium, Blogspot, erc20-amis.amisolution.net and / or [Wo
 [This page on github.io is here => https://amisolution.github.io/ERC20-AMIS](https://amisolution.github.io/ERC20-AMIS/)
 
 ## Gui
+
 On the ethereum blockchain one can use one of these GUIs to interact with decentralized exchange smart contracts
 - New Amis Dex GUI based on Etherdelta [Amis Dex new Delta GUI](https://amisolution.github.io/ERC20-AMIS/amisdex)
 - Old Amis Dex GUI based on Forkdelta [Amis Dex old Delta GUI](https://ami-solution.github.io/amisdex/)
@@ -173,19 +175,42 @@ On the BitShares blockchain one can interact with the AMIS UIA on the openledger
 On the waves blockchain one can interact with the AMIS token natively and in a decentralized exchange fasion by using the web interface below:
 - WAVES [wavesplatform.com](https://beta.wavesplatform.com/market/AMIS_WAVES) or https://beta.wavesplatform.com/dex?assetId2=WWiqqx527CUweb8eB5xLUPtLfzyFs371FkT2dtX49DC&assetId1=WAVES
 
+## Exchange
+
+* [crypto-bridge AMIS-BTC](https://wallet.crypto-bridge.org/market/OPENAMIS_BTC) **New** *on BitShares*
+* [crypto-bridge AMIS-BTS](https://wallet.crypto-bridge.org/market/OPENAMIS_BTS) **New** *on BitShares*
+* [openledger.io AMIS-BitUSD](https://openledger.io/market/OPENAMIS_BTS) **New** *on BitShares*
+* [openledger.info AMIS-BitCNY](https://bitshares.openledger.info/market/OPENAMIS_BTS) **New** *on BitShares*
+* [Waves AMIS](https://beta.wavesplatform.com/market/AMIS_WAVES) **New** *on Waves*
+* [AMIS DEX #1](https://ami-solution.github.io/amisdex/) **New** *in beta*
+* [AMIS DEX #2](https://amisdex.github.io/index/) **New** *in alpha*
+* [Bamboo relay](https://bamboorelay.com/trade/AMIS-WETH) 0x
+* [Cryptoderivatives market](https://cryptoderivatives.market/token/AMIS)
+* [Decentrex](https://amisdex.github.io/decentrex/) **Instructions for token transfer**
+* [Dubiex](https://dubiex.com/AMIS/ETH) *in beta*
+* [Ethen Market](https://ethen.market/949bed886c739f1a3273629b3320db0c5024c719)
+* [EtherDelta](https://etherdelta.com/#0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
+* [Forkdelta](https://forkdelta.github.io/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
+* [Idex]() Discontinued
+* [Instex](https://app.instex.io/0x949bed886c739f1a3273629b3320db0c5024c719-WETH) 0x *in beta*
+* [SingularX](https://ex.singularx.com/exchange/AMIS/ETH) *in beta*
+* [Token Jar](https://tokenjar.io/amis) 0x
+* [Token Store](https://token.store/trade/0x949bed886c739f1a3273629b3320db0c5024c719)
+
 ## Wallet
+
 on Ethereum, one can easily create a wallet to store, send and receive AMIS:
 - Metamask (AMIS tokens to be added manually)
 - [MEW](https://github.com/amisolution/ERC20-AMIS/wiki) (AMIS tokens added automatically)
 
 On BitShares use one of the following:
-https://openledger.io/wallet?r=openledger-wallet-amis
-https://wallet.bitshares.org?r=openledger-wallet-amis
-https://market.rudex.org/?r=openledger-wallet-amis
-https://wallet.bitshares.eu/?r=openledger-wallet-amis#/
-https://bit.btsabc.org/?r=openledger-wallet-amis#/
-https://wallet.crypto-bridge.org/wallet?r=openledger-wallet-amis
-https://www.gdex.io/wallet?r=openledger-wallet-amis
+- https://openledger.io/wallet?r=openledger-wallet-amis
+- https://wallet.bitshares.org?r=openledger-wallet-amis
+- https://market.rudex.org/?r=openledger-wallet-amis
+- https://wallet.bitshares.eu/?r=openledger-wallet-amis#/
+- https://bit.btsabc.org/?r=openledger-wallet-amis#/
+- https://wallet.crypto-bridge.org/wallet?r=openledger-wallet-amis
+- https://www.gdex.io/wallet?r=openledger-wallet-amis
 
 On Waves use either bitshares or the native wallet 
 - WAVES [wavesplatform.com](https://beta.wavesplatform.com/create)
