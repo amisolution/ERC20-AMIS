@@ -1,1 +1,306 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA--1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA--1');
+</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>AMIS FORUM LIVE</title>
+    <link rel="shortcut icon" type="image/png" href="images/logo2.png" />
+    <!-- Bootstrap -->
+    <!--       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--  -->
+    <link href="css/toastr.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--     <nav class="navbar navbar-fixed-top myNavbar">
+        <div class="container-fluid navbar-container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#"><img class="logo" src="images/logo.png" /></a>
+
+                <div class="dropdown myDropdown">
+                    <!-- <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+                                    <span class="caret"></span></button> 
+                    <i class="fas fa-bars custom-bars" data-toggle="dropdown"></i>
+
+
+                    <ul class="dropdown-menu openedDd">
+                        <li class="nav-link-li">
+                            <a class="nav-link" href="#about">ABOUT AMICORUM</a>
+                        </li>
+                        <li class="nav-link-li">
+                            <a class="nav-link" href="#features">FEATURES</a>
+                        </li>
+
+                        <li class="nav-link-li">
+                            <a class="nav-link" href="#roadmap">AMI TOKENS</a>
+                        </li>
+                        <li class="nav-link-li">
+                            <a class="nav-link" href="#timeline">ROADMAP</a>
+                        </li>
+                        <li class="nav-link-li">
+                            <a class="nav-link" href="#team">TEAM INFORMATION</a>
+                        </li>
+                        <li class="nav-link-li">
+                            <a class="nav-link" href="#faq">FAQS</a>
+                        </li>
+
+                        <li class="nav-link-li">
+                            <a class="nav-link" href="#">BUY AMI TOKEN</a>
+                        </li>
+
+                        <li class="nav-link-li">
+
+                            <a class="nav-link" href="english.pdf">ENGLISH WHITEPAPER</a>
+
+
+                        </li>
+                        <li class="nav-link-li">
+
+                            <a class="nav-link" href="korean.pdf">KOREAN WHITEPAPER</a>
+
+
+                        </li>
+
+
+                        <!--  <div class="dropdown">
+                                            <button class="whitepaper-btn dropdown-toggle" type="button" data-toggle="dropdown">WHITEPAPER</button>
+                                            <ul class="dropdown-menu">
+                                              <li><a href="#">ENGLISH</a></li>
+                                              <li class="line-blue"><a href="#"></a></li>
+                                              <li><a href="#">KOREAN</a></li>
+                                            </ul>
+                                          </div> 
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-link-li">
+                        <a class="nav-link" href="#about">ABOUT AMICORUM</a>
+                    </li>
+                    <li class="nav-link-li">
+                        <a class="nav-link" href="#features">FEATURES</a>
+                    </li>
+
+                    <li class="nav-link-li">
+                        <a class="nav-link" href="#amiTokens">AMI TOKENS</a>
+                    </li>
+                    <li class="nav-link-li">
+                        <a class="nav-link" href="#timeline">ROADMAP</a>
+                    </li>
+                    <li class="nav-link-li">
+                        <a class="nav-link" href="#team">TEAM INFORMATION</a>
+                    </li>
+                    <li class="nav-link-li">
+                        <a class="nav-link" href="#faq">FAQS</a>
+                    </li>
+
+                    <li class="nav-link-li">
+                        <Button type="button" class="ami-token-btn">BUY AMI TOKEN</Button>
+                    </li>
+
+                    <li class="nav-link-li">
+                        <div class="dropdown">
+                            <button class="whitepaper-btn dropdown-toggle" type="button" data-toggle="dropdown">WHITEPAPER
+                            </button>
+                            <ul class="dropdown-menu dropdown2">
+                                <li>
+                                    <a href="english.pdf">ENGLISH</a>
+                                </li>
+                                <li class="line-blue">
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="korean.pdf">KOREAN</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+
+
+
+                    <!--  <Button type="button" class="whitepaper-btn" data-toggle="collapse" data-target="#demo1">WHITEPAPER</Button> 
+                                    <div class="dropdown">
+                                        <button class="whitepaper-btn dropdown-toggle" type="button" data-toggle="dropdown">WHITEPAPER</button>
+                                        <ul class="dropdown-menu">
+                                          <li><a href="#">ENGLISH</a></li>
+                                          <li class="line-blue"><a href="#"></a></li>
+                                          <li><a href="#">KOREAN</a></li>
+                                        </ul>
+                                      </div>  -->
+
+                    <!--  <div id="demo1" class="collapse">
+                                          <ul class="liststyle">
+                                              <li class="pdf">
+                                                  <a href="english.pdf" target="blank">ENGLISH</a>
+                                              </li>
+                                              <li class="listborder"></li>
+                                              <li class="pdf1">
+                                                  <a href="korean.pdf" target="blank">KOREAN</a>
+                                              </li>
+                                          </ul>
+                                      </div> 
+                </ul>
+
+            </div>
+        </div>
+    </nav> -->
+
+    <section class="faq-new">
+        <h1 class="Faq-heading">Frequently Asked Questions</h1>
+
+        <div class="question-ans">
+
+            <p class="faq-points">What is Amicorum.live?</p>
+            <p class="answer">
+                AMIS DELTA DEX is a blockchain based peer-peer trading platform dedicated for the agricultural market around the globe.
+                Our goal is to provide a secure and transparent decentralized exchange platform almost free from any transaction or processing fees.
+                <br> We are decentralizing the agricultural and grain market industry with Blockchain and Secure Identity Platform
+            </p>
+
+
+            <p class="faq-points">How does AMIS DELTA DEX make money?</p>
+            <p class="answer">
+
+                Amicorum will be a sustainable subscriber-based model. We will not make any money from the transactions but we will only inject
+                1:1 pegged AMIS cryptoderivatives tokens via our reserve to run the incentive program.
+
+            </p>
+
+
+            <p class="faq-points">How does AMICORUM.LIVE differ from other ticket re-sale websites?</p>
+            <p class="answer">
+                We focus on free trade, contactless payments with almost no transaction fees or processing fees.
+                <br> Our main goal is to create very own infrastructure based on blockchain technology that will remove third
+                parties and negate any transaction/processing fees for any subscribers globally.
+                <br> We are focused on working with existing community which now consists of millions of people and an audience
+                that is not able to get hands on tickets due to inflated prices. We have created a system which will allow
+                various generations of people to connect with crypto currencies and use them as a solid payment method for
+                their revenue.
+            </p>
+
+
+            <p class="faq-points">How about other currency services? Do you plan to work with people who still want to trade with FIAT currencies ?</p>
+            <p class="answer">
+                Yes, the AMIS DELTA DEX platform will be available for users to trade both altcoins and FIAT.
+            </p>
+
+            <p class="faq-points">When does the initial ATF Airdrop start?</p>
+            <p class="answer">
+                Below are the timelines for each stage of the initial ATF Airdrop:</p>
+            <ul class="list-faq">
+                <li>
+                    The initial ATF Airdrop went live on Feb 1, 2017 on our website: 
+                </li>
+                <li>
+                    There were only 14,000,000 tokens available during the initial ATF Airdrop.
+                </li>
+                <li>
+                    Bonus – 0.1%
+                </li>
+            </ul>
+            </p>
+
+
+
+            <p class="faq-points">What are the conditions for the token sale?</p>
+            <p class="answer">
+                The token sale started on Feb 1, 2017. The bonus during the token sale is up to 20% of the purchase. To buy tokens, please
+                follow the steps outlined in our “How to Buy Tokens” guide.
+            </p>
+
+            <p class="faq-points">Which payment methods are accepted?</p>
+            <p class="answer">
+                Bitcoin (BTC); Bitcoin Cash (BCH); Ether (ETH); Litecoin (LTC) are only accepted
+            </p>
+
+            <p class="faq-points">How many tokens are available during the token sale?</p>
+            <p class="answer">
+                The total token supply is at 20,000,000. Below are the numbers of tokens available during each phase, discounts and reserves:
+
+                <ul>
+                    <li>
+                        ATF Sale/Presale – 10,000 (0.05% of Total Supply)
+                    </li>
+                    <li>
+                        Ramp-up phase  – 100,000 AMIS ERC20 Tokens to be burnt for BTS Integration - 0.5% of 20 mio Total Supply
+                                  10,000  (WAVE Integration)
+                    </li>
+                    <li>
+                        CRSW Crowdsale – 1,000,000 (5% Bonus)
+                    </li>
+                    <li>
+                        Reserved Token – 6,000,000
+                    </li>
+
+                </ul>
+            </p>
+
+
+            <p class="faq-points">Are the tokens ERC-20 compatible?</p>
+            <p class="answer">
+                    True, tokens are based on the Ethereum platform and are ERC20-compliant. AMIS Cryptoderivatives also available on Bitshares and Waves.
+            </p>
+
+
+            <p class="faq-points">Which exchanges will be chosen?</p>
+            <p class="answer">
+                    As a team of highly motivated and driven individuals, we have chosen to use the ethereum infrastruture as a prime base to host the decentralized exchange functions in a distributed fashion for the best interests of our investors
+                    and successfully trade the Amis Token at a fair price. But it is hard to confirm at this moment if AMIS will be
+                    listed on top-tier centralized exchanges.
+            </p>
+
+            <p class="faq-points">When will the token start trading on new crypto exchanges?</p>
+            <p class="answer">
+                    This will be communicated via our Social Media channels.
+            </p>
+
+            <p class="faq-points">Where and how do I keep my tokens?</p>
+            <p class="answer">
+                    You can keep AMIS tokens in any wallet that supports ERC20 tokens. For example, in the MyEtherWallet and Metamask.
+            </p>
+
+            <p class="faq-points">When will the platform go live?</p>
+            <p class="answer">
+                    The platform will go live in Q1 2019. Please review roadmap for more details.
+            </p>
+
+            <p class="faq-points">In which countries can I use AMIS DELTA DEX on a LIVE platform?</p>
+            <p class="answer">
+                    You can use AMIS DELTA DEX on our AMIS FORUM LIVE globally as it is a peer-peer decentralized transaction-based platform.
+            </p>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
