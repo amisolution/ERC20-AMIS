@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Mar 30, 2019 15:37:25").getTime();
+var countDownDate = new Date("Jul 01, 2018 15:37:25").getTime();
 
 var url = "https://account.amicorum.live/api" 
 
@@ -299,7 +299,7 @@ employees = {
               "id":"1",
               "name":"Laurent G",
               "designation":"Advisor",
-              "description":`Short description needed.`,
+              "description":"Short description needed.",
               `,
               "pictureURL":"images/photo.png",
               "linkedIn":"https://www.linkedin.com/in/ "
@@ -309,7 +309,8 @@ employees = {
               "id":"2",
               "name":"Amisolution",
               "designation":"Social Media and Community Manager",
-              "description":`Short description needed.`,
+              "description":"Short description needed.",
+              `,
               "pictureURL":"images/photo1.jpg",
               "linkedIn":"https://www.linkedin.com/in/"
   
