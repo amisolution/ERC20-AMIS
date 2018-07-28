@@ -1002,7 +1002,7 @@ font-size: 17px;
   padding-top: 5px;
 }
 .ami-tokens{
-  background-image: url('../images/ami-tokens.png');
+  background-image: url('../images/ami-tokens.jpg');
   background-size: cover;
   height: auto;
   padding-bottom: 70px;
@@ -1949,7 +1949,7 @@ text-align: center;
 #about
 {
   background-repeat: no-repeat;
-  background-image: url("../images/amicorum.png");
+  background-image: url("../images/amicorum.jpg");
   height: auto;
  background-size: cover;
   width: 100%;
@@ -1961,7 +1961,7 @@ text-align: center;
 /*Team*/
 #team
 {
-background-image: url(" ../images/Teambackground.png");
+background-image: url(" ../images/Teambackground.jpg");
 height: auto;
 background-size: cover;
 width: 100%;
@@ -2250,7 +2250,7 @@ padding-bottom: 56px;
 
 
 .footer-back{
-  background-image: url("../images/footer-back.png");
+  background-image: url("../images/footer-back.jpg");
   background-size: cover;
   background-repeat: no-repeat;  
 }
