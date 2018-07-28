@@ -1824,7 +1824,7 @@ margin-top: 9px;
 /* End Press and Section*/
 
 
-/* About Amicorum*/
+/* About AmisForum*/
 
 .Amicourumheading
 {
@@ -1956,12 +1956,12 @@ text-align: center;
   padding-bottom: 51px;
 }
 
-/*End About Amicorum Section*/
+/*End About AmisForum Section*/
 
 /*Team*/
 #team
 {
-background-image: url(" ../images/Teambackground.jpg");
+background-image: url(" ../images/Teambackground.png");
 height: auto;
 background-size: cover;
 width: 100%;
