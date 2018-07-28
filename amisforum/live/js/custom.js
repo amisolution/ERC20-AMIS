@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Mar 30, 2017 15:37:25").getTime();
+var countDownDate = new Date("Mar 30, 2019 15:37:25").getTime();
 
 var url = "https://account.amicorum.live/api" 
 
@@ -297,121 +297,23 @@ employees = {
 
           { 
               "id":"1",
-              "name":"Muhammad Shakil",
+              "name":"Laurent G",
               "designation":"Advisor",
-              "description":`With a Master's Degree in Information & Telecommunication Technology, he brings over 10 years of experience in advising on new companies.  He is the CEO & CO-Founder of JatBit, Co-Founder of Bandz Network and currently a Doctorate candidate at KAIST.
-              He has been formidable advisor for 5 successful ICOâ€™s in the past 2 years, including FarmaTrust, Dellbit and OpenChain.  He is the Editor at IEEE (the worldâ€™s largest professional association dedicated to advancing technological innovation and excellence for the benefit of humanity).   Previously, he worked as Deputy Project Director Cyber Incident Response Team at Government of Pakistan and IT Consultant of International Taekwondo Foundation.  He has successfully completed 8 certifications in Security and has had 3 publications.
+              "description":`Short description needed.`,
               `,
-              "pictureURL":"images/shakil.png",
-              "linkedIn":"https://www.linkedin.com/in/muhammad-shakil/ "
+              "pictureURL":"images/photo.png",
+              "linkedIn":"https://www.linkedin.com/in/ "
           
           },
           { 
               "id":"2",
-              "name":"Adrian Arora ",
-              "designation":"Founder & Investor",
-              "description":`Adrian is the founder of AMICORUM.LIVE.  He has been an ICO Strategist and Advisor of 2 successful ICOâ€™s in 2017.  He is a serial entrepreneur and venture crypto investor for the past 2 years.   He brings over 11 years of growth experience working for a top technology SaaS Company in US. 
-              A visionary and aspirer to develop world class peer-peer ecosystem for people around the world.
-              `,
-              "pictureURL":"images/adrian.jpg",
-              "linkedIn":"https://www.linkedin.com/in/adrianarora "
-          
-          },
-          { 
-              "id":"3",
-              "name":"Sam Kalra",
-              "designation":"CO-Founder and Head of Investor Relations",
-              "description":`Sam is a business Professional with over 8 years of experience in functional domains, primarily in Client/Account Management, Technology Solutions and Operations.
-              With overall exposure of 6 years working in 3 different countries, she is a capable leader who is result oriented.  She has been an active investor in Crypto Currencies for the past 3 years.
-              `,
-              "pictureURL":"images/sam.jpg",
-              "linkedIn":"https://www.linkedin.com/in/sam-arora/ "
-          
-          },
-          { 
-              "id":"4",
-              "name":"Kanwar Arora",
-              "designation":"Head of Financial Analysis ",
-              "description":`Kanwar joined AMICORUM.LIVE as the Head of Financial Analysis.  A Lead Analyst by occupation, he is a performance driven operations controller with experience in financial management.  He will provide strategic and financial planning advice and lead the corporate forecasting process.  He has been a proven analytical professional with project management and project execution at the top level.  `,
-              "pictureURL":"images/kanwar.JPG",
-              "linkedIn":"https://www.linkedin.com/in/kanwar-arora-0b82a966/ "
-          
-          },
-          { 
-              "id":"5",
-              "name":"Sang Hyeon",
-              "designation":"Community Manager â€“ Korea",
-              "description":`Sang Hyeon is one of the famous blockchain evangelists in Korea. Not only did he invest in various cryptocurrencies, he is also an influential blogger to introduce various cryptocurrencies.  He was president of the National Youth Economics and Management Association and hosted a national youth enterprise planning camp. He is currently attending Kookmin University.`,
-              "pictureURL":"images/sang.jpg",
-              "linkedIn":"https://www.linkedin.com/in/sang-hyeon-eom-76626a157/ "
-          
-          },
-          { 
-              "id":"6",
-              "name":"Damira Baigozha",
-              "designation":"Marketing & ICO SMM â€“ SE - ASIA",
-              "description":`Damira is our ICO SMM â€“ Marketing and Business Development Associate.  She brings 3 years of combined experience in ICO Marketing, wealth generation for ICOâ€™s and outreach.  `,
-              "pictureURL":"images/damira.JPG",
-              "linkedIn":"https://www.linkedin.com/in/damira-baigozha-9ab166143/ "
-          
-          },
-          { 
-              "id":"7",
-              "name":"Ali Zain ",
-              "designation":"Blockchain Development",
-              "description":`Ali Zain is the CEO of Ideofuzion with expertise in ICO website development, smart contract generation and platforms on blockchain technology.  He has been responsible for successfully helping his clients launch 5 different ICO projects in the past years and worked on 15 different website development projects.  He has also worked with iScrybe as a front end developer for the product Convo for about 1.5 years. `,
-              "pictureURL":"images/az.jpg",
-              "linkedIn":"https://www.linkedin.com/in/ali-zain-a31a0932/ "
-          
-          },
-          { 
-              "id":"8",
-              "name":"Simon Cocking ",
-              "designation":"Advisor",
-              "description":`Simon Cocking is Senior Editor at Irish Tech News - now getting 470,000 unique monthly views, Editor in Chief at CryptoCoinNews, and freelances for Sunday Business Post, Irish Times, Southern Star, IBM, G+D, and others. He is a top ranked member of the â€˜People of Blockchainâ€™ (currently ranked at #1 / 18,000).  He is also a business mentor and advisor working with 80+ successful ICOs to date. He also has been named in the Global Twitter Influencer lists in the last 12 months. He is an accomplished public speaker at events including TEDx, Web Summit, Dublin Tech Summit, and overseas in Dubai, Singapore, Moscow, Tel Aviv, Madrid, Tbilisi, Riga, Porto, Dublin and Helsinki in the last 12 months.He has been based in Ireland for over 22 years and has cofounded or founded seven successful companies. `,
-              "pictureURL":"images/Simon.png",
-              "linkedIn":"https://www.linkedin.com/in/simon-cocking-20540135/"
-          
-          },
-          { 
-            "id":"9",
-            "name":"Amar Preet Singh",
-            "designation":"Advisor",
-            "description":`Amar is one of the leading advocates and contributing member of Global Blockchain community, Senior Advisor of Global Blockchain Foundation, ICOBench rated top 'Expert' and is Advisory Board Member of many Blockchain projects around the world.
-            A Technology/Digital enthusiast and a seasoned professional with years of experience in operations, consulting and innovation of the Tech industry, Amarâ€™s background includes working with Tier 1 firms such as Microsoft (APOC Operation Manager), the World Bank (Senior Infrastructure Consultant and Economic Advisor), Airbus etc., and advising startups and speaking at various technology forums. His educational background includes B.E. (Computer Science) and three Masters degrees from three Universities around the globe (including MBA from National University of Singapore).
-            Amar has joined AMICORUM.LIVE  as an Advisor to increase footprint in the SE Asia region and helping with investor relations.
-            `,
-            "pictureURL":"images/amar.png",
-            "linkedIn":"https://www.linkedin.com/in/amarpreetsingh2/"
-        
-        },
-        { 
-          "id":"10",
-          "name":"Doyeop Kim",
-          "designation":"Advisor",
-          "description":`As a former official of the United Nations, Do brings extensive experiences working in conflict and post-conflict settings. Having been appointed to various leadership roles, most recently served as Tactical Commanding Officer, he has proven track record to strategies and lead various operations. Joining AMICORUM.LIVE, Do will help building investor relations in South Korea.`,
-          "pictureURL":"images/do.png",
-          "linkedIn":"https://www.linkedin.com/in/doyeop-kim-2726b4154/"
-      
-      },
-      { 
-        "id":"11",
-        "name":"Andrea Rogers",
-        "designation":"Marketing Manager, ICO Success Lead",
-        "description":`A Passionate marketer with over 3 years of experience in Marketing and Social Media. Managing SMM and Social Media for AMICORUM.LIVE.`,
-        "pictureURL":"images/andrea.png",
-        "linkedIn":"https://www.linkedin.com/in/andrea-rogers-079412163/"
-    
-    },
-    { 
-      "id":"12",
-      "name":"Zhanel Bekmukhanbetova",
-      "designation":"Social Media and Community Manager",
-      "description":`Zhanel is our Social Media and Community Manager. She brings 2 years of experience in community management, engagement, and business development in Korea and Russia.`,
-      "pictureURL":"images/zhanel.jpg",
-      "linkedIn":"https://www.linkedin.com/in/zhanel/"
+              "name":"Amisolution",
+              "designation":"Social Media and Community Manager",
+              "description":`Short description needed.`,
+              "pictureURL":"images/photo1.jpg",
+              "linkedIn":"https://www.linkedin.com/in/"
   
-  }
+          }
 
 
   ]
