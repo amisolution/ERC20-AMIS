@@ -14,3 +14,4 @@ subtitle: 24h Historical chart for AMIS as displayed on the amisforum live
 | AMIS-USD | 24H |<img src="https://cryptohistory.org/charts/candlestick/amis-usd/24h/svg?risingColor=FE8534&fallingColor=00BAE9"> | cryptocompare |
 | AMIS-EUR | 24H |<img src="https://cryptohistory.org/charts/candlestick/amis-eur/24h/svg?risingColor=FE8534&fallingColor=00BAE9"> | cryptocompare |
 | AMIS-CNY | 24H | <img src="https://cryptohistory.org/charts/candlestick/amis-cny/24h/svg?risingColor=FE8534&fallingColor=00BAE9"> | cryptocompare |
+| AMIS-BTS | 24H | <img src="https://cryptohistory.org/charts/candlestick/amis-bts/24h/svg?risingColor=FE8534&fallingColor=00BAE9"> | cryptocompare |
