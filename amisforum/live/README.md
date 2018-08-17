@@ -10,7 +10,7 @@ main meta-repo for the AMIS Forum Live exchange
 
 We use this repo to track issues and suggestions for [amisolution.github.io/ERC20-AMIS/amisforum/live](https://amisolution.github.io/ERC20-AMIS/amisforum/live)
 
-You're welcome to raise issues here directly: [github.com/amisolution/ERC20-AMIS/master/amisforum/live](https://github.com/amisolution/ERC20-AMIS/master/amisforum/live), post on https://www.reddit.com/r/amis_erc20/ .
+You're welcome to raise issues here directly: [github.com/amisolution/ERC20-AMIS/master/amisforum/live](https://github.com/amisolution/ERC20-AMIS/master/amisforum/live), post on https://www.reddit.com/r/amis_erc20/ or even on our new facebook page [facebook.com/amis.erc20](https://facebook.com/amis.erc20) .
 
 ## Where's the Code?
 
