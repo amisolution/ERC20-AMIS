@@ -1,14 +1,15 @@
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-# ERC20-AMIS Token Project
+# ERC20-AMIS Token Future, options and crypto derivatives Project
 
 [![Join the Gitchat at https://gitter.im/ERC20-AMIS/Lobby](https://badges.gitter.im/ERC20-AMIS/Lobby.svg)](https://gitter.im/ERC20-AMIS/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 > What is an AMIS Token (AMIS)? The AMIS is a transactional vehicle acting as asset management instrument for decentralized services running on the ethereum blockchain.
 Main Features:
-Run on the ethereum blockchain
-Low supply of Tokens 37.000 (37 Tokens created so far)
+Dematerialized, Decentralized, due to replace FIAT transactions in the real economy for the long term, Transborder proof. 
+Run on the ethereum blockchain natively since its experimental inception.
+Low supply of Tokens 37.000 (37 Tokens created so far) now 20 Mio
 Used as multi-purposes mediation instrument to interact with other decentralized exchanges and smart contracts.
 Note: The new AMIS contract provides 20 Mio Tokens with 9 decimals; old AMIS contract deactivated from the exchange.
 We also introduced AMIS tokens and assets on new blockchain technology such as Bitshares and Waves. We plan to burn the excess of AMIS Ethereum tokens equivalent to the supply issued on these respective blockchains. 
@@ -22,6 +23,7 @@ We also introduced AMIS tokens and assets on new blockchain technology such as B
 - [Exchange](#Exchange)
 - [Developments](#Developments)
 - [Wiki](#Wiki)
+- [Charts](#Charts)
 - [Helpdesk](#Support)
 - [Contribute](#contribute)
 - [License](#license)
@@ -231,13 +233,18 @@ On Waves use either bitshares or the native wallet:
 ## Wiki
 [Wiki](https://github.com/amisolution/ERC20-AMIS/wiki)
 
+## Charts
+- [24h Live streaming Chart: https://github.com/amisolution/ERC20-AMIS/tree/master/charts/amis-usd/cryptohistory/24h](https://github.com/amisolution/ERC20-AMIS/tree/master/charts/amis-usd/cryptohistory/24h)
+
 ## Support
 Our support channel is available 24h/24h 365d 
 - [Gitchat: https://gitter.im/ERC20-AMIS/Lobby](https://gitter.im/ERC20-AMIS/Lobby#)
+- [Gitchat Delta DEX: https://gitter.im/amis-delta-dex/Lobby](https://gitter.im/amis-delta-dex/Lobby#)
 - [Slack: https://amisolution.herokuapp.com](https://amisolution.herokuapp.com)
 - [Disqus: https://disqus.com/home/forums/amisolution-net](https://disqus.com/home/forums/amisolution-net)
 - [Twitter: https://twitter.com/amis_erc20](https://twitter.com/amis_erc20)
 - [Reddit: https://old.reddit.com/r/AMIS_ERC20](https://old.reddit.com/r/AMIS_ERC20)
+- [Facebook: https://facebook.com/amis.erc20](https://github.com/amisolution/ERC20-AMIS)
 
 ## Contribute
 - PRs accepted.
