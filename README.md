@@ -241,7 +241,7 @@ On Waves use either bitshares or the native wallet:
 [Wiki](https://github.com/amisolution/ERC20-AMIS/wiki)
 
 ## Charts
-- [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://github.com/amisolution/ERC20-AMIS/tree/master/charts/amis-usd/cryptohistory/24h)
+- [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h)
 
 ## Support
 Our support channel is available 24h/24h 365d 
