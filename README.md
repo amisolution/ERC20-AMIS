@@ -57,7 +57,7 @@ Balance history is registered and available to be queried
 All MiniMe Tokens maintain a history of the balance changes that occur during each block. Two calls are introduced to read the totalSupply and the balance of any address at any block in the past.
 function totalSupplyAt(uint _blockNumber) constant returns(uint)
 function balanceOfAt(address _holder, uint _blockNumber) constant returns(uint)
-The address of the [New AMIS Token is](https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719); you can also find it in [Kovan https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f](https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f) and [ropsten https://ropsten.etherscan.io/token/0x954c1b6d130adf617652b1e628aae153fc8a1425](https://ropsten.etherscan.io/token/0x954c1b6d130adf617652b1e628aae153fc8a1425) for testing purposes.
+The address of the [New AMIS Token address is 0x949bEd886c739f1A3273629b3320db0C5024c719 ](https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719); you can also find it in [Kovan https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f](https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f) and [ropsten https://ropsten.etherscan.io/token/0x954c1b6d130adf617652b1e628aae153fc8a1425](https://ropsten.etherscan.io/token/0x954c1b6d130adf617652b1e628aae153fc8a1425) for testing purposes.
 
 The token controller
 
