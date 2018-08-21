@@ -130,9 +130,16 @@ STEP 6 : Verify your new AMIS balance using the balanceOf function in the AMIS c
 AMIScontract.balanceOf.call(account)
 You now have converted your old AMIS to new AMIS tokens.
 
-You can verify your new token balance by querying the new AMIS Token contract at :
+Remember that AMIS is unique; each and everyone can verify the official and genuine AMIS token code and the balance by querying the new AMIS Token contract at :
 
-[Etherscan https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719](https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719)
+Read AMIS token smart contract balance:
+[Etherscan https://etherscan.io/token/0x949bed886c739f1a3273629b3320db0c5024c719#readContract](https://etherscan.io/token/0x949bed886c739f1a3273629b3320db0c5024c719#readContract)
+
+AMIS unique code:
+[(https://etherscan.io/address/0x949bEd886c739f1A3273629b3320db0C5024c719#code](https://etherscan.io/address/0x949bed886c739f1a3273629b3320db0c5024c719#code)
+
+AMIS Dex tracker:
+[AMIS Dex Tracker is here => https://etherscan.io/dextracker?filter=&q=amis](https://etherscan.io/dextracker?filter=&q=amis)
 
 Important!
 
@@ -234,7 +241,7 @@ On Waves use either bitshares or the native wallet:
 [Wiki](https://github.com/amisolution/ERC20-AMIS/wiki)
 
 ## Charts
-- [24h Live streaming Chart: https://github.com/amisolution/ERC20-AMIS/tree/master/charts/amis-usd/cryptohistory/24h](https://github.com/amisolution/ERC20-AMIS/tree/master/charts/amis-usd/cryptohistory/24h)
+- [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://github.com/amisolution/ERC20-AMIS/tree/master/charts/amis-usd/cryptohistory/24h)
 
 ## Support
 Our support channel is available 24h/24h 365d 
