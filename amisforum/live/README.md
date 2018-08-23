@@ -29,3 +29,8 @@ This github repo is a "meta-repo"; the actual code that runs AMIS Exchange lives
 - [https://github.com/amisolution/amisdeltadex/](https://github.com/amisolution/amisdeltadex/)
 - [https://github.com/ami-solution/amisdex/](https://github.com/ami-solution/amisdex/)
 - [https://github.com/amisolution/dubiex/ui/](https://github.com/amisolution/dubiex/ui/)
+- [https://github.com/amis-erc20/smartdex](https://amis-erc20.github.io/smartdex/)
+- [https://github.com/amis-erc20/ERC20-Exchange-based-on-0x](https://amis-erc20.github.io/ERC20-Exchange-based-on-0x/public/)
+- [https://github.com/amis-erc20/dex](https://amis-erc20.github.io/dex/)
+- https://github.com/
+- https://github.com/
