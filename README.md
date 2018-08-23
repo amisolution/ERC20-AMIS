@@ -279,5 +279,5 @@ Our support channel is available 24h/24h 365d
 - Standard Readme follows the Contributor Covenant Code of Conduct.
 
 ## License
-
+- See [LICENSE](./LICENSE) for details
 MIT © Protocol Labs
