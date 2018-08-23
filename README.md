@@ -210,15 +210,26 @@ Official list of decentralized exchanges for AMIS token
 Amis Delta Dex Experimental Developments
 
 - [https://amis-deltadex.github.io/etherdelta/](https://amis-deltadex.github.io/etherdelta/)
+- [https://amisdex.github.io/amis-exchange-www](https://amisdex.github.io/amis-exchange-www/)
+- [https://amisdex.github.io/bitox/](https://amisdex.github.io/bitox/)
+- [https://amisdex.github.io/amisdax/](https://amisdex.github.io/amisdax/)
 - [https://amisdex.github.io/index/](https://amisdex.github.io/index/)
+- [https://amis-deltadex.github.io/deltadex/](https://amis-deltadex.github.io/deltadex/)
+- [https://amis-deltadex.github.io/etherdelta/](https://amis-deltadex.github.io/etherdelta/)
+- [https://amis-deltadex.github.io/cybex-web/](https://amis-deltadex.github.io/cybex-web/)
 - [https://delta-dex.github.io/deltadex/](https://delta-dex.github.io/deltadex/)
 - [https://amis-delta.github.io/amisdelta/site/](https://amis-delta.github.io/amisdelta/site/)
+- [https://amis-delta.github.io/dextop/](https://amis-delta.github.io/dextop/)
 - [https://amisolution.github.io/dubiex/ui](https://amisolution.github.io/dubiex/ui/)
 - [https://amisolution.github.io/amisdeltadex/](https://amisolution.github.io/amisdeltadex/)
 - [amisdex https://ami-solution.github.io/amisdex/](https://ami-solution.github.io/amisdex/)
 - [smartdex 0x relay](https://amis-erc20.github.io/smartdex/)
 - [0x relay with KYC/AML](https://amis-erc20.github.io/ERC20-Exchange-based-on-0x/public/)
 - [0x relay dex](https://amis-erc20.github.io/dex/)
+- [amis 0x relay dex](https://amis-erc20.github.io/amis-0x/)
+- [amisdex on amis-erc20](https://amis-erc20.github.io/amisdex/)
+- [ethexchange dex](https://amis-erc20.github.io/ethexchange/)
+- [netherdelta dex](https://amis-erc20.github.io/netherdelta/)
 - [ED exchange on testnet https://ether-dex.github.io/edx/?network=testnet/](https://ether-dex.github.io/edx/?network=testnet/)
 
 ## Wallet
@@ -245,6 +256,9 @@ On Waves use either bitshares or the native wallet:
 
 ## Charts
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h)
+- [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://cryptocompare.com/)
+- [https://amisdex.github.io/cryptoc0mpare](https://amisdexdex.github.io/cryptoc0mpare)
+- [https://amisdex.github.io/cryptoc0mpare](https://amisdexdex.github.io/cryptoc0mpare)
 
 ## Support
 Our support channel is available 24h/24h 365d 
@@ -254,7 +268,7 @@ Our support channel is available 24h/24h 365d
 - [Disqus: https://disqus.com/home/forums/amisolution-net](https://disqus.com/home/forums/amisolution-net)
 - [Twitter: https://twitter.com/amis_erc20](https://twitter.com/amis_erc20)
 - [Reddit: https://old.reddit.com/r/AMIS_ERC20](https://old.reddit.com/r/AMIS_ERC20)
-- [Facebook: https://facebook.com/amis.erc20](https://facebook.com/amis.erc20)
+- [Facebook: https://facebook.com/amis.token](https://facebook.com/amis.token)
 
 ## Contribute
 - PRs accepted.
