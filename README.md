@@ -274,7 +274,7 @@ Our support channel is available 24h/24h 365d
 - [Facebook: https://facebook.com/amis.token](https://facebook.com/amis.token)
 
 ## Contribute
-- PRs accepted.
+- See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to help out.
 - [Bitcointalk link: https://bitcointalk.org/index.php?topic=1816765.0](https://bitcointalk.org/index.php?topic=1816765.0)
 - Standard Readme follows the Contributor Covenant Code of Conduct.
 
