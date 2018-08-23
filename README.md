@@ -218,9 +218,9 @@ Amis Delta Dex Experimental Developments
 - [https://amisolution.github.io/dubiex/ui](https://amisolution.github.io/dubiex/ui/)
 - [https://amisolution.github.io/amisdeltadex/](https://amisolution.github.io/amisdeltadex/)
 - [amisdex https://ami-solution.github.io/amisdex/](https://ami-solution.github.io/amisdex/)
-- [smartdex 0x relay]https://amis-erc20.github.io/smartdex/
-- [0x relay with KYC/AML]https://amis-erc20.github.io/ERC20-Exchange-based-on-0x/public/
-- [0x relay dex]https://amis-erc20.github.io/dex/
+- [smartdex 0x relay](https://amis-erc20.github.io/smartdex/)
+- [0x relay with KYC/AML](https://amis-erc20.github.io/ERC20-Exchange-based-on-0x/public/)
+- [0x relay dex](https://amis-erc20.github.io/dex/)
 - [ED exchange on testnet https://ether-dex.github.io/edx/?network=testnet/](https://ether-dex.github.io/edx/?network=testnet/)
 
 ## Wallet
