@@ -209,20 +209,26 @@ On the waves blockchain one can interact with the AMIS token natively and in a d
 
 ## Developments 
 
-Amis Delta Dex Developments
+Amis Delta Dex Experimental Developments
 
 - [https://amis-deltadex.github.io/etherdelta/](https://amis-deltadex.github.io/etherdelta/)
 - [https://amisdex.github.io/index/](https://amisdex.github.io/index/)
 - [https://delta-dex.github.io/deltadex/](https://delta-dex.github.io/deltadex/)
 - [https://amis-delta.github.io/amisdelta/site/](https://amis-delta.github.io/amisdelta/site/)
+- [https://amisolution.github.io/dubiex/ui](https://amisolution.github.io/dubiex/ui/)
 - [https://amisolution.github.io/amisdeltadex/](https://amisolution.github.io/amisdeltadex/)
-- [https://ami-solution.github.io/amisdex/](https://ami-solution.github.io/amisdex/)
+- [amisdex https://ami-solution.github.io/amisdex/](https://ami-solution.github.io/amisdex/)
+- [smartdex 0x relay]https://amis-erc20.github.io/smartdex/
+- [0x relay with KYC/AML]https://amis-erc20.github.io/ERC20-Exchange-based-on-0x/public/
+- [0x relay dex]https://amis-erc20.github.io/dex/
+- [ED exchange on testnet https://ether-dex.github.io/edx/?network=testnet/](https://ether-dex.github.io/edx/?network=testnet/)
 
 ## Wallet
 
 on Ethereum, one can easily create a wallet to store, send and receive AMIS:
-- Metamask (AMIS tokens to be added manually)
-- [MEW](https://github.com/amisolution/ERC20-AMIS/wiki) (AMIS tokens added automatically)
+- Metamask AMIS integration only supported manually (Metamask integration underway)
+- [MEW AMIS Integration completed](https://github.com/amisolution/ERC20-AMIS/wiki) (AMIS tokens added automatically)
+- [TrustWallet AMIS integration completed](https://github.com/TrustWallet/trust-api/commit/65cec408b22bec82d17260a628a851c7e7afb840)
 
 On BitShares use one of the following:
 - [https://openledger.io/wallet?r=openledger-wallet-amis](https://openledger.io/wallet?r=openledger-wallet-amis)
@@ -251,7 +257,7 @@ Our support channel is available 24h/24h 365d
 - [Disqus: https://disqus.com/home/forums/amisolution-net](https://disqus.com/home/forums/amisolution-net)
 - [Twitter: https://twitter.com/amis_erc20](https://twitter.com/amis_erc20)
 - [Reddit: https://old.reddit.com/r/AMIS_ERC20](https://old.reddit.com/r/AMIS_ERC20)
-- [Facebook: https://facebook.com/amis.erc20](https://github.com/amisolution/ERC20-AMIS)
+- [Facebook: https://facebook.com/amis.erc20](https://facebook.com/amis.erc20)
 
 ## Contribute
 - PRs accepted.
