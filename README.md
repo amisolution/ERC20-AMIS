@@ -170,7 +170,6 @@ Visit us on our blogs @Medium, Blogspot, erc20-amis.amisolution.net and / or [Wo
 [This page on github.io is here => https://amisolution.github.io/ERC20-AMIS](https://amisolution.github.io/ERC20-AMIS/)
 
 ## Gui
-
 On the ethereum blockchain one can use one of these GUIs to interact with decentralized exchange smart contracts
 - New Amis Dex GUI based on Etherdelta [Amis Dex new Delta GUI](https://amisolution.github.io/ERC20-AMIS/amisdex)
 - Old Amis Dex GUI based on Forkdelta [Amis Dex old Delta GUI](https://ami-solution.github.io/amisdex/)
@@ -186,7 +185,7 @@ On the waves blockchain one can interact with the AMIS token natively and in a d
 - WAVES [wavesplatform.com](https://beta.wavesplatform.com/market/AMIS_WAVES) or https://beta.wavesplatform.com/dex?assetId2=WWiqqx527CUweb8eB5xLUPtLfzyFs371FkT2dtX49DC&assetId1=WAVES
 
 ## Exchange
-
+Official list of decentralized exchanges for AMIS token
 * [crypto-bridge AMIS-BTC](https://wallet.crypto-bridge.org/market/OPENAMIS_BTC) **New** *on BitShares*
 * [crypto-bridge AMIS-BTS](https://wallet.crypto-bridge.org/market/OPENAMIS_BTS) **New** *on BitShares*
 * [openledger.io AMIS-BitUSD](https://openledger.io/market/OPENAMIS_BTS) **New** *on BitShares*
@@ -208,7 +207,6 @@ On the waves blockchain one can interact with the AMIS token natively and in a d
 * [Token Store](https://token.store/trade/0x949bed886c739f1a3273629b3320db0c5024c719)
 
 ## Developments 
-
 Amis Delta Dex Experimental Developments
 
 - [https://amis-deltadex.github.io/etherdelta/](https://amis-deltadex.github.io/etherdelta/)
@@ -224,8 +222,7 @@ Amis Delta Dex Experimental Developments
 - [ED exchange on testnet https://ether-dex.github.io/edx/?network=testnet/](https://ether-dex.github.io/edx/?network=testnet/)
 
 ## Wallet
-
-on Ethereum, one can easily create a wallet to store, send and receive AMIS:
+On Ethereum, one can easily create a wallet to store, send and receive AMIS:
 - Metamask AMIS integration only supported manually (Metamask integration underway)
 - [MEW AMIS Integration completed](https://github.com/amisolution/ERC20-AMIS/wiki) (AMIS tokens added automatically)
 - [TrustWallet AMIS integration completed](https://github.com/TrustWallet/trust-api/commit/65cec408b22bec82d17260a628a851c7e7afb840)
