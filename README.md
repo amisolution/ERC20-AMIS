@@ -256,9 +256,11 @@ On Waves use either bitshares or the native wallet:
 
 ## Charts
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h)
-- [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://cryptocompare.com/)
-- [https://amisdex.github.io/cryptoc0mpare](https://amisdexdex.github.io/cryptoc0mpare)
-- [https://amisdex.github.io/cryptoc0mpare](https://amisdexdex.github.io/cryptoc0mpare)
+- [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d)
+- [Live streaming Chart: https://www.cryptocompare.com/coins/amis/charts/ETH](https://www.cryptocompare.com/coins/amis/charts/ETH)
+- [amisdex streamer https://amisdex.github.io/cryptoc0mpare](https://amisdex.github.io/crypt0compare/streamer/trade/)
+- [https://amisdex.github.io/cryptoc0mpare](https://amisdex.github.io/cryptoc0mpare)
+
 
 ## Support
 Our support channel is available 24h/24h 365d 
