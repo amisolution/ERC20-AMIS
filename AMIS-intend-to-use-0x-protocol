@@ -4,7 +4,9 @@ Introduction to AMIS-0x partnership
 The AMIS dev team decision to harness the 0x protocol capabilities is effective since 1st official 0x relayer is in place for the AMIS cryptographic ERC20 token.
 
 AMIS 0x Experimental project:
-[github.com/amis-erc20/dex](https://github.com/amis-erc20/dex)
+- [github.com/amis-erc20/dex](https://github.com/amis-erc20/dex)
+- [github.com/amis-erc20/smartdex](https://github.com/amis-erc20/smartdex)
+- [https://amis-erc20.github.io/ERC20-Exchange-based-on-0x/public/](https://amis-erc20.github.io/ERC20-Exchange-based-on-0x/public/)
 
 In 0xprotocol_TokenRegistry contract found the following:
 
