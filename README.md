@@ -232,6 +232,7 @@ Amis Delta Dex Experimental Developments
 - [ethexchange dex](https://amis-erc20.github.io/ethexchange/)
 - [netherdelta dex](https://amis-erc20.github.io/netherdelta/)
 - [ED exchange on testnet https://ether-dex.github.io/edx/?network=testnet/](https://ether-dex.github.io/edx/?network=testnet/)
+- https://amis-erc20.github.io/0xygen-Relay/packages/frontend/public
 
 ## Wallet
 On Ethereum, one can easily create a wallet to store, send and receive AMIS:
@@ -262,7 +263,48 @@ On Waves use either bitshares or the native wallet:
 - [amisdex streamer https://amisdex.github.io/cryptoc0mpare](https://amisdex.github.io/crypt0compare/streamer/trade/)
 - [https://amisdex.github.io/cryptoc0mpare](https://amisdex.github.io/cryptoc0mpare)
 
+## Api
+ - [coingecko]: https://api.coingecko.com/api/v3/exchanges/tokenjar
 
+Response body
+
+{
+  "name": "TokenJar",
+  "has_trading_incentive": null,
+  "trade_volume_24h_btc": 0.20646597511553103,
+  "tickers": [
+    {
+      "base": "AMIS",
+      "target": "WETH",
+      "market": {
+        "name": "TokenJar",
+        "identifier": "tokenjar",
+        "has_trading_incentive": false
+      },
+      "last": 0,
+      "converted_last": {
+        "btc": "0.000018657",
+        "eth": "0.0004494293383598398368",
+        "usd": "0.1250504715406847787"
+      },
+      "volume": 11066.408,
+      "converted_volume": {
+        "btc": "0.20646597511553103",
+        "eth": "4.973568450983130574137518731872",
+        "usd": "1383.859545763222639279398182373"
+      },
+      "timestamp": "2018-08-25T10:07:49.705Z",
+      "is_anomaly": false
+    }
+  ]
+}
+ - [cryptocompare] 
+ - [etherdelta]
+ - [tokenstore]
+ - [tokenjar]
+ - [bamboorelay]
+ - [etherscan api](http://api.etherscan.io/api?module=account&action=txlist&address=0xbeef281b81d383336aca8b2b067a526227638087&sort=asc)
+ - [etherscan api](https://api.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0x8d12a197cb00d4747a1fe03395095ce2a5cc6819&topic0=0x6effdda786735d5033bfad5f53e5131abcced9e52be6c507b62d639685fbed6d&data3=0x000000000000000000000000949bed886c739f1a3273629b3320db0c5024c719)
 ## Support
 Our support channel is available 24h/24h 365d 
 - [Gitchat: https://gitter.im/ERC20-AMIS/Lobby](https://gitter.im/ERC20-AMIS/Lobby#)
