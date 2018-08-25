@@ -26,7 +26,9 @@ We also introduced AMIS tokens and assets on new blockchain technology such as B
 - [Wiki](#wiki)
 - [Charts](#charts)
 - [Helpdesk](#support)
-- [Contribute](#contribute)
+- [Communication](#communication)
+- [Contributing](#contributing)
+- [CodeOfConduct](#code)
 - [License](#license)
 
 ## white-paper
@@ -305,6 +307,7 @@ Response body
  - [bamboorelay]
  - [etherscan api](http://api.etherscan.io/api?module=account&action=txlist&address=0xbeef281b81d383336aca8b2b067a526227638087&sort=asc)
  - [etherscan api](https://api.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0x8d12a197cb00d4747a1fe03395095ce2a5cc6819&topic0=0x6effdda786735d5033bfad5f53e5131abcced9e52be6c507b62d639685fbed6d&data3=0x000000000000000000000000949bed886c739f1a3273629b3320db0c5024c719)
+ 
 ## Support
 Our support channel is available 24h/24h 365d 
 - [Gitchat: https://gitter.im/ERC20-AMIS/Lobby](https://gitter.im/ERC20-AMIS/Lobby#)
@@ -315,10 +318,27 @@ Our support channel is available 24h/24h 365d
 - [Reddit: https://old.reddit.com/r/AMIS_ERC20](https://old.reddit.com/r/AMIS_ERC20)
 - [Facebook: https://facebook.com/amis.token](https://facebook.com/amis.token)
 
-## Contribute
-- See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to help out.
+
+## Communication :speaker:
+Bug reports, feature requests, patches, well-wishes are always welcome!
+
+- If you need help, [open an issue](https://github.com/amisolution/ERC20-AMIS/issues/new).
+- If you found a bug, [open an issue](https://github.com/amisolution/ERC20-AMIS/issues/new).
+- If you have a feature request, [open an issue](https://github.com/amisolution/ERC20-AMIS/issues/new).
+- If you want to contribute, see [Contributing](https://github.com/amisolution/ERC20-AMIS#contributing-octocat) section.
+
+## Contributing :octocat:
+We'd love to see your ideas for improving this library!
+
+* The best way to contribute is by submitting a pull request.
+* [Fork](https://github.com/amisolution/ERC20-AMIS/fork)
+* Standard Readme follows the Contributor Covenant Code of Conduct.
+You may also contribute to other forum of discussion:
 - [Bitcointalk link: https://bitcointalk.org/index.php?topic=1816765.0](https://bitcointalk.org/index.php?topic=1816765.0)
-- Standard Readme follows the Contributor Covenant Code of Conduct.
+
+## Code of Conduct
+To have a more open and welcoming community, Amis adheres to a
+[code of conduct](CODE_OF_CONDUCT.md). Please read [CONTRIBUTING.md](https://github.com/amisolution/ERC20-AMIS/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
 - See [LICENSE](./LICENSE) for details
