@@ -1,4 +1,4 @@
-<img src="https://github.com/amisolution/ERC20-AMIS/blob/master/amis-logo3.png" />
+<img src="amis-logo3.png" />
 
 [![Join the Gitchat at https://gitter.im/amis-delta-dex/Lobby](https://badges.gitter.im/amis-delta-dex/Lobby.svg)](https://gitter.im/AMIS-DELTA-DEX/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)&nbsp;[![Bug Bounty](https://img.shields.io/badge/bounty-pending-2930e8.svg)](https://github.com/amisolution/ERC20-AMIS/issues/)
 
@@ -25,7 +25,7 @@ We also introduced AMIS tokens and assets on new blockchain technology such as B
 - [Developments](#developments)
 - [Wiki](#wiki)
 - [Charts](#charts)
-- [Api](api)
+- [Api](#api)
 - [Helpdesk](#support)
 - [Communication](#communication)
 - [Contributing](#contributing)
