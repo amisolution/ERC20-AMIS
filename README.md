@@ -267,7 +267,7 @@ On Waves use either bitshares or the native wallet:
 - [https://amisdex.github.io/cryptoc0mpare](https://amisdex.github.io/cryptoc0mpare)
 
 ## Api
-- [coingecko]: https://api.coingecko.com/api/v3/exchanges/tokenjar
+[coingecko api request for tokenjar](https://api.coingecko.com/api/v3/exchanges/tokenjar)
 
 Response body
 
