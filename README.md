@@ -263,11 +263,11 @@ On Waves use either bitshares or the native wallet:
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h)
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d)
 - [Live streaming Chart: https://www.cryptocompare.com/coins/amis/charts/ETH](https://www.cryptocompare.com/coins/amis/charts/ETH)
-- [amisdex streamer https://amisdex.github.io/cryptoc0mpare](https://amisdex.github.io/crypt0compare/streamer/trade/)
-- [https://amisdex.github.io/cryptoc0mpare](https://amisdex.github.io/cryptoc0mpare)
 
 ## Api
-[coingecko api request for tokenjar](https://api.coingecko.com/api/v3/exchanges/tokenjar)
+- [Amis trade streamer https://amisdex.github.io/cryptoc0mpare/trade](https://amisdex.github.io/crypt0compare/streamer/trade/)
+- [Live stream  https://amisdex.github.io/crypt0compare/streamer/current/](https://amisdex.github.io/crypt0compare/streamer/current/)
+- [coingecko api request for tokenjar](https://api.coingecko.com/api/v3/exchanges/tokenjar)
 
 Response body
 
