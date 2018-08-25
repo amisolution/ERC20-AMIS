@@ -25,6 +25,7 @@ We also introduced AMIS tokens and assets on new blockchain technology such as B
 - [Developments](#developments)
 - [Wiki](#wiki)
 - [Charts](#charts)
+- [Api](api)
 - [Helpdesk](#support)
 - [Communication](#communication)
 - [Contributing](#contributing)
@@ -266,7 +267,7 @@ On Waves use either bitshares or the native wallet:
 - [https://amisdex.github.io/cryptoc0mpare](https://amisdex.github.io/cryptoc0mpare)
 
 ## Api
- - [coingecko]: https://api.coingecko.com/api/v3/exchanges/tokenjar
+- [coingecko]: https://api.coingecko.com/api/v3/exchanges/tokenjar
 
 Response body
 
@@ -309,7 +310,7 @@ Response body
  - [etherscan api](https://api.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0x8d12a197cb00d4747a1fe03395095ce2a5cc6819&topic0=0x6effdda786735d5033bfad5f53e5131abcced9e52be6c507b62d639685fbed6d&data3=0x000000000000000000000000949bed886c739f1a3273629b3320db0c5024c719)
  
 ## Support
-Our support channel is available 24h/24h 365d 
+* Our support channel is available 24h/24h 365d 
 - [Gitchat: https://gitter.im/ERC20-AMIS/Lobby](https://gitter.im/ERC20-AMIS/Lobby#)
 - [Gitchat Delta DEX: https://gitter.im/amis-delta-dex/Lobby](https://gitter.im/amis-delta-dex/Lobby#)
 - [Slack: https://amisolution.herokuapp.com](https://amisolution.herokuapp.com)
@@ -320,7 +321,7 @@ Our support channel is available 24h/24h 365d
 
 
 ## Communication :speaker:
-Bug reports, feature requests, patches, well-wishes are always welcome!
+* Bug reports, feature requests, patches, well-wishes are always welcome!
 
 - If you need help, [open an issue](https://github.com/amisolution/ERC20-AMIS/issues/new).
 - If you found a bug, [open an issue](https://github.com/amisolution/ERC20-AMIS/issues/new).
@@ -328,7 +329,7 @@ Bug reports, feature requests, patches, well-wishes are always welcome!
 - If you want to contribute, see [Contributing](https://github.com/amisolution/ERC20-AMIS#contributing-octocat) section.
 
 ## Contributing :octocat:
-We'd love to see your ideas for improving this library!
+* We'd love to see your ideas for improving this library!
 
 * The best way to contribute is by submitting a pull request.
 * [Fork](https://github.com/amisolution/ERC20-AMIS/fork)
@@ -337,7 +338,7 @@ You may also contribute to other forum of discussion:
 - [Bitcointalk link: https://bitcointalk.org/index.php?topic=1816765.0](https://bitcointalk.org/index.php?topic=1816765.0)
 
 ## Code of Conduct
-To have a more open and welcoming community, Amis adheres to a
+* To have a more open and welcoming community, Amis adheres to a
 [code of conduct](CODE_OF_CONDUCT.md). Please read [CONTRIBUTING.md](https://github.com/amisolution/ERC20-AMIS/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
