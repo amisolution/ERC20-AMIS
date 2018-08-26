@@ -209,10 +209,13 @@ Official list of decentralized exchanges for AMIS token
 * [SingularX](https://ex.singularx.com/exchange/AMIS/ETH) *in beta*
 * [Token Jar](https://tokenjar.io/amis) 0x
 * [Token Store](https://token.store/trade/0x949bed886c739f1a3273629b3320db0c5024c719)
+* [c-cex]() vote for listing ongoing
+* [Idex]()  Discontinued
+* [Simex](https://simex.global) Discontinued
 
 ## Developments 
 Amis Delta Dex Experimental Developments
-
+- [Experimental Amis Token Airdrop campaign by https://twitter.com/AMIStoken_ERC20](https://publish.twitter.com/?url=https://twitter.com/AMIStoken_ERC20/status/1033349455943102464) at[0x90a9e40c4ec1309bb7d64016a9a5601d78abb108] (https://etherscan.io/address/0x90a9e40c4ec1309bb7d64016a9a5601d78abb108)
 - [https://amis-deltadex.github.io/etherdelta/](https://amis-deltadex.github.io/etherdelta/)
 - [https://amisdex.github.io/amis-exchange-www](https://amisdex.github.io/amis-exchange-www/)
 - [https://amisdex.github.io/bitox/](https://amisdex.github.io/bitox/)
@@ -307,7 +310,8 @@ Response body
  - [tokenjar]
  - [bamboorelay]
  - [etherscan api](http://api.etherscan.io/api?module=account&action=txlist&address=0xbeef281b81d383336aca8b2b067a526227638087&sort=asc)
- - [etherscan api](https://api.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0x8d12a197cb00d4747a1fe03395095ce2a5cc6819&topic0=0x6effdda786735d5033bfad5f53e5131abcced9e52be6c507b62d639685fbed6d&data3=0x000000000000000000000000949bed886c739f1a3273629b3320db0c5024c719)
+ - [etherscan api etherdelta_2 topic0 trade](https://api.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0x8d12a197cb00d4747a1fe03395095ce2a5cc6819&topic0=0x6effdda786735d5033bfad5f53e5131abcced9e52be6c507b62d639685fbed6d&data3=0x000000000000000000000000949bed886c739f1a3273629b3320db0c5024c719)
+ - [etherscan api etherdelta_2 topic0 order](https://api.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0x8d12a197cb00d4747a1fe03395095ce2a5cc6819&topic0=0x3f7f2eda73683c21a15f9435af1028c93185b5f1fa38270762dc32be606b3e85=0x000000000000000000000000949bed886c739f1a3273629b3320db0c5024c719)
  
 ## Support
 * Our support channel is available 24h/24h 365d 
