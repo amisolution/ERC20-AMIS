@@ -209,7 +209,7 @@ Official list of decentralized exchanges for AMIS token
 * [SingularX](https://ex.singularx.com/exchange/AMIS/ETH) *in beta*
 * [Token Jar](https://tokenjar.io/amis) 0x
 * [Token Store](https://token.store/trade/0x949bed886c739f1a3273629b3320db0c5024c719)
-* [c-cex]() vote for listing ongoing
+* [ecex](ecex.exchange/portal/token_list) vote for listing ongoing
 * [Idex]()  Discontinued
 * [Simex](https://simex.global) Discontinued
 
