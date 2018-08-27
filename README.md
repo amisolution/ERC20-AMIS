@@ -215,7 +215,7 @@ Official list of decentralized exchanges for AMIS token
 
 ## Developments 
 Amis Delta Dex Experimental Developments
-- [Experimental Amis Token Airdrop campaign by https://twitter.com/AMIStoken_ERC20](https://publish.twitter.com/?url=https://twitter.com/AMIStoken_ERC20/status/1033349455943102464) at[0x90a9e40c4ec1309bb7d64016a9a5601d78abb108] (https://etherscan.io/address/0x90a9e40c4ec1309bb7d64016a9a5601d78abb108)
+- [Experimental Amis Token Self Airdrop campaign initiated by https://twitter.com/AMIStoken_ERC20](https://publish.twitter.com/?url=https://twitter.com/AMIStoken_ERC20/status/1033349455943102464) at [0x90a9e40c4ec1309bb7d64016a9a5601d78abb108](https://etherscan.io/address/0x90a9e40c4ec1309bb7d64016a9a5601d78abb108)
 - [https://amis-deltadex.github.io/etherdelta/](https://amis-deltadex.github.io/etherdelta/)
 - [https://amisdex.github.io/amis-exchange-www](https://amisdex.github.io/amis-exchange-www/)
 - [https://amisdex.github.io/bitox/](https://amisdex.github.io/bitox/)
