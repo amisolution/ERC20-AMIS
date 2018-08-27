@@ -1,6 +1,6 @@
 <img src="amis-logo3.png" />
 
-[![Join the Gitchat at https://gitter.im/amis-delta-dex/Lobby](https://badges.gitter.im/amis-delta-dex/Lobby.svg)](https://gitter.im/AMIS-DELTA-DEX/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)&nbsp;[![Bug Bounty](https://img.shields.io/badge/bounty-pending-2930e8.svg)](https://github.com/amisolution/ERC20-AMIS/issues/)&nbsp;[![AirDrop](https://img.shields.io/badge/airdrop-5330e8.svg)](https://twitter.com/AMIStoken_ERC20)
+[![Join the Gitchat at https://gitter.im/amis-delta-dex/Lobby](https://badges.gitter.im/amis-delta-dex/Lobby.svg)](https://gitter.im/AMIS-DELTA-DEX/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)&nbsp;[![Bug Bounty](https://img.shields.io/badge/bounty-pending-2930e8.svg)](https://github.com/amisolution/ERC20-AMIS/issues/)&nbsp;[![Twitter AirDrop](https://img.shields.io/badge/airdrop-5330e8.svg)](https://twitter.com/AMIStoken_ERC20)
 
 # ERC20-AMIS Token Future, options and crypto derivatives Project
 
