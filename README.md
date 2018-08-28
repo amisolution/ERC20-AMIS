@@ -204,7 +204,6 @@ Official list of decentralized exchanges for AMIS token
 * [Ethen Market](https://ethen.market/949bed886c739f1a3273629b3320db0c5024c719)
 * [EtherDelta](https://etherdelta.com/#0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
 * [Forkdelta](https://forkdelta.github.io/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
-* [Idex]() Discontinued
 * [Instex](https://app.instex.io/0x949bed886c739f1a3273629b3320db0c5024c719-WETH) 0x *in beta*
 * [SingularX](https://ex.singularx.com/exchange/AMIS/ETH) *in beta*
 * [Token Jar](https://tokenjar.io/amis) 0x
@@ -266,6 +265,12 @@ On Waves use either bitshares or the native wallet:
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h)
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d)
 - [Live streaming Chart: https://www.cryptocompare.com/coins/amis/charts/ETH](https://www.cryptocompare.com/coins/amis/charts/ETH)
+[Live history chart with Cross MA EMA50 EMA26 and Stochastic Oscillator Full (20,5,5) on a 1 week duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=StochO2055&ci0=BB50&p=1W)
+- [Live history chart with Cross MA EMA50 EMA26 and MACD Moving Average Convergence/Divergence Oscillator (12,26,9) on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=MACD12269&ci0=BB50&p=6M)
+[Live history chart with Cross MA EMA50 EMA26 and Stochastic Oscillator Full (20,5,5) on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=StochO2055&ci0=BB50&p=6M)
+[Live history chart with Cross MA EMA50 EMA26 and RSI21 on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=RSI21&ci0=BB50&p=6M)
+[Live history chart with Cross MA EMA50 EMA26 and ADL Accumulation Distribution Line on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=ADL&ci0=BB50&p=6M)
+[Live history chart with Cross MA EMA50 EMA26 and OBV On Balance Volume on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=OBV&ci0=BB50&p=6M)
 
 ## Api
 - [Amis trade streamer https://amisdex.github.io/cryptoc0mpare/trade](https://amisdex.github.io/crypt0compare/streamer/trade/)
