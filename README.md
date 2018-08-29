@@ -6,7 +6,7 @@
 &nbsp;[![ßtesting Dubiex](https://img.shields.io/badge/ßtesting-dubiex-yellow.svg)](https://dubiex.com/AMIS/ETH)&nbsp;[![Official AmisLedgerDex](https://img.shields.io/badge/official-ledgerdex-1330e3.svg)](https://app.ledgerdex.com/#/app/orders/maker-taker/AMIS/0x949bed886c739f1a3273629b3320db0c5024c719/WETH/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
 )&nbsp;[![Official Cryptoderivatives](https://img.shields.io/badge/official-cryptoderivatives-4330e7.svg)](https://cryptoderivatives.market/token/AMIS)&nbsp;[![Official Cryptocompare](https://img.shields.io/badge/official-cryptocompare-brightgreen.svg)](https://www.cryptocompare.com/coins/amis)&nbsp;[![Official DexTracker](https://img.shields.io/badge/official-dextracker-brightgreen.svg)](https://etherscan.io/dextracker?filter=&q=AMIS)
 &nbsp;[![ßtesting TokenStore](https://img.shields.io/badge/ßtesting-TokenStore-yellow.svg)](https://token.store/trade/0x949bed886c739f1a3273629b3320db0c5024c719)
-&nbsp;![αtesting EthenMarket](https://img.shields.io/badge/αtesting-ethenmarket-lightgrey.svg)](https://ethen.market/949bed886c739f1a3273629b3320db0c5024c719)
+&nbsp;[![αtesting EthenMarket](https://img.shields.io/badge/αtesting-ethenmarket-lightgrey.svg)](https://ethen.market/949bed886c739f1a3273629b3320db0c5024c719)
 
 
 
@@ -30,6 +30,7 @@ We also introduced AMIS tokens and assets on new blockchain technology such as B
 - [Gui](#gui)
 - [Wallet](#wallet)
 - [Exchange](#exchange)
+- [Reserve](#reserve)
 - [Developments](#developments)
 - [Wiki](#wiki)
 - [Charts](#charts)
@@ -220,6 +221,20 @@ Official list of decentralized exchanges for AMIS token
 * [Idex]()  Discontinued
 * [Simex](https://simex.global) Discontinued
 
+## Reserve
+###Facts by numbers 29 Aug 2018
+- The AMIS circulation supply was decreased by 1.55% in the last couple of days; here is what happened and what it means for our subscribers:
+- Initial Coin Outset: 20.000.000 Mio - 3rd JAN 2017
+- Decimals
+- ATF Airdrop distribution: 70% via Etherdelta Dex - FEB 2017 
+- Reserve Adjustment: 30%
+- ![Amis Txs Hash ](https://amisolution.github.io/ERC20-AMIS/image/100000-amis-burnt.png)
+- Current Circulating Supply 19690000 Mio
+- ![Amis Txs Hash](https://amisolution.github.io/ERC20-AMIS/image/200000-amis-burnt.png)
+- Qty Burnt: 300.000 AMIS Tokens representing a value of 364.000.000 USD @1174.93 USD per Amis Token. It makes AMIS the 2nd most generous contributor to the ethereum genesis block -see pics.  
+- ![Amis Token Holdings](https://amisolution.github.io/ERC20-AMIS/image/Amis-token-holdings.png)
+- Subscribers: 750
+
 ## Developments 
 Amis Delta Dex Experimental Developments
 - [Experimental Amis Token Self Airdrop campaign initiated by https://twitter.com/AMIStoken_ERC20](https://publish.twitter.com/?url=https://twitter.com/AMIStoken_ERC20/status/1033349455943102464) at [0x90a9e40c4ec1309bb7d64016a9a5601d78abb108](https://etherscan.io/address/0x90a9e40c4ec1309bb7d64016a9a5601d78abb108)
@@ -271,6 +286,9 @@ On Waves use either bitshares or the native wallet:
 
 ## Charts
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h)
+
+- ![Amis Chart by Crptocompare](https://amisolution.github.io/ERC20-AMIS/image/cryptocompare-amis-chart-macd-28aug2018.png)
+
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d)
 - [Live history chart with Cross MA EMA50 EMA26 and Stochastic Oscillator Full (20,5,5) on a 1 week duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=StochO2055&ci0=BB50&p=1W)
 - [Live history chart with Cross MA EMA50 EMA26 and MACD Moving Average Convergence/Divergence Oscillator (12,26,9) on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=MACD12269&ci0=BB50&p=6M)
