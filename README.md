@@ -228,11 +228,12 @@ Official list of decentralized exchanges for AMIS token
 - Decimals
 - ATF Airdrop distribution: 70% via Etherdelta Dex - FEB 2017 
 - Reserve Adjustment: 30%
-- ![Amis Txs Hash ](https://amisolution.github.io/ERC20-AMIS/image/100000-amis-burnt.png)
+- ![Amis Txs Hash ](https://github.com/amisolution/ERC20-AMIS/blob/master/images/100000-amis-burnt.png?raw=true)
 - Current Circulating Supply 19690000 Mio
-- ![Amis Txs Hash](https://amisolution.github.io/ERC20-AMIS/image/200000-amis-burnt.png)
-- Qty Burnt: 300.000 AMIS Tokens representing a value of 364.000.000 USD @1174.93 USD per Amis Token. It makes AMIS the 2nd most generous contributor to the ethereum genesis block -see pics.  
-- ![Amis Token Holdings](https://amisolution.github.io/ERC20-AMIS/image/Amis-token-holdings.png)
+- ![Amis Txs Hash](https://github.com/amisolution/ERC20-AMIS/blob/master/images/200000-amis-burnt.png?raw=true)
+- Qty Burnt: 300.000 AMIS Tokens representing a value of 364.000.000 USD @1174.93 USD per Amis Token. It makes AMIS the 2nd most generous contributor to the ethereum genesis block -see pics-, the decrease of the natural existence of the token should increase its value overtime. This phenomenon cannot be achieved with the current monetary governance being in place by central banks who are prone to print paper money - see pics of USD/GBP/JPY/RBL decline over 120 years.
+<a href='https://www.macrotrends.net/1333/historical-gold-prices-100-year-chart'>Gold Prices - 100 Year Historical Chart</a>
+- ![Amis Token Holdings](https://github.com/amisolution/ERC20-AMIS/blob/master/images/Amis-token-holdings.png?raw=true)
 - Subscribers: 750
 
 ## Developments 
@@ -287,14 +288,20 @@ On Waves use either bitshares or the native wallet:
 ## Charts
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h)
 
-- ![Amis Chart by Crptocompare](https://amisolution.github.io/ERC20-AMIS/image/cryptocompare-amis-chart-macd-28aug2018.png)
+- ![Amis Chart by Crptocompare](https://github.com/amisolution/ERC20-AMIS/blob/master/images/cryptocompare-amis-chart-macd-28aug2018.png?raw=true)
 
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d)
+
 - [Live history chart with Cross MA EMA50 EMA26 and Stochastic Oscillator Full (20,5,5) on a 1 week duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=StochO2055&ci0=BB50&p=1W)
+
 - [Live history chart with Cross MA EMA50 EMA26 and MACD Moving Average Convergence/Divergence Oscillator (12,26,9) on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=MACD12269&ci0=BB50&p=6M)
+
 - [Live history chart with Cross MA EMA50 EMA26 and Stochastic Oscillator Full (20,5,5) on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=StochO2055&ci0=BB50&p=6M)
+
 - [Live history chart with Cross MA EMA50 EMA26 and RSI21 on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=RSI21&ci0=BB50&p=6M)
+
 - [Live history chart with Cross MA EMA50 EMA26 and ADL Accumulation Distribution Line on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=ADL&ci0=BB50&p=6M)
+
 - [Live history chart with Cross MA EMA50 EMA26 and OBV On Balance Volume on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=OBV&ci0=BB50&p=6M)
 
 ## Api
