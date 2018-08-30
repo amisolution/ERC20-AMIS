@@ -249,7 +249,7 @@ The Destruction of Asset Management Instrument was deemed necessary in order to 
 
 ![Amis Txs Hash ](https://github.com/amisolution/ERC20-AMIS/blob/master/images/100000-amis-burnt.png?raw=true)
 
-- The 3nd batch of AMIS resource exhaustion took place when 200000 AMIS were burnt and subsequently destroyed as depicted below:
+- The 3rd batch of AMIS resource exhaustion took place when 200000 AMIS were burnt and subsequently destroyed as depicted below:
 
 ![Amis Txs Hash](https://github.com/amisolution/ERC20-AMIS/blob/master/images/200000-amis-burnt.png?raw=true)
 
@@ -293,15 +293,15 @@ AMIS is not delisted from CoinMarketCap; CoinMarketCap decided to set the token 
 * How can one verify the true value of the AMIS token ?
 Data analytics modelling can help generating the chart based on etherscan dex tracker results; it provides the list of trades upon which one can plot the relevant data to provide a true accurate graphical representation of the Asset Instrument. 
 
-- ![Ethplorer - pic1](https://github.com/amisolution/ERC20-AMIS/blob/master/images/Ethplorer1.png)]
+- ![Ethplorer - pic1](https://github.com/amisolution/ERC20-AMIS/blob/master/images/Ethplorer1.png)
 
 See ethplorer Amis Traded event graphical representation (when it was available) in this video @ position 7:06 :
 
 - [Ethereum Moby Dick! A MEW with $550Million in tokens! - YouTube](https://www.youtube.com/watch?v=Od4pAXfZsQo)
 
-- ![Ethereum Moby Dick! A MEW with $550Million in tokens! - pic1](https://github.com/amisolution/ERC20-AMIS/blob/master/images/EthereumMobyDick2.png)]
+- ![Ethereum Moby Dick! A MEW with $550Million in tokens! - pic1](https://github.com/amisolution/ERC20-AMIS/blob/master/images/EthereumMobyDick2.png)
 
-- ![Ethereum Moby Dick! A MEW with $550Million in tokens! - pic2](https://github.com/amisolution/ERC20-AMIS/blob/master/images/Ethplorer2-eth-moby-dick.png)]
+- ![Ethereum Moby Dick! A MEW with $550Million in tokens! - pic2](https://github.com/amisolution/ERC20-AMIS/blob/master/images/Ethplorer2-eth-moby-dick.png)
 
 ## Developments 
 Amis Delta Dex Experimental Developments
