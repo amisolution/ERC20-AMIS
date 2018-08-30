@@ -225,24 +225,47 @@ Official list of decentralized exchanges for AMIS token
 ###Facts by numbers 29 Aug 2018
 - The AMIS circulation supply was decreased by 1.55% in the last couple of days; here is what happened and what it means for our subscribers:
 - Initial Coin Outset: 20.000.000 Mio - 3rd JAN 2017
-- Decimals
+- Decimals: 9
 - ATF Airdrop distribution: 70% via Etherdelta Dex - FEB 2017 
-- Reserve Adjustment: 30%
+- Reserve Adjustment: 30% Currently Reserved for future distribution of Fundraising/Airdrop/marketing/dev/finance/ops
+- Buy Back Program Incentives - The buy back program incentization campaign analyzes the trading behavior pattern of all participants to better determine how traders are able to identify trading sweet spots and how to position for their next move traded,  to allow max return on investment from our eligible subscribers.
+- Lender/Borrower program underway
+
+###AMIS present exhaustion regime
+-Not only have we prepared the path to deliberatly drain the amount of resources available on the market but we also took precautionary measures to maintain and to widen the crypto derivatives asset class offered by AMIS product portfolio on the decentralized market whether it would be Bitshare, Ethereum or Waves. 
+- How are AMIS burnt/destroyed and why ?
+The Destruction of Asset Management Instrument was deemed necessary in order to mitigate the predictive fall of the asset price under certain level. 
+
+-See the TxHash stating the 2nd batch of AMIS token destruction:
+
 ![Amis Txs Hash ](https://github.com/amisolution/ERC20-AMIS/blob/master/images/100000-amis-burnt.png?raw=true)
 
-- Current Circulating Supply 19690000 Mio
+- Current Circulating Supply: 19690000 Mio AMIS ERC20 tokens.
+
+- The 3nd batch of AMIS resource exhaustion took place when 200000 AMIS were burnt and subsequently destroyed as depicted below:
 
 ![Amis Txs Hash](https://github.com/amisolution/ERC20-AMIS/blob/master/images/200000-amis-burnt.png?raw=true)
 
-- Qty Burnt: 300.000 AMIS Tokens representing a value of 364.000.000 USD @1174.93 USD per Amis Token. It makes AMIS the 2nd most generous contributor to the ethereum genesis block -see pics-, the decrease of the natural existence of the token should increase its value overtime. This phenomenon cannot be achieved with the current monetary governance being in place by central banks who are prone to print paper money - see pics of USD/GBP/JPY/RBL decline over 120 years.
+- Total Qty Burnt: 310.000 AMIS Tokens representing a value of 364.000.000 USD @1174.93 USD per Amis ERC20 Token. It makes AMIS the 2nd most generous contributor to the ethereum genesis block -see pics-, the decrease of the natural existence of the token should increase its value overtime. This phenomenon cannot be achieved with the current monetary governance policy being in place by central banks who are prone to print paper money - see pics of USD/GBP/JPY/RBL decline over 120 years.More recently the rise of the dollar has led to the free fall of emerging market FIAT currencies.
 
 <a href='https://https://github.com/amisolution/ERC20-AMIS/blob/master/images/historical-gold-prices-100-year-chart-2018-08-29-macrotrends.png'>USD - Gold Prices - 100 Year Historical Chart</a>
 
 <a href='https://https://github.com/amisolution/ERC20-AMIS/blob/master/images/XAU-GBP-100Y.png'>GBP - Gold Prices - 100 Year Historical Chart</a>
 
+###Is AMIS a stablecoin ?
+What's causing concerns to believe that AMIS has become a true Stablecoin?
+On etherscan AMIS Token price varies at tick level, one can easily notice that the valuation of AMIS is pegged to 1174.93 USD.
+Who decided to leave AMIS pegged at 1174.93?
+We investigated the matter and found out that CoinMarketCap is providing datasource to etherscan which is used to display Token pricing  information on its pages.
+Is AMIS delisted from CoinMarketCap? Where else is it listed ?
+AMIS is not delisted from CoinMarketCap; CoinMarketCap decided to freeze AMIS's price @1174.93 USD.
+Cryptocompare holds historical up-to-date AMIS trading data and never stopped polling Etherdelta's API as CoinMarketCap did.
+
+How can one verify the true value of the AMIS token ?
+Data analytics modelling can help generating the chart based on etherscan dex tracker results; it provides the list of trades upon which one can plot the relevant data to provide a true accurate graphical representation of the Asset Instrument. 
 ![Amis Token Holdings](https://github.com/amisolution/ERC20-AMIS/blob/master/images/Amis-token-holdings.png?raw=true)
 
-- Subscribers: 750
+- Subscribers: 750 as of time of writing
 
 ## Developments 
 Amis Delta Dex Experimental Developments
