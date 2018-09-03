@@ -376,6 +376,7 @@ On Waves use either bitshares or the native wallet:
 
 - [Live history chart with Cross MA EMA50 EMA26 and OBV On Balance Volume on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=OBV&ci0=BB50&p=6M)
 
+
 ## Api
 - [Amis trade streamer https://amisdex.github.io/cryptoc0mpare/trade](https://amisdex.github.io/crypt0compare/streamer/trade/)
 - [Live stream  https://amisdex.github.io/crypt0compare/streamer/current/](https://amisdex.github.io/crypt0compare/streamer/current/)
