@@ -248,7 +248,7 @@ Official list of decentralized exchanges for AMIS token
 Amis Delta Dex Experimental Developments
 - [Experimental Amis Token Self Airdrop campaign initiated by https://twitter.com/AMIStoken_ERC20](https://publish.twitter.com/?url=https://twitter.com/AMIStoken_ERC20/status/1033349455943102464) at [0x90a9e40c4ec1309bb7d64016a9a5601d78abb108](https://etherscan.io/address/0x90a9e40c4ec1309bb7d64016a9a5601d78abb108)
 - [https://amis-deltadex.github.io/etherdelta/](https://amis-deltadex.github.io/etherdelta/)
-- [https://amisdex.github.io/amis-exchange-www](https://amisdex.github.io/amis-exchange-www/)
+- [https://amisdex.github.io/amis-exchange-www](https://amisdex.github.io/amis-exchange-www/) Now beta live with offline demo and ropsten !!
 - [https://amisdex.github.io/bitox/](https://amisdex.github.io/bitox/)
 - [https://amisdex.github.io/amisdax/](https://amisdex.github.io/amisdax/)
 - [https://amisdex.github.io/index/](https://amisdex.github.io/index/)
@@ -256,7 +256,7 @@ Amis Delta Dex Experimental Developments
 - [https://amis-deltadex.github.io/etherdelta/](https://amis-deltadex.github.io/etherdelta/)
 - [https://amis-deltadex.github.io/cybex-web/](https://amis-deltadex.github.io/cybex-web/)
 - [https://delta-dex.github.io/deltadex/](https://delta-dex.github.io/deltadex/)
-- [https://amis-delta.github.io/amisdelta/site/](https://amis-delta.github.io/amisdelta/site/)
+- [https://amis-delta.github.io/amisdelta/site/](https://amis-delta.github.io/amisdelta/site/) Now beta live !!
 - [https://amis-delta.github.io/dextop/](https://amis-delta.github.io/dextop/)
 - [https://amisolution.github.io/dubiex/ui](https://amisolution.github.io/dubiex/ui/)
 - [https://amisolution.github.io/amisdeltadex/](https://amisolution.github.io/amisdeltadex/)
@@ -269,7 +269,7 @@ Amis Delta Dex Experimental Developments
 - [ethexchange dex](https://amis-erc20.github.io/ethexchange/)
 - [netherdelta dex](https://amis-erc20.github.io/netherdelta/)
 - [ED exchange on testnet https://ether-dex.github.io/edx/?network=testnet/](https://ether-dex.github.io/edx/?network=testnet/)
-- https://amis-erc20.github.io/0xygen-Relay/packages/frontend/public
+- [](https://amis-erc20.github.io/0xygen-Relay/packages/frontend/public)
 
 ## Wallet
 On Ethereum, one can easily create a wallet to store, send and receive AMIS:
