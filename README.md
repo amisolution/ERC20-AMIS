@@ -1,5 +1,7 @@
-<img src="amis-logo3.png" />
+<img align="left" src="amis-logo3.png" alt="amis-logo3"/>
+<img align="right" src="/images/AMIS-QRCODE.png" alt="AMIS-QRCODE" width="100"/>
 
+[![Website Down](https://img.shields.io/badge/website-down-red.svg)](http://erc20-amis.amisolution.net/)&nbsp;
 [![Join the Gitchat at https://gitter.im/amis-delta-dex/Lobby](https://badges.gitter.im/amis-delta-dex/Lobby.svg)](https://gitter.im/AMIS-DELTA-DEX/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)&nbsp;[![Trade Bounty](https://img.shields.io/badge/trade-bounty-orange.svg)](https://github.com/amisolution/ERC20-AMIS/issues/)&nbsp;[![Twitter AirDrop](https://img.shields.io/badge/Twitter-Airdrop-red.svg)](https://twitter.com/AMIStoken_ERC20)&nbsp;[![Official Twitter](https://img.shields.io/badge/official-twitter-brightgreen.svg)](https://twitter.com/amis_erc20)&nbsp;[![Official AmisForkdelta](https://img.shields.io/badge/official-forkdelta-brightgreen.svg)](https://forkdelta.app/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
 &nbsp;[![Official AmisEtherDelta](https://img.shields.io/badge/official-etherdelta-brightgreen.svg)](https://etherdelta.com/#0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
 &nbsp;[![Official BambooRelay](https://img.shields.io/badge/official-bamboorelay-brightgreen.svg)](https://bamboorelay.com/trade/AMIS-WETH)&nbsp;[![Official AmisTokenJar](https://img.shields.io/badge/official-tokenjar-brightgreen.svg)](https://tokenjar.io/amis)
@@ -42,8 +44,11 @@ We also introduced AMIS tokens and assets on new blockchain technology such as B
 - [License](#license)
 
 ## white-paper
-Token exchange whitepaper
+AMIS Token whitepaper
 
+Billions of people around the world still lack access to basic financial services. AMIS functions as a bridging instrument between people in these communities and people from the cryptocurrency world by offering micro finance opportunities throughout a wide diversification of asset instruments ready to deliver swift transaction processing, borderless proof, cryptographically secured and decentralized in nature addressing needs for the debt & capital market. Hedging, trading, borrowing and lending AMIS in a single decentralized platform will extend the boundaries onto which AMIS is positioned. We assess the risk of a particular dex, analyse loan/lending practices and always strive for the best expected value of collaterals (probability of repayment times principal requested). Using this approach, micro financed loans are very likely to be filled by the healthy and growing ecosystem of DEX, 0x relays and Dharma relayers.
+
+Old Amis history summary
 The last step to completing our rebranding process is upgrading our token to ‘AMIS Token’ (AMIS). This will be a 1:2000000000 token exchange. Meaning that you will have to exchange your old tokens for new tokens. You will receive the equivalent balance of AMIS tokens on your existing account address.
 
 This mini-whitepaper explains how this token exchange is executed.
@@ -70,7 +75,7 @@ Balance history is registered and available to be queried
 All MiniMe Tokens maintain a history of the balance changes that occur during each block. Two calls are introduced to read the totalSupply and the balance of any address at any block in the past.
 function totalSupplyAt(uint _blockNumber) constant returns(uint)
 function balanceOfAt(address _holder, uint _blockNumber) constant returns(uint)
-The address of the [New AMIS Token address is 0x949bEd886c739f1A3273629b3320db0C5024c719 ](https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719); you can also find it in [Kovan https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f](https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f) and [ropsten https://ropsten.etherscan.io/token/0x954c1b6d130adf617652b1e628aae153fc8a1425](https://ropsten.etherscan.io/token/0x954c1b6d130adf617652b1e628aae153fc8a1425) for testing purposes.
+The address of the [New AMIS Token address is 0x949bEd886c739f1A3273629b3320db0C5024c719 ](https://etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719); you can also find it in [Kovan https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f](https://kovan.etherscan.io/address/0x7161f09a6ae81b546bebc04b24629c4f3dad746f) and [ropsten https://ropsten.etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719](https://ropsten.etherscan.io/token/0x949bEd886c739f1A3273629b3320db0C5024c719) for testing purposes.
 
 The token controller
 
@@ -149,7 +154,7 @@ Read AMIS token smart contract balance:
 [Etherscan https://etherscan.io/token/0x949bed886c739f1a3273629b3320db0c5024c719#readContract](https://etherscan.io/token/0x949bed886c739f1a3273629b3320db0c5024c719#readContract)
 
 AMIS unique code:
-[(https://etherscan.io/address/0x949bEd886c739f1A3273629b3320db0C5024c719#code](https://etherscan.io/address/0x949bed886c739f1a3273629b3320db0c5024c719#code)
+[https://etherscan.io/address/0x949bEd886c739f1A3273629b3320db0C5024c719#code](https://etherscan.io/address/0x949bed886c739f1a3273629b3320db0c5024c719#code)
 
 AMIS Dex tracker:
 [AMIS Dex Tracker is here => https://etherscan.io/dextracker?filter=&q=amis](https://etherscan.io/dextracker?filter=&q=amis)
@@ -225,24 +230,81 @@ Official list of decentralized exchanges for AMIS token
 ###Facts by numbers 29 Aug 2018
 - The AMIS circulation supply was decreased by 1.55% in the last couple of days; here is what happened and what it means for our subscribers:
 - Initial Coin Outset: 20.000.000 Mio - 3rd JAN 2017
-- Decimals
+- Decimals: 9
 - ATF Airdrop distribution: 70% via Etherdelta Dex - FEB 2017 
-- Reserve Adjustment: 30%
+- Reserve Adjustment: 30% Currently Reserved for future distribution of Fundraising/Airdrop/marketing/dev/finance/ops
+- Buy Back Program Incentives - The buy back program incentization campaign analyzes the trading behavior pattern of all participants to better determine how traders are able to identify trading sweet spots and how to position for their next move traded,  to allow max return on investment from our eligible subscribers.
+- Lender/Borrower program underway
+
+###AMIS present exhaustion regime
+
+-Not only have we prepared the path to deliberatly drain the amount of AMIS resources available at a particular time according to the market condition but we also took precautionary measures to maintain and to widen the scope of use of crypto derivatives asset class offered by AMIS product portfolio on the decentralized market whether it would be Bitshare, Ethereum or Waves blockchained orders. 
+
+- How are AMIS burnt/destroyed and why ?
+The Destruction of Asset Management Instrument was deemed necessary in order to mitigate the predictive fall of the asset price under certain level. 
+
+-See the TxHash stating the 1st batch of AMIS token destruction:
+
+![Amis Txs Hash ](https://github.com/amisolution/ERC20-AMIS/blob/master/images/10000-amis-burnt.png?raw=true)
+
+-See the TxHash stating the 2nd batch of AMIS token destruction:
+
 ![Amis Txs Hash ](https://github.com/amisolution/ERC20-AMIS/blob/master/images/100000-amis-burnt.png?raw=true)
 
-- Current Circulating Supply 19690000 Mio
+- The 3rd batch of AMIS resource exhaustion took place when 200000 AMIS were burnt and subsequently destroyed as depicted below:
 
 ![Amis Txs Hash](https://github.com/amisolution/ERC20-AMIS/blob/master/images/200000-amis-burnt.png?raw=true)
 
-- Qty Burnt: 300.000 AMIS Tokens representing a value of 364.000.000 USD @1174.93 USD per Amis Token. It makes AMIS the 2nd most generous contributor to the ethereum genesis block -see pics-, the decrease of the natural existence of the token should increase its value overtime. This phenomenon cannot be achieved with the current monetary governance being in place by central banks who are prone to print paper money - see pics of USD/GBP/JPY/RBL decline over 120 years.
+- Current Circulating Supply: 19690000 Mio AMIS ERC20 tokens.
+
+- Total Qty Burnt: 310.000 AMIS Tokens representing a value of 364.000.000 USD @1174.93 USD per Amis ERC20 Token. 
+- It makes AMIS the 2nd most generous contributor to the ethereum genesis block -see pics-, the decrease of the natural existence of the token should increase its value overtime. This phenomenon cannot be achieved with the current monetary governance policy being in place by central banks who are prone to print paper money - see pics of USD/GBP/JPY/RBL decline over 120 years.More recently the rise of the dollar has led to the free fall of emerging market FIAT currencies.
+
+![Amis Token Holdings]<img align="center" src="/images/Amis-token-holdings.png" alt="Amis-token-holdings" width="200"/>
+![Amis Token Holdings](https://github.com/amisolution/ERC20-AMIS/blob/master/images/Amis-token-holdings.png?raw=true)
+
+- Subscribers: 750 as of time of writing
 
 <a href='https://https://github.com/amisolution/ERC20-AMIS/blob/master/images/historical-gold-prices-100-year-chart-2018-08-29-macrotrends.png'>USD - Gold Prices - 100 Year Historical Chart</a>
 
 <a href='https://https://github.com/amisolution/ERC20-AMIS/blob/master/images/XAU-GBP-100Y.png'>GBP - Gold Prices - 100 Year Historical Chart</a>
 
-![Amis Token Holdings](https://github.com/amisolution/ERC20-AMIS/blob/master/images/Amis-token-holdings.png?raw=true)
+###Is AMIS a stablecoin ?
+* What's causing concerns to believe that AMIS has become a true Stablecoin?
+On etherscan AMIS Token price varies at tick level, one can easily notice that the valuation of AMIS is pegged to 1174.93 USD.
 
-- Subscribers: 750
+* If it's not a stablecoin can this be considered a collectible token ?
+Let's observe the free decentralized market decision. 
+
+* Who decided to leave AMIS pegged at 1174.93?
+We investigated the matter and found out that CoinMarketCap feeds its datasource to etherscan which is used to display Token pricing  information on its pages. CMC is clearly the culprit for keeping the valuation @1174.93USD, etherscan is only complicit. 
+
+* Why is etherscan not rendering AMIS charts ?
+https://etherscan.io/token/0x949bed886c739f1a3273629b3320db0c5024c719#tokenChart
+Etherscan bragged about their new Token Chart feature which only applies for CMC active tokens (not even for EOS) at the moment. It seems that it was too difficult for them to decide to plot the data directly from their dex tracker data source. This feature is not available anymore for Amis since CMC decided to tag the token as inactive. We hope to revert back to a situation where blockchain data is appropriatly plotted
+Etherscan have introduced the dex tracker feature which could serve to provide Real time tickers data to CoinMarketCap as well as Coingecko but oddly enough for some obscure reason; this issue has not raised any concerns from the community.
+
+* Is AMIS a victim of Etherscan/CoinmarketCap framing and rigging the token market data by the use of a hidden dual standard policy ?
+Yes and no. On one hand they provide relatively accurate data for most of the pairs, regarding dex tracked events, it's a little less clear since they don't read the data from the blocks but rather from the API of the dex which in return do not meet the expected reliability found by reading data blocks as available in the dex tracker feature for example. On the other hand side we acknowledge that Amis was initially designed as an experimental asset management token used to be traded on a large variety of DEX primarily for testing purposes, for that reason we never expected to be successful in establishing the market condition for Amis however during the course of its history we felt to be perceived as an exception due to our mode of introduction on the marketplace (No ICO). We also faced resistance and challenges in having AMIS continuously listed on decentralized exchanges (see Etherdelta/Idex experiences) besides the miscommunication of unexpected changes that affected the operations ruling the decentralized exchange UI e.g. min order size changes from 0.001 to 0.01 then back to 0.001, suppression of crosspair trading in the UI and many others.
+
+* Is AMIS delisted from CoinMarketCap? Where else is it listed ?
+AMIS is not delisted from CoinMarketCap; CoinMarketCap decided to set the token as inactive and freeze AMIS's price @1174.93 USD.
+- Cryptocompare holds historical up-to-date AMIS trading data and never stopped polling Etherdelta's API as CoinMarketCap did.
+- Coingecko relays AMIS/WETH price information retrieved from TokenJar'API, data source is inaccurate most of the time.
+- 0xtracker provide accurate price information based on what's being read from the ethereum blockchain.
+
+* How can one verify the true value of the AMIS token ?
+Data analytics modelling can help generating the chart based on etherscan dex tracker results; it provides the list of trades upon which one can plot the relevant data to provide a true accurate graphical representation of the Asset Instrument. 
+
+- ![Ethplorer - pic1](https://github.com/amisolution/ERC20-AMIS/blob/master/images/Ethplorer1.png)
+
+See ethplorer Amis Traded event graphical representation (when it was available) in this video @ position 7:06 :
+
+- [Ethereum Moby Dick! A MEW with $550Million in tokens! - YouTube](https://www.youtube.com/watch?v=Od4pAXfZsQo)
+
+- ![Ethereum Moby Dick! A MEW with $550Million in tokens! - pic1](https://github.com/amisolution/ERC20-AMIS/blob/master/images/EthereumMobyDick2.png)
+
+- ![Ethereum Moby Dick! A MEW with $550Million in tokens! - pic2](https://github.com/amisolution/ERC20-AMIS/blob/master/images/Ethplorer2-eth-moby-dick.png)
 
 ## Developments 
 Amis Delta Dex Experimental Developments
@@ -313,6 +375,7 @@ On Waves use either bitshares or the native wallet:
 - [Live history chart with Cross MA EMA50 EMA26 and ADL Accumulation Distribution Line on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=ADL&ci0=BB50&p=6M)
 
 - [Live history chart with Cross MA EMA50 EMA26 and OBV On Balance Volume on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=OBV&ci0=BB50&p=6M)
+
 
 ## Api
 - [Amis trade streamer https://amisdex.github.io/cryptoc0mpare/trade](https://amisdex.github.io/crypt0compare/streamer/trade/)
