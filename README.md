@@ -261,9 +261,15 @@ The Destruction of Asset Management Instrument was deemed necessary in order to 
 
 - It makes AMIS the 2nd most generous contributor to the ethereum genesis block -see pics-, the decrease of the natural existence of the token should increase its value overtime. This phenomenon cannot be achieved with the current monetary governance policy being in place by central banks who are prone to print paper money - see pics of USD/GBP/JPY/RBL decline over 120 years.More recently the rise of the dollar has led to the free fall of emerging market FIAT currencies.
 
-![Amis Token Holdings]<img align="center" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/Amis-token-holdings.png" alt="Amis-token-holdings" width="300"/>
+[![Amis Token Holdings]<img align="center" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/Amis-token-holdings.png" alt="Amis-token-holdings" width="300"/>]
 
 - Subscribers: 750 as of time of writing
+
+[![1000 Amis Token Hodlers]<img align="center" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/1000SubsAnniv.png" alt="1000 Hodlers of AMIS Tokens" width="300"/>]
+
+- 1000 Subs beginning of sept 2018
+
+[![Block Explorer Analytics]<img align="center" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/amis-dexy-view.png" alt="Block Explorer Analytics" width="300"/>]
 
 <a href='https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/historical-gold-prices-100-year-chart-2018-08-29-macrotrends.png'>USD - Gold Prices - 100 Year Historical Chart</a>
 
