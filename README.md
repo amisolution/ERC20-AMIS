@@ -1,5 +1,5 @@
-<img align="left" src="amis-logo3.png" alt="amis-logo3"/>
-<img align="right" src="/images/AMIS-QRCODE.png" alt="AMIS-QRCODE" width="100"/>
+<img align="left" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/amis-logo3.png" alt="amis-logo3"/>
+<img align="right" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/AMIS-QRCODE.png" alt="AMIS-QRCODE" width="100"/>
 
 [![Website Down](https://img.shields.io/badge/website-down-red.svg)](http://erc20-amis.amisolution.net/)&nbsp;
 [![Join the Gitchat at https://gitter.im/amis-delta-dex/Lobby](https://badges.gitter.im/amis-delta-dex/Lobby.svg)](https://gitter.im/AMIS-DELTA-DEX/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)&nbsp;[![Trade Bounty](https://img.shields.io/badge/trade-bounty-orange.svg)](https://github.com/amisolution/ERC20-AMIS/issues/)&nbsp;[![Twitter AirDrop](https://img.shields.io/badge/Twitter-Airdrop-red.svg)](https://twitter.com/AMIStoken_ERC20)&nbsp;[![Official Twitter](https://img.shields.io/badge/official-twitter-brightgreen.svg)](https://twitter.com/amis_erc20)&nbsp;[![Official AmisForkdelta](https://img.shields.io/badge/official-forkdelta-brightgreen.svg)](https://forkdelta.app/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
@@ -245,29 +245,29 @@ The Destruction of Asset Management Instrument was deemed necessary in order to 
 
 -See the TxHash stating the 1st batch of AMIS token destruction:
 
-![Amis Txs Hash ](https://github.com/amisolution/ERC20-AMIS/blob/master/images/10000-amis-burnt.png?raw=true)
+![ Txs Hash 1st batch of Amis Destruction](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/10000-amis-burnt.png)
 
 -See the TxHash stating the 2nd batch of AMIS token destruction:
 
-![Amis Txs Hash ](https://github.com/amisolution/ERC20-AMIS/blob/master/images/100000-amis-burnt.png?raw=true)
+![ Txs Hash of 2nd batch of Amis Destruction](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/100000-amis-burnt.png)
 
 - The 3rd batch of AMIS resource exhaustion took place when 200000 AMIS were burnt and subsequently destroyed as depicted below:
 
-![Amis Txs Hash](https://github.com/amisolution/ERC20-AMIS/blob/master/images/200000-amis-burnt.png?raw=true)
+![Txs Hash of 3rd batch of Amis Destruction](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/200000-amis-burnt.png)
 
 - Current Circulating Supply: 19690000 Mio AMIS ERC20 tokens.
 
 - Total Qty Burnt: 310.000 AMIS Tokens representing a value of 364.000.000 USD @1174.93 USD per Amis ERC20 Token. 
+
 - It makes AMIS the 2nd most generous contributor to the ethereum genesis block -see pics-, the decrease of the natural existence of the token should increase its value overtime. This phenomenon cannot be achieved with the current monetary governance policy being in place by central banks who are prone to print paper money - see pics of USD/GBP/JPY/RBL decline over 120 years.More recently the rise of the dollar has led to the free fall of emerging market FIAT currencies.
 
-![Amis Token Holdings]<img align="center" src="/images/Amis-token-holdings.png" alt="Amis-token-holdings" width="200"/>
-![Amis Token Holdings](https://github.com/amisolution/ERC20-AMIS/blob/master/images/Amis-token-holdings.png?raw=true)
+![Amis Token Holdings]<img align="center" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/Amis-token-holdings.png" alt="Amis-token-holdings" width="300"/>
 
 - Subscribers: 750 as of time of writing
 
-<a href='https://https://github.com/amisolution/ERC20-AMIS/blob/master/images/historical-gold-prices-100-year-chart-2018-08-29-macrotrends.png'>USD - Gold Prices - 100 Year Historical Chart</a>
+<a href='https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/historical-gold-prices-100-year-chart-2018-08-29-macrotrends.png'>USD - Gold Prices - 100 Year Historical Chart</a>
 
-<a href='https://https://github.com/amisolution/ERC20-AMIS/blob/master/images/XAU-GBP-100Y.png'>GBP - Gold Prices - 100 Year Historical Chart</a>
+<a href='https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/XAU-GBP-100Y.png'>GBP - Gold Prices - 100 Year Historical Chart</a>
 
 ###Is AMIS a stablecoin ?
 * What's causing concerns to believe that AMIS has become a true Stablecoin?
@@ -296,15 +296,15 @@ AMIS is not delisted from CoinMarketCap; CoinMarketCap decided to set the token 
 * How can one verify the true value of the AMIS token ?
 Data analytics modelling can help generating the chart based on etherscan dex tracker results; it provides the list of trades upon which one can plot the relevant data to provide a true accurate graphical representation of the Asset Instrument. 
 
-- ![Ethplorer - pic1](https://github.com/amisolution/ERC20-AMIS/blob/master/images/Ethplorer1.png)
+- ![Ethplorer - pic1](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/Ethplorer1.png)
 
 See ethplorer Amis Traded event graphical representation (when it was available) in this video @ position 7:06 :
 
 - [Ethereum Moby Dick! A MEW with $550Million in tokens! - YouTube](https://www.youtube.com/watch?v=Od4pAXfZsQo)
 
-- ![Ethereum Moby Dick! A MEW with $550Million in tokens! - pic1](https://github.com/amisolution/ERC20-AMIS/blob/master/images/EthereumMobyDick2.png)
+- ![Ethereum Moby Dick! A MEW with $550Million in tokens! - pic1](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/EthereumMobyDick2.png)
 
-- ![Ethereum Moby Dick! A MEW with $550Million in tokens! - pic2](https://github.com/amisolution/ERC20-AMIS/blob/master/images/Ethplorer2-eth-moby-dick.png)
+- ![Ethereum Moby Dick! A MEW with $550Million in tokens! - pic2](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/Ethplorer2-eth-moby-dick.png)
 
 ## Developments 
 Amis Delta Dex Experimental Developments
@@ -358,7 +358,7 @@ On Waves use either bitshares or the native wallet:
 ## Charts
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h)
 
-![Amis Chart by Crptocompare](https://github.com/amisolution/ERC20-AMIS/blob/master/images/cryptocompare-amis-chart-macd-28aug2018.png?raw=true)
+![Amis Chart by Crptocompare](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/cryptocompare-amis-chart-macd-28aug2018.png)
 
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d)
 
@@ -368,7 +368,7 @@ On Waves use either bitshares or the native wallet:
 
 - [Live history chart with Cross MA EMA50 EMA26 and Stochastic Oscillator Full (20,5,5) on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=StochO2055&ci0=BB50&p=6M)
 
-![Amis Chart by Crptocompare](https://github.com/amisolution/ERC20-AMIS/blob/master/images/cryptocompare-amis-chart-sto2055-28aug2018.png?raw=true)
+![Amis Chart by Crptocompare](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/cryptocompare-amis-chart-sto2055-28aug2018.png)
 
 - [Live history chart with Cross MA EMA50 EMA26 and RSI21 on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=RSI21&ci0=BB50&p=6M)
 
