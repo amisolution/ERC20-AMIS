@@ -186,7 +186,7 @@ https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch
 Contract usage interaction development ongoing, currently in UX testing mode; however we recently released new contracts and interfaces with which it becomes much easier to call AMIS for your favorite project, for instance you could use for a selfdrop, airdrop, conferences, concerts, ticket resale and trade it - see examples below:
 
 - [Conference booking with AMIS ticket resale https://github.com/amisolution/ERC20-AMIS/amisforum/live/conference](https://amisolution.github.io/ERC20-AMIS/conference) contract https://etherscan.io/address/0x7fe180e63198e50057c3f2817d058e8904c650e3
-- [AMIS Selfdrop revenue generator ](https://twitter.com/AMIStoken_ERC20)
+- [AMIS Airdrop revenue generator](https://ropsten.etherscan.io/address/0x961e0ea1f99ecafd1d6ce3e84bd1fe5295ecbb5d#code)
 - [AMIS Trade on-chain with Amisdex https://amis-erc20.github.io/amisdex](https://amis-erc20.github.io/amisdex)
 - [AMIS Trade on 0x relay with smartdex -in dev - https://amis-erc20.github.io/amisdex](https://amis-erc20.github.io/smartdex)
 
