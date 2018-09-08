@@ -183,7 +183,13 @@ https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch
 [MEW](https://myetherwallet.com) (MEW), has embedded the custom token feature to allow the query of your AMIS balance, just fill-up the AMIS token address in the appropriate section.
 
 ## Usage
-Contract usage interaction development ongoing, currently in UX testing mode
+Contract usage interaction development ongoing, currently in UX testing mode; however we recently released new contracts and interfaces with which it becomes much easier to call AMIS for your favorite project, for instance you could use for a selfdrop, airdrop, conferences, concerts, ticket resale and trade it - see examples below:
+
+- [Conference booking with AMIS ticket resale https://github.com/amisolution/ERC20-AMIS/amisforum/live/conference](https://amisolution.github.io/ERC20-AMIS/conference) contract https://etherscan.io/address/0x7fe180e63198e50057c3f2817d058e8904c650e3
+- [AMIS Selfdrop revenue generator ](https://twitter.com/AMIStoken_ERC20)
+- [AMIS Trade on-chain with Amisdex https://amis-erc20.github.io/amisdex](https://amis-erc20.github.io/amisdex)
+- [AMIS Trade on 0x relay with smartdex -in dev - https://amis-erc20.github.io/amisdex](https://amis-erc20.github.io/smartdex)
+
 Visit us on our blogs @Medium, Blogspot, erc20-amis.amisolution.net and / or [Wordpress](https://erc20amis.wordpress.com/) for more details.
 [This page on github.io is here => https://amisolution.github.io/ERC20-AMIS](https://amisolution.github.io/ERC20-AMIS/)
 
