@@ -183,12 +183,12 @@ https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch
 [MEW](https://myetherwallet.com) (MEW), has embedded the custom token feature to allow the query of your AMIS balance, just fill-up the AMIS token address in the appropriate section.
 
 ## Usage
-Contract usage interaction development ongoing, currently in UX testing mode; however we recently released new contracts and interfaces with which it becomes much easier to call AMIS for your favorite project, for instance you could use for a selfdrop, airdrop, conferences, concerts, ticket resale and trade it - see examples below:
+DAPP Contract usage interaction is constantly under development, however we recently released new contracts and interfaces with which it becomes much easier to call AMIS for your favorite DAPP project, for instance you could use for a selfdrop, airdrop, conferences, concerts, ticket resale and trade it - see examples below:
 
 - [Conference booking with AMIS ticket resale https://github.com/amisolution/ERC20-AMIS/amisforum/live/conference](https://amisolution.github.io/ERC20-AMIS/amisforum/live/conference) contract https://etherscan.io/address/0x7fe180e63198e50057c3f2817d058e8904c650e3
-- [AMIS Airdrop revenue generator](https://ropsten.etherscan.io/address/0x961e0ea1f99ecafd1d6ce3e84bd1fe5295ecbb5d#code)
-- [AMIS Trade on-chain with Amisdex https://amis-erc20.github.io/amisdex](https://amis-erc20.github.io/amisdex)
-- [AMIS Trade on 0x relay with smartdex -in dev - https://amis-erc20.github.io/amisdex](https://amis-erc20.github.io/smartdex)
+- [AmisDapp Airdrop revenue generator on Ropsten, Kovan and soon mainnet](https://amisolution.github.io/ERC20-AMIS/airdrop)
+- [AMIS Trade on-chain with Amisdex an On-chain Orderbook contract with builtin https://amis-erc20.github.io/amisdex](https://amis-erc20.github.io/amisdex)
+- [AMIS Trade on 0x relay with smartdex -in dev - https://amis-erc20.github.io/smartdex](https://amis-erc20.github.io/smartdex)
 
 Visit us on our blogs @Medium, Blogspot, erc20-amis.amisolution.net and / or [Wordpress](https://erc20amis.wordpress.com/) for more details.
 [This page on github.io is here => https://amisolution.github.io/ERC20-AMIS](https://amisolution.github.io/ERC20-AMIS/)
@@ -217,7 +217,7 @@ Official list of decentralized exchanges for AMIS token
 * [Waves AMIS](https://beta.wavesplatform.com/market/AMIS_WAVES) **New** *on Waves*
 * [AMIS DEX #1](https://ami-solution.github.io/amisdex/) **New** *in beta*
 * [AMIS DEX #2](https://amisdex.github.io/index/) **New** *in alpha*
-* [Bamboo relay](https://bamboorelay.com/trade/AMIS-WETH) 0x
+* [Bamboo relay](https://bamboorelay.com/trade/AMIS-WETH) 0x relay
 * [Cryptoderivatives market](https://cryptoderivatives.market/token/AMIS)
 * [Decentrex](https://amisdex.github.io/decentrex/) **Instructions for token transfer**
 * [Dubiex](https://dubiex.com/AMIS/ETH) *in beta*
@@ -226,7 +226,7 @@ Official list of decentralized exchanges for AMIS token
 * [Forkdelta](https://forkdelta.github.io/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
 * [Instex](https://app.instex.io/0x949bed886c739f1a3273629b3320db0c5024c719-WETH) 0x *in beta*
 * [SingularX](https://ex.singularx.com/exchange/AMIS/ETH) *in beta*
-* [Token Jar](https://tokenjar.io/amis) 0x
+* [Token Jar](https://tokenjar.io/amis) 0x relay
 * [Token Store](https://token.store/trade/0x949bed886c739f1a3273629b3320db0c5024c719)
 * [ecex](ecex.exchange/portal/token_list) vote for listing ongoing
 * [Idex]()  Discontinued
