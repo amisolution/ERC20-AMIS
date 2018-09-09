@@ -24,10 +24,10 @@ web3.version.getNetwork((err, netId) => {
         break;
         case "3":
         $('#network').text("ROPSTEN TEST NETWORK");
-        contractAddress = '0x6E192dd3CbcBFA6798E3907315161Ad0445E233E';
+        contractAddress = '0xe3D8E72a5EFC56dAf8c7aabf7608BAEd08897b52';
         contractInstance = OneStopAirdrop.at(contractAddress);
-        etherscanTxUrl = "https://ropsten.etherscan.io/tx/0x6E192dd3CbcBFA6798E3907315161Ad0445E233E";
-        etherscanUrl = "https://ropsten.etherscan.io/address/0x6E192dd3CbcBFA6798E3907315161Ad0445E233E#code";
+        etherscanTxUrl = "https://ropsten.etherscan.io/tx/0x6ecf4e62203d5f397a75f890863dfe1e37df378b19314c4e7754c2536777822d";
+        etherscanUrl = "https://ropsten.etherscan.io/address/0xe3D8E72a5EFC56dAf8c7aabf7608BAEd08897b52#code";
         break;
         case "4":
         $('#network').text("RINKEBY TEST NETWORK");
