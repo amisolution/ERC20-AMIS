@@ -35,7 +35,12 @@ web3.version.getNetwork((err, netId) => {
         break;
         case "42":
         $('#network').text("KOVAN TEST NETWORK");
+        contractAddress = '0x6328426be01834de85ec0c10e3e940e629290bb1';
+        contractInstance = OneStopAirdrop.at(contractAddress);
+        etherscanTxUrl = "https://kovan.etherscan.io/tx/0x1d5d170d9277db72d9bd81641b4c1324bfc4975ec8a9840543f0c2a091c19f96";
+        etherscanUrl = "https://kovan.etherscan.io/address/0x6328426be01834de85ec0c10e3e940e629290bb1#code";
         //TODO ADD contractAddress = kovan address
+        https://kovan.etherscan.io/address/0x6328426be01834de85ec0c10e3e940e629290bb1
         break;
         default:
         $('#network').text("NETWORK: UNKNOWN");
