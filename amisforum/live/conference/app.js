@@ -260,6 +260,27 @@ function fundEth(newAddress, amt) {
 	});
 }
 
+function setSafeLowGasPrice() {
+    var HttpClient = function() {
+        this.get = function(aUrl, aCallback) {
+            var anHttpRequest = new XMLHttpRequest();
+            anHttpRequest.onreadystatechange = function() { 
+                if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+                    aCallback(anHttpRequest.responseText);
+            }
+            anHttpRequest.open( "GET", aUrl, true ); 
+            anHttpRequest.send( null ); 
+            }
+        }
+        var theurl='https://www.etherchain.org/api/gasPriceOracle';
+        var client = new HttpClient();
+        client.get(theurl, function(response) { 
+        var response1 = JSON.parse(response);
+        
+        safeLowGasPrice =  response1.safeLow;
+    }); 
+}
+
 window.onload = function() {
 
 	web3.eth.getAccounts(function(err, accs) {
