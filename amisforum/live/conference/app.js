@@ -196,6 +196,19 @@ function getEthBalance() {
         }
     }))
 }
+
+function getOrganizer() {
+	$("input#confOrganizer").val(Organizer);
+	return contractInstance.numRegistrants.call(); 
+        } else {
+            console.log("FAILED TO GET ORAGNIZER");
+        }
+    }))
+}
+
+function(organizer) { 
+	$("input#confOrganizer").val(organizer);
+	return contractInstance.numRegistrants.call(); 
 // createWallet
 function createWallet(password) {
 
