@@ -54,14 +54,12 @@ var name = undefined;
 var symbol = undefined;
 var allowance = undefined;
 var safeLowGasPrice = setSafeLowGasPrice();
-var organizer = getOrganizer();
 var numRegistrants = getNumRegistrants();
 var quota = getQuota();
 var ticketIsValid = true;
 
 
 setInterval(function() {
-    getOrganizer();
     getNumRegistrants();
     getQuota();
     getTickets();
@@ -197,14 +195,6 @@ function getEthBalance() {
     }))
 }
 
-function getOrganizer() {
-	$("input#confOrganizer").val(Organizer);
-	return contractInstance.numRegistrants.call(); 
-        } else {
-            console.log("FAILED TO GET ORAGNIZER");
-        }
-    }))
-}
 
 // createWallet
 function createWallet(password) {
