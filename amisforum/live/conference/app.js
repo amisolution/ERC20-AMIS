@@ -1,4 +1,4 @@
-Web3 = require('web3');
+
 
 metamaskIsInstalled();
 
