@@ -185,7 +185,17 @@ function refundTicket(buyerAddress, ticketPrice) {
 			}
 		});
 }
-
+function getEthBalance() {
+    contractInstance.getEthBalanceOf(web3.eth.accounts[0], ((error, result) => {
+        if(!error) {
+            balance = result;
+            $('#balance').text("BALANCE: " + web3.fromWei(result, 'ether') + " ETH");
+            $('#user_balance').text("AVAILABLE BALANCE: " + web3.fromWei(result, 'ether') + " ETH");
+        } else {
+            console.log("FAILED TO GET ETH BALANCE");
+        }
+    }))
+}
 // createWallet
 function createWallet(password) {
 
@@ -227,6 +237,11 @@ function createWallet(password) {
 function getBalance(address) {
 	return web3.fromWei(web3.eth.getBalance(address).toNumber(), 'ether');
 }
+
+
+
+
+
 
 // switch to hooked3webprovider which allows for external Tx signing
 // (rather than signing from a wallet in the Ethereum client)
@@ -336,6 +351,18 @@ window.onload = function() {
 		var address = $("#wallet").html();
 		$("#balance").html(getBalance(address));
 	});
+
+	function getEthBalance() {
+		contractInstance.getEthBalanceOf(web3.eth.accounts[0], ((error, result) => {
+			if(!error) {
+				balance = result;
+				$('#balance').text("BALANCE: " + web3.fromWei(result, 'ether') + " ETH");
+				$('#user_balance').text("AVAILABLE BALANCE: " + web3.fromWei(result, 'ether') + " ETH");
+			} else {
+				console.log("FAILED TO GET ETH BALANCE");
+			}
+		}))
+	}
 
 	// Set value of wallet to accounts[1]
 	$("#buyerAddress").val(accounts);
