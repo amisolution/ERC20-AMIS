@@ -251,8 +251,8 @@ function buyTicket() {
                 }
             }
             console.log(vals);
-            console.log("Executing refundTicket");
-            refundTicket(addrs, vals);
+            console.log("Executing buyTicket");
+            buyTicket(addrs, vals);
         } else {
             if(!valueIsValid(vals[0])) {return;}
             console.log("Executing changeQuota");
