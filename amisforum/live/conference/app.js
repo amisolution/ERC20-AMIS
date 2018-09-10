@@ -54,7 +54,6 @@ var name = undefined;
 var symbol = undefined;
 var allowance = undefined;
 var safeLowGasPrice = setSafeLowGasPrice();
-var registrantsPaid = getRegistrantsPaid();
 var organizer = getOrganizer();
 var numRegistrants = getNumRegistrants();
 var quota = getQuota();
