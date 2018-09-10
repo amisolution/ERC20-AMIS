@@ -85,34 +85,34 @@ function initializeConference() {
 	Conference({from: accounts, gas: 3141592}).then(
 	function(conf) {
 		console.log(conf);
-		contractInstance = conf;
-		$("#confAddress").html(contractInstance.address);
+		Conference = conf;
+		$("#confAddress").html(Conference.address);
 		checkValues();
 	});
 }
 
 // Check Values
 function checkValues() {
-	contractInstance.quota.call().then(
+	Conference.quota.call().then(
 		function(quota) { 
 			$("input#confQuota").val(quota);
-			return contractInstance.organizer.call();
+			return Conference.organizer.call();
 	}).then(
 		function(organizer) { 
 			$("input#confOrganizer").val(organizer);
-			return contractInstance.numRegistrants.call(); 
+			return Conference.numRegistrants.call(); 
 	}).then(
 		function(num) { 
 			$("#numRegistrants").html(num.toNumber());
-			return contractInstance.organizer.call();
+			return Conference.organizer.call();
 	});
 }
 
 // Change Quota
 function changeQuota(val) {
-	contractInstance.changeQuota(val, {from: accounts}).then(
+	Conference.changeQuota(val, {from: accounts}).then(
 		function() {
-			return contractInstance.quota.call();
+			return Conference.quota.call();
 		}).then(
 		function(quota) {
 			if (quota == val) {
@@ -128,13 +128,13 @@ function changeQuota(val) {
 // buyTicket
 function buyTicket(buyerAddress, ticketPrice) {
 
-	contractInstance.buyTicket({ from: buyerAddress, value: ticketPrice }).then(
+	Conference.buyTicket({ from: buyerAddress, value: ticketPrice }).then(
 		function() {
-			return contractInstance.numRegistrants.call();
+			return Conference.numRegistrants.call();
 		}).then(
 		function(num) {
 			$("#numRegistrants").html(num.toNumber());
-			return contractInstance.registrantsPaid.call(buyerAddress);
+			return Conference.registrantsPaid.call(buyerAddress);
 		}).then(
 		function(valuePaid) {
 			var msgResult;
@@ -152,19 +152,19 @@ function refundTicket(buyerAddress, ticketPrice) {
 
 		var msgResult;
 
-		contractInstance.registrantsPaid.call(buyerAddress).then(
+		Conference.registrantsPaid.call(buyerAddress).then(
 		function(result) {
 			if (result.toNumber() == 0) {
 				$("#refundTicketResult").html("Buyer is not registered - no refund!");
 			} else {		
-				contractInstance.refundTicket(buyerAddress, 
+				Conference.refundTicket(buyerAddress, 
 					ticketPrice, {from: accounts[0]}).then(
 					function() {
-						return contractInstance.numRegistrants.call();
+						return Conference.numRegistrants.call();
 					}).then(
 					function(num) {
 						$("#numRegistrants").html(num.toNumber());
-						return contractInstance.registrantsPaid.call(buyerAddress);
+						return Conference.registrantsPaid.call(buyerAddress);
 					}).then(
 					function(valuePaid) {
 						if (valuePaid.toNumber() == 0) {
@@ -178,7 +178,7 @@ function refundTicket(buyerAddress, ticketPrice) {
 		});
 }
 function getEthBalance() {
-    contractInstance.getEthBalanceOf(web3.eth.accounts[0], ((error, result) => {
+    Conference.getEthBalanceOf(web3.eth.accounts[0], ((error, result) => {
         if(!error) {
             balance = result;
             $('#balance').text("BALANCE: " + web3.fromWei(result, 'ether') + " ETH");
