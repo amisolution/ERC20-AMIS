@@ -206,9 +206,6 @@ function getOrganizer() {
     }))
 }
 
-function(organizer) { 
-	$("input#confOrganizer").val(organizer);
-	return contractInstance.numRegistrants.call(); 
 // createWallet
 function createWallet(password) {
 
