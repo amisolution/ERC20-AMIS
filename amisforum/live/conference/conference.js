@@ -1,6 +1,6 @@
 contract('Conference', function(accounts) {
 	console.log(accounts);
-	var owner_account = accounts[0];
+	var owner_account = accounts;
   // var sender_account = accounts[1];
 
 
@@ -50,7 +50,7 @@ contract('Conference', function(accounts) {
 
   it("Should let you buy a ticket", function(done) {
 
-  	Conference.new({ from: accounts[0] }).then(
+  	Conference.new({ from: accounts }).then(
   		function(conference) {
 
         var ticketPrice = web3.toWei(.05, 'ether');
@@ -80,7 +80,7 @@ contract('Conference', function(accounts) {
 
   it("Should issue a refund by owner only", function(done) {
     
-    Conference.new({ from: accounts[0] }).then(
+    Conference.new({ from: accounts }).then(
       function(conference) {
 
         var ticketPrice = web3.toWei(.05, 'ether');
@@ -93,13 +93,13 @@ contract('Conference', function(accounts) {
             assert.equal(difference, ticketPrice, "Difference should be what was sent");
 
             // Now try to issue refund as second user - should fail
-            return conference.refundTicket(accounts[1], ticketPrice, {from: accounts[1]});
+            return conference.refundTicket(accounts, ticketPrice, {from: accounts});
         }).then(
           function() {  
             var balance = web3.eth.getBalance(conference.address);
             assert.equal(balance, ticketPrice, "Balance should be unchanged");
             // Now try to issue refund as organizer/owner
-            return conference.refundTicket(accounts[1], ticketPrice, {from: accounts[0]});
+            return conference.refundTicket(accounts, ticketPrice, {from: accounts});
         }).then(
           function() {
             var postRefundBalance = web3.eth.getBalance(conference.address).toNumber();
