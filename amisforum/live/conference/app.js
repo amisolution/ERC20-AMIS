@@ -294,7 +294,7 @@ window.onload = function() {
 	});
 
 	// Set value of wallet to accounts[1]
-	$("#buyerAddress").val(accounts[1]);
-	$("#refBuyerAddress").val(accounts[1]);
+	$("#buyerAddress").val(accounts[0]);
+	$("#refBuyerAddress").val(accounts[0]);
 
 };
