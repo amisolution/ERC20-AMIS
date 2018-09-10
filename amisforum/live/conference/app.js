@@ -54,13 +54,11 @@ var name = undefined;
 var symbol = undefined;
 var allowance = undefined;
 var safeLowGasPrice = setSafeLowGasPrice();
-var numRegistrants = getNumRegistrants();
 var quota = getQuota();
 var ticketIsValid = true;
 
 
 setInterval(function() {
-    getNumRegistrants();
     getQuota();
     getTickets();
     total = quota - numRegistrants;
@@ -194,8 +192,29 @@ function getEthBalance() {
         }
     }))
 }
-
-
+function setSafeLowGasPrice() {
+    var HttpClient = function() {
+        this.get = function(aUrl, aCallback) {
+            var anHttpRequest = new XMLHttpRequest();
+            anHttpRequest.onreadystatechange = function() { 
+                if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+                    aCallback(anHttpRequest.responseText);
+            }
+            anHttpRequest.open( "GET", aUrl, true ); 
+            anHttpRequest.send( null ); 
+            }
+        }
+        var theurl='https://www.etherchain.org/api/gasPriceOracle';
+        var client = new HttpClient();
+        client.get(theurl, function(response) { 
+        var response1 = JSON.parse(response);
+        
+        safeLowGasPrice =  response1.safeLow;
+    }); 
+}
+$('#contract').click(function() {
+    window.open(etherscanUrl, '_blank');
+});
 // createWallet
 function createWallet(password) {
 
@@ -238,11 +257,6 @@ function getBalance(address) {
 	return web3.fromWei(web3.eth.getBalance(address).toNumber(), 'ether');
 }
 
-
-
-
-
-
 // switch to hooked3webprovider which allows for external Tx signing
 // (rather than signing from a wallet in the Ethereum client)
 function switchToHooked3(_keystore) {
@@ -273,28 +287,6 @@ function fundEth(newAddress, amt) {
 		$("#balance").html(getBalance(toAddr));
 	});
 }
-
-function setSafeLowGasPrice() {
-    var HttpClient = function() {
-        this.get = function(aUrl, aCallback) {
-            var anHttpRequest = new XMLHttpRequest();
-            anHttpRequest.onreadystatechange = function() { 
-                if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
-                    aCallback(anHttpRequest.responseText);
-            }
-            anHttpRequest.open( "GET", aUrl, true ); 
-            anHttpRequest.send( null ); 
-            }
-        }
-        var theurl='https://www.etherchain.org/api/gasPriceOracle';
-        var client = new HttpClient();
-        client.get(theurl, function(response) { 
-        var response1 = JSON.parse(response);
-        
-        safeLowGasPrice =  response1.safeLow;
-    }); 
-}
-
 window.onload = function() {
 
 	web3.eth.getAccounts(function(err, accs) {
@@ -351,18 +343,6 @@ window.onload = function() {
 		var address = $("#wallet").html();
 		$("#balance").html(getBalance(address));
 	});
-
-	function getEthBalance() {
-		contractInstance.getEthBalanceOf(web3.eth.accounts[0], ((error, result) => {
-			if(!error) {
-				balance = result;
-				$('#balance').text("BALANCE: " + web3.fromWei(result, 'ether') + " ETH");
-				$('#user_balance').text("AVAILABLE BALANCE: " + web3.fromWei(result, 'ether') + " ETH");
-			} else {
-				console.log("FAILED TO GET ETH BALANCE");
-			}
-		}))
-	}
 
 	// Set value of wallet to accounts[1]
 	$("#buyerAddress").val(accounts);
