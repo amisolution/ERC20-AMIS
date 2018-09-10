@@ -52,7 +52,7 @@ var ticket = web3.eth.contract(ticket_abi);
 
 
 
-// contract('Conference', function(accounts) {
+contract('Conference', function(accounts) {
 	// console.log(accounts);
 	// var owner_account = accounts;
   // var sender_account = accounts[1];

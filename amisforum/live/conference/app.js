@@ -82,7 +82,7 @@ function metamaskIsInstalled() {
 
 // Initialize
 function initializeConference() {
-	contractInstance({from: accounts, gas: 3141592}).then(
+	Conference({from: accounts, gas: 3141592}).then(
 	function(conf) {
 		console.log(conf);
 		contractInstance = conf;
