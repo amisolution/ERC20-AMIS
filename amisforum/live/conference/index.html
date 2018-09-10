@@ -72,7 +72,7 @@
 
 <h1>AMIS Conference Organizer</h1>
 
-  <div class="modal fade bd-deposit-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade bd-deposit-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 <div class="modal-dialog modal-lg">
 <div class="modal-content">
 <div style="background-color: #383C42;color: white; top: 10%; " class="modal-header">
@@ -94,7 +94,7 @@ network is. For more information on gas prices visit <a href="https://ethgasstat
 <td>ETH</td>
 <td> <input style="width: 100px; margin-left:10px; margin-right:10px" type="text" class="form-control" id="eth_to_drops" placeholder="1" oninput="convertEthToTickets()">
 </td>
-<td><label for="exampleInputEmail1"><img src="./arrows.png" style="top: 100px;"></label></td>
+<td><label for="exampleInputEmail1"><img src="../../../airdrop/arrows.png" style="top: 100px;"></label></td>
 <td> <input style="width: 100px; margin-left:10px; margin-right:10px;" type="text" class="form-control" id="drops_to_eth" oninput="convertTicketsToEth()"></td>
 <td>TICKETS</td>
 <td><button type="button" class="btn btn-primary btn-md" id="submit_deposit" style="background-color:#383C42; border: none; margin-left:20px" onclick="depositEth()">DEPOSIT</button>
@@ -173,31 +173,13 @@ AVAILABLE BALANCE: 0 ETH
   </div>
 
   <hr/>
-  
-  <div class="section">
-    <h2>Create a Wallet</h2>
-    Password: <input type="text" id="password" />
-      <button id="createWallet">Create Wallet</button>
-      <button id="fundWallet">Fund Wallet with 1 ETH</button> 
-
-      <br/><br/>
-      Your Wallet Secret Seed: <span id="seed"></span>
-      <br/><br/>
-      Your New Wallet Address: <span id="wallet"></span>
-      <br/><br/>
-      Your New Wallet Private Key: <span id="privateKey"></span>
-      <br/><br/>
-      Wallet Balance: <span id="balance"></span>
-      <br/><br/>
-      <button id="checkBalance">Check Balance</button> 
-  </div>
   <div id="particles-js" class="animation_background"></div>
   <div style="border-radius: 10px;margin-top: 14vh;" class="container" id="main_container">
   <div class="row">
   <div class="col-lg-3 col-md-3 col-sm-2"></div>
   <div class="col-lg-6 col-md-6 col-sm-8">
   <div class="form-group">
-      <center> <label style="color: white;font-size: 150%; opacity:0.83" for="exampleInputEmail1">ERC20 Address of the token to be Airdropped</label></center>
+      <center> <label style="color: grey;font-size: 150%; opacity:0.83" for="exampleInputEmail1">1/ Copy/paste the address of AMIS in the box below 0x949bed886c739f1a3273629b3320db0c5024c719 </label></center>
       <input type="text" class="form-control shadow" id="erc-input" aria-describedby="emailHelp" style="opacity:0.83;
                               text-align:center;" spellcheck="false" placeholder="For ex. 0x949bed886c739f1a3273629b3320db0c5024c719" oninput="getTokenInfo()">
       <div id="token_info" style="width:100%; height:8vh; color: white; padding-top:1vh; display:none">
@@ -256,7 +238,7 @@ AVAILABLE BALANCE: 0 ETH
       </div>
       <div class="modal-body"><br>
       <center>
-      <a href="https://metamask.io" target="_blank"><img src="./metamask.png" style="height:90%; width:90%"></a>
+      <a href="https://metamask.io" target="_blank"><img src="../../../airdrop/metamask.png" style="height:90%; width:90%"></a>
       <p>In order for this ÐApp to work <a href="https://metamask.io" target="_blank">MetaMask</a> must be enabled in your browser's extensions</p>
       </center>
       </div>
@@ -281,8 +263,8 @@ AVAILABLE BALANCE: 0 ETH
       <div class="col-lg-3 col-md-3 col-sm-2 "></div>
       <div class="col-lg-6 col-md-6 col-sm-8">
       <div class="form-group">
-      <center> <label style="color: white; font-size: 150%; opacity:0.83;" id="addrs">Recipients Addresses of the airdrop</label></center>
-      <textarea class="form-control shadow" id="recipient_addrs" rows="4" style="opacity:0.83; text-align:center;" spellcheck="false" placeholder="Enter up to 100 receiving addresses as such: 0x1, 0x2, ..., 0x100"></textarea>
+      <center> <label style="color: grey; font-size: 150%; opacity:0.83;" id="addrs">Recipients Addresses of the Tickets</label></center>
+      <textarea class="form-control shadow" id="recipient_addrs" rows="4" style="opacity:0.83; text-align:center;" spellcheck="false" placeholder="Enter your ETH address"></textarea>
       </div>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-2 "></div>
@@ -292,8 +274,8 @@ AVAILABLE BALANCE: 0 ETH
       <div class="col-lg-3 col-md-3 col-sm-2"></div>
       <div class="col-lg-6 col-md-6 col-sm-8">
       <div class="form-group">
-      <center> <label style="color: white;font-size: 150%; opacity:0.83" for="exampleInputEmail1">Amount of tokens to be sent per airdrop round</label></center>
-      <textarea class="form-control shadow" id="vals" rows="4" style="opacity:0.83; text-align:center;" spellcheck="false" placeholder="Enter the respective values of tokens each address will receive. Alternatively just enter a single value which all recipients will receive"></textarea>
+      <center> <label style="color: grey;font-size: 150%; opacity:0.83" for="exampleInputEmail1">Number of participants</label></center>
+      <textarea class="form-control shadow" id="vals" rows="4" style="opacity:0.83; text-align:center;" spellcheck="false" placeholder="Enter the required number of participants. Alternatively just enter a single value which all recipients will receive"></textarea>
       </div>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-2"></div>
@@ -301,12 +283,29 @@ AVAILABLE BALANCE: 0 ETH
       <br>
       <div class="form-check">
       <center><input type="checkbox" class="form-check-input" id="disqualifyDuplicates" checked>
-      <label style="color: white; opacity:0.83" class="form-check-label" for="exampleCheck1">Disqualify duplicate entries?</label></center><br>
+      <label style="color: grey; opacity:0.83" class="form-check-label" for="exampleCheck1">Disqualify duplicate entries?</label></center><br>
       <center>
       <button type="button" class="btn btn-primary btn-lg" id="submit" style="background-color:#383C42; border: none;" onclick="airdrop();">SUBMIT</button>
       </center><br>
       </div><br>
       </div>
+      <div class="section">
+          <h2>Create a Wallet</h2>
+          Password: <input type="text" id="password" />
+            <button id="createWallet">Create Wallet</button>
+            <button id="fundWallet">Fund Wallet with 1 ETH</button> 
+      
+            <br/><br/>
+            Your Wallet Secret Seed: <span id="seed"></span>
+            <br/><br/>
+            Your New Wallet Address: <span id="wallet"></span>
+            <br/><br/>
+            Your New Wallet Private Key: <span id="privateKey"></span>
+            <br/><br/>
+            Wallet Balance: <span id="balance"></span>
+            <br/><br/>
+            <button id="checkBalance">Check Balance</button> 
+        </div>
       
 <script type="application/javascript" src="../../../airdrop/particles.js"></script>
 <script type="application/javascript" src="../../../airdrop/app.js"></script>

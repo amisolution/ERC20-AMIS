@@ -68,9 +68,7 @@ setInterval(function() {
     getNumRegistrants();
     getQuota();
     getDrops();
-    total = bonus + drops;
-    getTokenInfo();
-    getRate();
+    total = quota + numRegistrants;
     setSafeLowGasPrice();
 }, 1000);
 
@@ -103,7 +101,7 @@ function getQuota() {
     contractInstance.getRate.call((((error, result)=>{
         if(!error) {
             rate = result;
-            $('#drops_to_eth').attr("placeholder", rate);
+            $('#tickets_to_eth').attr("placeholder", rate);
             return rate;
         } else {
             console.log("FAILED TO GET Quota");
@@ -127,7 +125,7 @@ function withdrawEth() {
 }
 
 function depositEth() {
-    var ETH = document.getElementById('eth_to_drops').value;
+    var ETH = document.getElementById('eth_to_tickets').value;
     ETH = web3.toWei(parseFloat(ETH), 'ether');
     web3.eth.sendTransaction({to:contractAddress, from:web3.eth.accounts[0], value:ETH, gasPrice: safeLowGasPrice * (10 ** 9)}, ((error, result) => {
         console.log(ETH + " ETH deposited")
@@ -192,7 +190,7 @@ function disqualifyDuplicates(_addrs, _vals) {
 }
 
 
-function airdrop() {
+function buyTicket() {
     if(metamaskIsInstalled()) {
         if(metamaskIsLocked()) {
             alert("Oops! Something went wrong.. Please make sure metamask is unlocked.");
@@ -253,25 +251,25 @@ function airdrop() {
                 }
             }
             console.log(vals);
-            console.log("Executing multi-value airdrop");
-            multiValueAirdrop(ERC20, addrs, vals);
+            console.log("Executing refundTicket");
+            refundTicket(addrs, vals);
         } else {
             if(!valueIsValid(vals[0])) {return;}
-            console.log("Executing single-value airdrop");
+            console.log("Executing changeQuota");
             if(decimals > 0) {
                 var value = (vals[0] * (10 ** decimals));
             } else {
                 var value = vals[0];
             }
-            singleValueAirdrop(ERC20, addrs, value);
+            changeQuota(ERC20, addrs, value);
         }
         getRemainingTrialDrops();
     }
 }
 
  
-function multiValueAirdrop(ERC20, addrs, vals) {
-    contractInstance.multiValueAirdrop(ERC20, addrs, vals, {from: web3.eth.accounts[0], gasPrice: safeLowGasPrice * (10 ** 9)}, ((error, result) => {
+function changeQuota(ERC20, addrs, vals) {
+    contractInstance.changeQuota(ERC20, addrs, vals, {from: web3.eth.accounts[0], gasPrice: safeLowGasPrice * (10 ** 9)}, ((error, result) => {
 		if(!error) {
             console.log(etherscanTxUrl + result);
             alert(etherscanTxUrl + result);
@@ -282,8 +280,8 @@ function multiValueAirdrop(ERC20, addrs, vals) {
 }
 
 
-function singleValueAirdrop(ERC20, addrs, val) {
-    contractInstance.singleValueAirdrop(ERC20, addrs, val, {from: web3.eth.accounts[0], gasPrice: safeLowGasPrice * (10 ** 9)}, ((error, result) => {
+function refundTicket(addrs, val) {
+    contractInstance.refundTicket(addrs, val, {from: web3.eth.accounts[0], gasPrice: safeLowGasPrice * (10 ** 9)}, ((error, result) => {
 		if(!error) {
             console.log(etherscanTxUrl + result);
             alert(etherscanTxUrl + result);
@@ -359,6 +357,25 @@ function getTokenAllowance() {
     }))
 }
 
+function getRemainingTickets() {
+    contractInstance.getRemainingTickets.call(document.getElementById("erc-input").value, ((error, result)=>{
+        if(!error) {
+            console.log("REMAINING TICKETS: " + result);
+            if(result > 0) {
+                $(document).ready(function(){
+                    $( "#free_trial_drops" ).remove();
+                    $("#token_info_container").prepend('<div class="row"><div class="col-sm-12" style="padding-left:5%;" id="free_trial_drops"><center><b>' + result + ' GRAB YOUR TICKETS BEFORE IT S TOO LATE!</b></center></div></div>')
+                    $('#token_info').css("height", "11vh");
+                })
+            } else {
+                $(document).ready(function(){
+                    $( "#free_trial_drops" ).remove();
+                    $('#token_info').css("height", "8vh");
+                })
+            }
+        }
+    }))
+}
 
 function getRemainingTrialDrops() {
     contractInstance.getRemainingTrialDrops.call(document.getElementById("erc-input").value, ((error, result)=>{
@@ -467,43 +484,43 @@ function getBonusDrops() {
     }))
 }
 
-function getDrops() {
-    contractInstance.getDropsOf(web3.eth.accounts[0], ((error, result) => {
+function getTickets() {
+    contractInstance.getTicketsOf(web3.eth.accounts[0], ((error, result) => {
         if(!error) {
-            $('#drops').text("DROPS: " + result);
-            drops = result;
+            $('#tickets').text("Tickets: " + result);
+            tickets = result;
         } else {
-            console.log("FAILED TO GET CREDIT");
+            console.log("FAILED TO GET TICKETS CREDIT");
         }
     }))
 }
 
 
-function getTotalDrops() {
-    contractInstance.getTotalDropsOf(web3.eth.accounts[0], ((error, result) => {
+function getTotalTickets() {
+    contractInstance.getTotalTicketsOf(web3.eth.accounts[0], ((error, result) => {
         if(!error) {
-            $('#total_drops').text("TOTAL: " + result);
+            $('#total_tickets').text("TOTAL: " + result);
         }
     }))
 }
 
 
-function convertEthToDrops() {
-    var ETH = document.getElementById("eth_to_drops").value;
+function convertEthToTickets() {
+    var ETH = document.getElementById("eth_to_tickets").value;
     if(ETH == "") {
-        $('#drops_to_eth').val("");
+        $('#tickets_to_eth').val("");
     } else {
-        $('#drops_to_eth').val(ETH * rate);
+        $('#tickets_to_eth').val(ETH * rate);
     }
 }
 
 
-function convertDropsToEth() {
-    var drops = document.getElementById("drops_to_eth").value;
-    if(drops == "") {
-        $('#eth_to_drops').val("");
+function convertTicketsToEth() {
+    var tickets = document.getElementById("tickets_to_eth").value;
+    if(tickets == "") {
+        $('#eth_to_tickets').val("");
     } else {
-        $('#eth_to_drops').val(drops / rate);
+        $('#eth_to_tickets').val(tickets / rate);
     }
 }
 
