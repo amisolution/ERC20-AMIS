@@ -1,5 +1,10 @@
 var accounts, account;
 var myConferenceInstance;
+var Conference = web3.eth.contract(abi);
+var contractAddress = '0xec4e3a1ad06a2ebdc462eaf6bf361404676a441f';
+var contractInstance = Conference.at(contractAddress);
+var etherscanUrl = "https://ropsten.etherscan.io/address/0xec4e3a1ad06a2ebdc462eaf6bf361404676a441f#code";
+
 
 // Initialize
 function initializeConference() {
