@@ -1,7 +1,7 @@
 contract('Conference', function(accounts) {
 	console.log(accounts);
 	var owner_account = accounts[0];
-  var sender_account = accounts[1];
+  // var sender_account = accounts[1];
 
 
   it("Initial conference settings should match", function(done) {
