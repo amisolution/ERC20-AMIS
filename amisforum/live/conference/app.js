@@ -1,3 +1,6 @@
+Web3 = require('web3');
+metamaskIsInstalled();
+console.log(web3.isConnected());
 var accounts, account;
 var myConferenceInstance;
 var Conference = web3.eth.contract(abi);
