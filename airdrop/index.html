@@ -82,7 +82,7 @@ TOTAL: 0
 </form>
 </div>
 </nav>
-<div style="opacity:0">
+<div style="opacity:1">
 <p>Your one stop airdrop shop for Amis and all ERC20 Tokens!</p>
 </div>
 
@@ -90,13 +90,13 @@ TOTAL: 0
 <div class="modal-dialog modal-lg">
 <div class="modal-content">
 <div style="background-color: #383C42;color: white; top: 10%; " class="modal-header">
-<h5 class="modal-title">DEPOSIT</h5>
+<h5 class="modal-title">DEPOSIT ETH</h5>
 </div>
 <div class="modal-body"><br>
 <div class="form-group">
 <center>
 <p>
-<b>Warning</b> the ETH that will be credited to your account will <b>NOT</b> cover the cost of any transaction fees when airdropping
+<b>Warning</b> The amount of ETH that will be credited to your account will <b>NOT</b> cover the cost of any transaction fees when airdropping
 tokens. All transaction fees have to be paid by you and the cost will vary depending on how congested the Ethereum
 network is. For more information on gas prices visit <a href="https://ethgasstation.info/" target="_blank">ETH Gas Station</a>.
 </p>
@@ -125,7 +125,7 @@ network is. For more information on gas prices visit <a href="https://ethgasstat
 <div class="modal-dialog modal-lg">
 <div class="modal-content">
 <div style="background-color: #383C42;color: white; top: 10%;" class="modal-header">
-<h5 class="modal-title" id="exampleModalLabel">WITHDRAW</h5>
+<h5 class="modal-title" id="exampleModalLabel">WITHDRAW ETH</h5>
 </div>
 <div class="modal-body"><br>
 <div class="form-group">
@@ -157,7 +157,7 @@ AVAILABLE BALANCE: 0 ETH
 <div class="form-group">
 <br>
 <center><div class="g-recaptcha" data-sitekey="6LdqTm8UAAAAAI_oKKCEVoIHz1AXVkLpS34HacjH"></div></center>
-<center> <label style="color: white;font-size: 150%; opacity:0.83" for="exampleInputEmail1">ERC20 Address of the token</label></center>
+<center> <label style="color: white;font-size: 150%; opacity:0.83" for="exampleInputEmail1">ERC20 Address of the token to be Airdropped</label></center>
 <input type="text" class="form-control shadow" id="erc-input" aria-describedby="emailHelp" style="opacity:0.83;
                         text-align:center;" spellcheck="false" placeholder="For ex. 0x949bed886c739f1a3273629b3320db0c5024c719" oninput="getTokenInfo()">
 <div id="token_info" style="width:100%; height:8vh; color: white; padding-top:1vh; display:none">
@@ -241,7 +241,7 @@ AVAILABLE BALANCE: 0 ETH
 <div class="col-lg-3 col-md-3 col-sm-2 "></div>
 <div class="col-lg-6 col-md-6 col-sm-8">
 <div class="form-group">
-<center> <label style="color: white; font-size: 150%; opacity:0.83;" id="addrs">Recipient Addresses</label></center>
+<center> <label style="color: white; font-size: 150%; opacity:0.83;" id="addrs">Recipients Addresses of the airdrop</label></center>
 <textarea class="form-control shadow" id="recipient_addrs" rows="4" style="opacity:0.83; text-align:center;" spellcheck="false" placeholder="Enter up to 100 receiving addresses as such: 0x1, 0x2, ..., 0x100"></textarea>
 </div>
 </div>
@@ -252,7 +252,7 @@ AVAILABLE BALANCE: 0 ETH
 <div class="col-lg-3 col-md-3 col-sm-2"></div>
 <div class="col-lg-6 col-md-6 col-sm-8">
 <div class="form-group">
-<center> <label style="color: white;font-size: 150%; opacity:0.83" for="exampleInputEmail1">Amount of tokens to be sent</label></center>
+<center> <label style="color: white;font-size: 150%; opacity:0.83" for="exampleInputEmail1">Amount of tokens to be sent per airdrop round</label></center>
 <textarea class="form-control shadow" id="vals" rows="4" style="opacity:0.83; text-align:center;" spellcheck="false" placeholder="Enter the respective values of tokens each address will receive. Alternatively just enter a single value which all recipients will receive"></textarea>
 </div>
 </div>
