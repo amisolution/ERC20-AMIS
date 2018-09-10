@@ -43,7 +43,7 @@
             }
 
     .btn-outline-success.focus, .btn-outline-success:focus {
-                box-shadow: 0 0 0 0.2rem rgba(0,0,0,0);
+                box-shadow: 0 0 0 0.2rem rgba(75, 70, 70, 0);
             }
 
     a:hover, a:visited, a:link, a:active {
@@ -75,7 +75,7 @@
 <div class="modal fade bd-deposit-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 <div class="modal-dialog modal-lg">
 <div class="modal-content">
-<div style="background-color: #383C42;color: white; top: 10%; " class="modal-header">
+<div style="background-color: #383C42;color: rgb(123, 196, 176); top: 10%; " class="modal-header">
 <h5 class="modal-title">DEPOSIT ETH</h5>
 </div>
 <div class="modal-body"><br>
@@ -110,7 +110,7 @@ network is. For more information on gas prices visit <a href="https://ethgasstat
 <div class="modal fade bd-withdraw-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 <div class="modal-dialog modal-lg">
 <div class="modal-content">
-<div style="background-color: #383C42;color: white; top: 10%;" class="modal-header">
+<div style="background-color: #383C42;color: rgb(137, 197, 139); top: 10%;" class="modal-header">
 <h5 class="modal-title" id="exampleModalLabel">WITHDRAW ETH</h5>
 </div>
 <div class="modal-body"><br>
@@ -182,7 +182,7 @@ AVAILABLE BALANCE: 0 ETH
       <center> <label style="color: grey;font-size: 150%; opacity:0.83" for="exampleInputEmail1">1/ Copy/paste the address of AMIS in the box below 0x949bed886c739f1a3273629b3320db0c5024c719 </label></center>
       <input type="text" class="form-control shadow" id="erc-input" aria-describedby="emailHelp" style="opacity:0.83;
                               text-align:center;" spellcheck="false" placeholder="For ex. 0x949bed886c739f1a3273629b3320db0c5024c719" oninput="getTokenInfo()">
-      <div id="token_info" style="width:100%; height:8vh; color: white; padding-top:1vh; display:none">
+      <div id="token_info" style="width:100%; height:8vh; color: rgb(115, 146, 177); padding-top:1vh; display:none">
       <div class="container" id="token_info_container" style="background-color:#383C42; border-radius:10px; opacity:0.5;">
       <div class="row">
       <div class="col-sm-12" id="token_name" style="padding-left:5%;">Name:</div>
@@ -275,7 +275,7 @@ AVAILABLE BALANCE: 0 ETH
       <div class="col-lg-6 col-md-6 col-sm-8">
       <div class="form-group">
       <center> <label style="color: grey;font-size: 150%; opacity:0.83" for="exampleInputEmail1">Number of participants</label></center>
-      <textarea class="form-control shadow" id="vals" rows="4" style="opacity:0.83; text-align:center;" spellcheck="false" placeholder="Enter the required number of participants. Alternatively just enter a single value which all recipients will receive"></textarea>
+      <textarea class="form-control shadow" id="vals" rows="4" style="opacity:0.83; text-align:center;" spellcheck="false" placeholder="Enter the required number of participants. Alternatively leave the default value"></textarea>
       </div>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-2"></div>
