@@ -54,13 +54,10 @@ var name = undefined;
 var symbol = undefined;
 var allowance = undefined;
 var safeLowGasPrice = setSafeLowGasPrice();
-var quota = getQuota();
 var ticketIsValid = true;
 
 
 setInterval(function() {
-    getQuota();
-    getTickets();
     total = quota - numRegistrants;
     setSafeLowGasPrice();
 }, 1000);
