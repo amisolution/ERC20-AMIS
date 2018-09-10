@@ -1,18 +1,72 @@
 Web3 = require('web3');
+
 metamaskIsInstalled();
+
 console.log(web3.isConnected());
+
 var accounts, account;
 var myConferenceInstance;
 var Conference = web3.eth.contract(abi);
 abi = JSON.parse('[{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"registrantsPaid","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"organizer","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"recipient","type":"address"},{"name":"amount","type":"uint256"}],"name":"refundTicket","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"destroy","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"newquota","type":"uint256"}],"name":"changeQuota","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"quota","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"numRegistrants","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"buyTicket","outputs":[],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"_from","type":"address"},{"indexed":false,"name":"_amount","type":"uint256"}],"name":"Deposit","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"_to","type":"address"},{"indexed":false,"name":"_amount","type":"uint256"}],"name":"Refund","type":"event"}]');
-var contractAddress = '0xec4e3a1ad06a2ebdc462eaf6bf361404676a441f';
+var contractAddress = '0x8F3f14d8C8db1D544404Ab2A2273dB97740a8eb7';
 var contractInstance = Conference.at(contractAddress);
 var etherscanUrl = "https://ropsten.etherscan.io/address/0xec4e3a1ad06a2ebdc462eaf6bf361404676a441f#code";
+web3.version.getNetwork((err, netId) => {
+    switch (netId) {
+        case "1":
+        $('#network').text("");
+        contractAddress = '0x8F3f14d8C8db1D544404Ab2A2273dB97740a8eb7';
+        break;
+        case "2":
+        alert('This is the deprecated Morden test network.');
+        break;
+        case "3":
+        $('#network').text("ROPSTEN TEST NETWORK");
+        contractAddress = '0xEc4e3A1Ad06A2EbDC462eAf6Bf361404676a441F';
+        contractInstance = OneStopAirdrop.at(contractAddress);
+        etherscanTxUrl = "https://ropsten.etherscan.io/tx/0x88799ff0c66cb9e95df05f968c3a8bce86bd50c1774ba29d6eadea7138f5fa79";
+        etherscanUrl = "https://ropsten.etherscan.io/address/0xEc4e3A1Ad06A2EbDC462eAf6Bf361404676a441F#code";
+        break;
+        case "4":
+        $('#network').text("RINKEBY TEST NETWORK");
+        alert('This contract does not exist on the Rinkeby test network. Please switch to the Main or Ropsten network')
+        break;
+        case "42":
+        $('#network').text("KOVAN TEST NETWORK");
+        contractAddress = '0x6328426be01834de85ec0c10e3e940e629290bb1';
+        contractInstance = OneStopAirdrop.at(contractAddress);
+        etherscanTxUrl = "https://kovan.etherscan.io/tx/0x1d5d170d9277db72d9bd81641b4c1324bfc4975ec8a9840543f0c2a091c19f96";
+        etherscanUrl = "https://kovan.etherscan.io/address/0x6328426be01834de85ec0c10e3e940e629290bb1#code";
+        //TODO ADD contractAddress = kovan address
+        https://kovan.etherscan.io/address/0x6328426be01834de85ec0c10e3e940e629290bb1
+        break;
+        default:
+        $('#network').text("NETWORK: UNKNOWN");
+        //TODO ADD contractAddress = undefined
+    }
+})
 
+function metamaskIsLocked() {
+    return web3.eth.accounts.length == 0;
+}
+
+
+function metamaskIsInstalled() {
+    if (typeof web3 != 'undefined') {
+        web3 = new Web3(web3.currentProvider);
+        console.log("existing web3: provider " + typeof web3);
+        console.log(web3.currentProvider);
+        return true;
+    } else {
+        $('.bd-install_metamask-modal-lg').modal('toggle');
+        $('.bd-install_metamask-modal-lg').modal('show');
+        return false;
+    }
+}
 
 // Initialize
 function initializeConference() {
-	Conference.new({from: accounts[0], gas: 3141592}).then(
+	Conference.new({from: accounts, gas: 3141592}).then(
 	function(conf) {
 		console.log(conf);
 		myConferenceInstance = conf;
@@ -168,7 +222,7 @@ function fundEth(newAddress, amt) {
 
 	console.log("fundEth");
 
-	var fromAddr = accounts[0]; // default owner address of client
+	var fromAddr = accounts; // default owner address of client
 	var toAddr = newAddress;
 	var valueEth = amt;
 	var value = parseFloat(valueEth)*1.0e18;
@@ -193,7 +247,7 @@ window.onload = function() {
       return;
     }
     accounts = accs;
-    account = accounts[0];
+    account = accounts;
 
   	initializeConference();
   });

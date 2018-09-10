@@ -1,7 +1,7 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jun 15, 2018 15:37:25").getTime();
+var countDownDate = new Date("Dec 31, 2018 00:00:00").getTime();
 
-var url = "https://account.amicorum.live/api" 
+var url = "https:///api" 
 
 // Update the count down every 1 second
 var x = setInterval(function () {
