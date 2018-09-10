@@ -58,7 +58,6 @@ var ticketIsValid = true;
 
 
 setInterval(function() {
-    total = quota - numRegistrants;
     setSafeLowGasPrice();
 }, 1000);
 
