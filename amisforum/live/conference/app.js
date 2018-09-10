@@ -24,7 +24,7 @@ web3.version.getNetwork((err, netId) => {
         case "3":
         $('#network').text("ROPSTEN TEST NETWORK");
         contractAddress = '0xEc4e3A1Ad06A2EbDC462eAf6Bf361404676a441F';
-        contractInstance = OneStopAirdrop.at(contractAddress);
+        contractInstance = Conference.at(contractAddress);
         etherscanTxUrl = "https://ropsten.etherscan.io/tx/0x88799ff0c66cb9e95df05f968c3a8bce86bd50c1774ba29d6eadea7138f5fa79";
         etherscanUrl = "https://ropsten.etherscan.io/address/0xEc4e3A1Ad06A2EbDC462eAf6Bf361404676a441F#code";
         break;
@@ -35,7 +35,7 @@ web3.version.getNetwork((err, netId) => {
         case "42":
         $('#network').text("KOVAN TEST NETWORK");
         contractAddress = '0x6328426be01834de85ec0c10e3e940e629290bb1';
-        contractInstance = OneStopAirdrop.at(contractAddress);
+        contractInstance = Conference.at(contractAddress);
         etherscanTxUrl = "https://kovan.etherscan.io/tx/0x1d5d170d9277db72d9bd81641b4c1324bfc4975ec8a9840543f0c2a091c19f96";
         etherscanUrl = "https://kovan.etherscan.io/address/0x6328426be01834de85ec0c10e3e940e629290bb1#code";
         //TODO ADD contractAddress = kovan address
