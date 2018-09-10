@@ -67,7 +67,7 @@ function metamaskIsInstalled() {
 
 // Initialize
 function initializeConference() {
-	Conference.new({from: accounts, gas: 3141592}).then(
+	Conference.web3({from: accounts, gas: 3141592}).then(
 	function(conf) {
 		console.log(conf);
 		myConferenceInstance = conf;
@@ -95,7 +95,7 @@ function checkValues() {
 
 // Change Quota
 function changeQuota(val) {
-	myConferenceInstance.changeQuota(val, {from: accounts[0]}).then(
+	myConferenceInstance.changeQuota(val, {from: accounts}).then(
 		function() {
 			return myConferenceInstance.quota.call();
 		}).then(
