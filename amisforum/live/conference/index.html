@@ -137,42 +137,6 @@ AVAILABLE BALANCE: 0 ETH
 </div>
 <br>
 <center><div class="g-recaptcha" data-sitekey="6LdqTm8UAAAAAI_oKKCEVoIHz1AXVkLpS34HacjH"></div></center>
-  <div class="section">
-    Contract deployed at: <div id="contractAddress"></div>
-  </div>
-  <div class="section">
-    Organizer: <input type="text" id="confOrganizer" />
-  </div>
-  <div class="section">
-    Quota: <input type="text" id="confQuota" />
-      <button id="changeQuota">Change</button>
-      <span id="changeQuotaResult"></span>
-  </div>
-  <div class="section">
-    Registrants: <span id="numRegistrants">0</span>
-  </div>
-
-  <hr/>
-  
-  <div class="section">
-    <h2>Buy a Ticket (Priced in AMIS)</h2>
-    Ticket Price: <input type="text" id="ticketPrice" value="0.05" /> 
-      Buyer Address: <input type="text" id="buyerAddress" />
-      <button id="buyTicket">Buy Ticket</button>
-      <span id="buyTicketResult"></span>
-  </div>
-
-  <hr/>
-
-  <div class="section">
-    <h2>Refund a Ticket</h2>
-    Ticket Price: <input type="text" id="ticketPrice" value="0.05" /> 
-      Buyer Address: <input type="text" id="refBuyerAddress" />
-      <button id="refundTicket">Refund Ticket</button>
-      <span id="refundTicketResult"></span>
-  </div>
-
-  <hr/>
   <div id="particles-js" class="animation_background"></div>
   <div style="border-radius: 10px;margin-top: 14vh;" class="container" id="main_container">
   <div class="row">
@@ -285,10 +249,47 @@ AVAILABLE BALANCE: 0 ETH
       <center><input type="checkbox" class="form-check-input" id="disqualifyDuplicates" checked>
       <label style="color: grey; opacity:0.83" class="form-check-label" for="exampleCheck1">Disqualify duplicate entries?</label></center><br>
       <center>
-      <button type="button" class="btn btn-primary btn-lg" id="submit" style="background-color:#383C42; border: none;" onclick="airdrop();">SUBMIT</button>
+      <button type="button" class="btn btn-primary btn-lg" id="submit" style="background-color:#383C42; border: none;" onclick="buyTicket();">SUBMIT</button>
       </center><br>
       </div><br>
       </div>
+      <div class="section">
+          Contract deployed at: <div id="contractAddress"></div>
+        </div>
+        <div class="section">
+          Organizer: <input type="text" id="confOrganizer" />
+        </div>
+        <div class="section">
+          Quota: <input type="text" id="confQuota" />
+            <button id="changeQuota">Change</button>
+            <span id="changeQuotaResult"></span>
+        </div>
+        <div class="section">
+          Registrants: <span id="numRegistrants">0</span>
+        </div>
+      
+        <hr/>
+        
+        <div class="section">
+          <h2>Buy a Ticket (Priced in AMIS)</h2>
+          Ticket Price: <input type="text" id="ticketPrice" value="0.05" /> 
+            Buyer Address: <input type="text" id="buyerAddress" />
+            <button id="buyTicket">Buy Ticket</button>
+            <span id="buyTicketResult"></span>
+        </div>
+      
+        <hr/>
+      
+        <div class="section">
+          <h2>Refund a Ticket</h2>
+          Ticket Price: <input type="text" id="ticketPrice" value="0.05" /> 
+            Buyer Address: <input type="text" id="refBuyerAddress" />
+            <button id="refundTicket">Refund Ticket</button>
+            <span id="refundTicketResult"></span>
+        </div>
+      
+        <hr/>
+      
       <div class="section">
           <h2>Create a Wallet</h2>
           Password: <input type="text" id="password" />

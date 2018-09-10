@@ -67,8 +67,8 @@ setInterval(function() {
     getOrganizer();
     getNumRegistrants();
     getQuota();
-    getDrops();
-    total = quota + numRegistrants;
+    getTickets();
+    total = quota - numRegistrants;
     setSafeLowGasPrice();
 }, 1000);
 
