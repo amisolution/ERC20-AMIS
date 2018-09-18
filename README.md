@@ -191,6 +191,8 @@ DAPP Contract usage interaction is constantly under development, however we rece
 - [AMIS Trade on 0x relay with smartdex -in dev - https://amis-erc20.github.io/smartdex](https://amis-erc20.github.io/smartdex)
 - [Loan Generator](https://ropsten.etherscan.io/address/0x85b4b45df063c35b16adbf1f04f70728f7bc6635#readContract)
 - [Escrow Management](https://ropsten.etherscan.io/address/0x53a00aae1d0c9717f2ecbfe94e418b355e09fc82)
+- [Insurance](https://ropsten.etherscan.io/address/0x52d87e7f8c24302738c9f92a3184344ac0012a5b#code)
+- [Matching Market](https://ropsten.etherscan.io/address/0x435e01e15d10f3953cc0a3aa974c89ca74af791a#code)
 
 Visit us on our blogs @Medium, Blogspot, erc20-amis.amisolution.net and / or [Wordpress](https://erc20amis.wordpress.com/) for more details.
 [This page on github.io is here => https://amisolution.github.io/ERC20-AMIS](https://amisolution.github.io/ERC20-AMIS/)
