@@ -11,6 +11,9 @@
 &nbsp;[![αtesting EthenMarket](https://img.shields.io/badge/αtesting-ethenmarket-lightgrey.svg)](https://ethen.market/949bed886c739f1a3273629b3320db0c5024c719)&nbsp;[![ßtesting AmisDex](https://img.shields.io/badge/ßtesting-amisdex-lightblue.svg)](https://amisdex.github.io/amis-exchange-www)&nbsp;[![Dapp Airdropper](https://img.shields.io/badge/dapp-airdropper-brightgreen.svg)](https://amisolution.github.io/ERC20-AMIS/airdrop)
 
 
+![Product Gif](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/amisdex.gif)
+
+
 
 # ERC20-AMIS Token Future, options and crypto derivatives Project
 
@@ -26,7 +29,7 @@ Note: The new AMIS contract provides 20 Mio Tokens with 9 decimals; old AMIS con
 We also introduced AMIS tokens and assets on new blockchain technology such as Bitshares and Waves. We plan to burn the excess of AMIS Ethereum tokens equivalent to the supply issued on these respective blockchains. 
 
 ## Table of Contents
-- [WhitePaper](#white-paper)
+- [White Paper](#white-paper)
 - [Install](#install)
 - [Usage](#usage)
 - [Gui](#gui)
@@ -40,10 +43,10 @@ We also introduced AMIS tokens and assets on new blockchain technology such as B
 - [Helpdesk](#support)
 - [Communication](#communication)
 - [Contributing](#contributing)
-- [CodeOfConduct](#code)
+- [Code Of Conduct](#code-of-conduct)
 - [License](#license)
 
-## white-paper
+## White paper
 AMIS Token whitepaper
 
 Billions of people around the world still lack access to basic financial services. AMIS functions as a bridging instrument between people in these communities and people from the cryptocurrency world by offering micro finance opportunities throughout a wide diversification of asset instruments ready to deliver swift transaction processing, borderless proof, cryptographically secured and decentralized in nature addressing needs for the debt & capital market. Hedging, trading, borrowing and lending AMIS in a single decentralized platform will extend the boundaries onto which AMIS is positioned. We assess the risk of a particular dex, analyse loan/lending practices and always strive for the best expected value of collaterals (probability of repayment times principal requested). Using this approach, micro financed loans are very likely to be filled by the healthy and growing ecosystem of DEX, 0x relays and Dharma relayers.
