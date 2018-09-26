@@ -196,8 +196,8 @@ DAPP Contract usage interaction is constantly under development, however we rece
 - [Escrow Management](https://ropsten.etherscan.io/address/0x53a00aae1d0c9717f2ecbfe94e418b355e09fc82)
 - [Insurance](https://ropsten.etherscan.io/address/0x52d87e7f8c24302738c9f92a3184344ac0012a5b#code)
 - [Matching Market](https://ropsten.etherscan.io/address/0x435e01e15d10f3953cc0a3aa974c89ca74af791a#code)
-[This page on github.io is here => https://amisolution.github.io/ERC20-AMIS](https://amisolution.github.io/ERC20-AMIS/)
 
+### Instructions for installation
 - `npm install  `
 - [Download from Github](https://github.com/amisolution/ERC20-AMIS/archive/amis-kit.zip).
 - Install with [Docker](https://docker.com/): ```docker pull amis-kit```.
