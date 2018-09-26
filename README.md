@@ -188,6 +188,7 @@ https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch
 ## Usage
 DAPP Contract usage interaction is constantly under development, however we recently released new contracts and interfaces with which it becomes much easier to call AMIS for your favorite DAPP project, for instance you could use it to develop your own smart contract for selfdrop, airdrop, exchange, transportation, insurance, conferences, concerts, ticket resale and trade it - see examples below:
 
+- [Stateofthedapps](https://www.stateofthedapps.com/dapps/amisdex)
 - [Conference booking with AMIS ticket resale https://github.com/amisolution/ERC20-AMIS/amisforum/live/conference](https://amisolution.github.io/ERC20-AMIS/amisforum/live/conference) contract https://etherscan.io/address/0x7fe180e63198e50057c3f2817d058e8904c650e3
 - [AmisDapp Airdrop revenue generator on Ropsten, Kovan and soon mainnet](https://amisolution.github.io/ERC20-AMIS/airdrop)
 - [AMIS Trade on-chain with Amisdex an On-chain Orderbook contract with builtin https://amis-erc20.github.io/amisdex](https://amis-erc20.github.io/amisdex)
