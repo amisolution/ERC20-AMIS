@@ -186,7 +186,7 @@ https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch
 [MEW](https://myetherwallet.com) (MEW), has embedded the custom token feature to allow the query of your AMIS balance, just fill-up the AMIS token address in the appropriate section.
 
 ## Usage
-DAPP Contract usage interaction is constantly under development, however we recently released new contracts and interfaces with which it becomes much easier to call AMIS for your favorite DAPP project, for instance you could use for a selfdrop, airdrop, conferences, concerts, ticket resale and trade it - see examples below:
+DAPP Contract usage interaction is constantly under development, however we recently released new contracts and interfaces with which it becomes much easier to call AMIS for your favorite DAPP project, for instance you could use it to develop your own smart contract for selfdrop, airdrop, exchange, transportation, insurance, conferences, concerts, ticket resale and trade it - see examples below:
 
 - [Conference booking with AMIS ticket resale https://github.com/amisolution/ERC20-AMIS/amisforum/live/conference](https://amisolution.github.io/ERC20-AMIS/amisforum/live/conference) contract https://etherscan.io/address/0x7fe180e63198e50057c3f2817d058e8904c650e3
 - [AmisDapp Airdrop revenue generator on Ropsten, Kovan and soon mainnet](https://amisolution.github.io/ERC20-AMIS/airdrop)
@@ -196,9 +196,15 @@ DAPP Contract usage interaction is constantly under development, however we rece
 - [Escrow Management](https://ropsten.etherscan.io/address/0x53a00aae1d0c9717f2ecbfe94e418b355e09fc82)
 - [Insurance](https://ropsten.etherscan.io/address/0x52d87e7f8c24302738c9f92a3184344ac0012a5b#code)
 - [Matching Market](https://ropsten.etherscan.io/address/0x435e01e15d10f3953cc0a3aa974c89ca74af791a#code)
-
-Visit us on our blogs @Medium, Blogspot, erc20-amis.amisolution.net and / or [Wordpress](https://erc20amis.wordpress.com/) for more details.
 [This page on github.io is here => https://amisolution.github.io/ERC20-AMIS](https://amisolution.github.io/ERC20-AMIS/)
+
+- `npm install  `
+- [Download from Github](https://github.com/amisolution/ERC20-AMIS/archive/amis-kit.zip).
+- Install with [Docker](https://docker.com/): ```docker pull amis-kit```.
+- Clone the repo: `git clone https://github.com/amisolution/ERC20-AMIS`.
+- run -it
+
+For more details feel free to visit our chat room (slack/gitchat), blogs @Medium, reddit, Blogspot, erc20-amis.amisolution.net and / or [Wordpress](https://erc20amis.wordpress.com/).
 
 ## Gui
 On the ethereum blockchain one can use one of these GUIs to interact with decentralized exchange smart contracts
