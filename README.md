@@ -41,7 +41,7 @@ We also introduced AMIS tokens and assets on new blockchain technology such as B
 - [Charts](#charts)
 - [Api](#api)
 - [Helpdesk](#support)
-- [Communication](#communication)
+- [Communication :speaker:](#communication)
 - [Contributing](#contributing)
 - [Code Of Conduct](#code-of-conduct)
 - [License](#license)
