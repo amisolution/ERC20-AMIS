@@ -349,7 +349,7 @@ Amis Delta Dex Experimental Developments
 - [https://amisolution.github.io/dubiex/ui](https://amisolution.github.io/dubiex/ui/)
 - [https://amisolution.github.io/amisdeltadex/](https://amisolution.github.io/amisdeltadex/)
 - [amisdex https://ami-solution.github.io/amisdex/](https://ami-solution.github.io/amisdex/)
-- [smartdex 0x relay](https://amis-erc20.github.io/smartdex/)
+- [smartdex 0x relay UI works with conduit API](https://amis-erc20.github.io/smartdex/)
 - [0x relay with KYC/AML](https://amis-erc20.github.io/ERC20-Exchange-based-on-0x/public/)
 - [0x relay dex](https://amis-erc20.github.io/dex/)
 - [amis 0x relay dex](https://amis-erc20.github.io/amis-0x/)
@@ -357,13 +357,16 @@ Amis Delta Dex Experimental Developments
 - [ethexchange dex](https://amis-erc20.github.io/ethexchange/)
 - [netherdelta dex](https://amis-erc20.github.io/netherdelta/)
 - [ED exchange on testnet https://ether-dex.github.io/edx/?network=testnet/](https://ether-dex.github.io/edx/?network=testnet/)
-- [](https://amis-erc20.github.io/0xygen-Relay/packages/frontend/public)
+- [0x relay API 1](https://amis-erc20.github.io/0xygen-Relay/packages/frontend/public)
+- [0x relay API 2](https://amis-erc20.github.io/conduit)
+- [Amis Line Mobile Wallet](https://impartial-ellipse.glitch.me/)
 
 ## Wallet
 On Ethereum, one can easily create a wallet to store, send and receive AMIS:
 - Metamask AMIS integration only supported manually (Metamask integration underway)
 - [MEW AMIS Integration completed](https://github.com/amisolution/ERC20-AMIS/wiki) (AMIS tokens added automatically)
 - [TrustWallet AMIS integration completed](https://github.com/TrustWallet/trust-api/commit/65cec408b22bec82d17260a628a851c7e7afb840)
+- [Amis Line Mobile Wallet](https://impartial-ellipse.glitch.me/)
 
 On BitShares use one of the following:
 - [https://openledger.io/wallet?r=openledger-wallet-amis](https://openledger.io/wallet?r=openledger-wallet-amis)
