@@ -275,9 +275,13 @@ The Destruction of Asset Management Instrument was deemed necessary in order to 
 
 ![Txs Hash of 3rd batch of Amis Destruction](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/200000-amis-burnt.png)
 
-- Current Circulating Supply: 19690000 Mio AMIS ERC20 tokens.
+- The 4th batch of AMIS resource exhaustion took place when 10000 AMIS were burnt and subsequently destroyed as depicted below:
 
-- Total Qty Burnt: 310.000 AMIS Tokens representing a value of 364.000.000 USD @1174.93 USD per Amis ERC20 Token. 
+![Txs Hash of 4th batch of Amis Destruction](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/10000-amis-burnt1.png)
+
+- Current Circulating Supply: 19680000 Mio AMIS ERC20 tokens.
+
+- Total Qty Burnt: 320.000 AMIS Tokens representing a value of 375.977.600 USD @1174.93 USD per Amis ERC20 Token. 
 
 - It makes AMIS the 2nd most generous contributor to the ethereum genesis block -see pics-, the decrease of the natural existence of the token should increase its value overtime. This phenomenon cannot be achieved with the current monetary governance policy being in place by central banks who are prone to print paper money - see pics of USD/GBP/JPY/RBL decline over 120 years.More recently the rise of the dollar has led to the free fall of emerging market FIAT currencies.
 
