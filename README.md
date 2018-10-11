@@ -285,12 +285,12 @@ Amis Token Holdings <img align="center" src="https://raw.githubusercontent.com/a
 
 Amis Token Holdings 11 oct 2018 <img align="center" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/Amis-token-holdings1.png" alt="Amis-token-holdings1" width="300"/>
 
-- Subscribers: 750 as of time of writing
+- Subscribers: 750 29th Aug 2018
 
-1000 Amis Token Hodlers<img align="center" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/1000SubsAnniv.png" alt="1000 Hodlers of AMIS Tokens" width="300"/>
+1000 Amis Token Hodlers anniversary <img align="center" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/1000SubsAnniv.png" alt="1000 Hodlers of AMIS Tokens" width="300"/>
 
-- 1000 Subs beginning of sept 2018
-- 1300 Subs by 11 oct 2018
+- 1000 Subscribers beginning of sept 2018
+- 1300 Subscribers by 11 oct 2018
 
 Block Explorer Analytics<img align="center" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/bloxy2-amis.png" alt="Blockchain Explorer Analytics" width="300"/>]
 
