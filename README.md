@@ -229,8 +229,9 @@ Official list of decentralized exchanges for AMIS token
 * [openledger.io AMIS-BitUSD](https://openledger.io/market/OPENAMIS_BTS) **New** *on BitShares*
 * [openledger.info AMIS-BitCNY](https://bitshares.openledger.info/market/OPENAMIS_BTS) **New** *on BitShares*
 * [Waves AMIS](https://beta.wavesplatform.com/market/AMIS_WAVES) **New** *on Waves*
-* [AMIS DEX #1](https://ami-solution.github.io/amisdex/) **New** *in beta*
-* [AMIS DEX #2](https://amisdex.github.io/index/) **New** *in alpha*
+* [AMIS DEX #1](https://amis-delta.github.io/amisdelta/site) **New** *in beta*
+* [AMIS DEX #2](https://amis-erc20.github.io/amisdex/) **New** *in beta*
+* [AMIS DEX #3](https://amisdex.github.io/index/) **New** *in alpha*
 * [Bamboo relay](https://bamboorelay.com/trade/AMIS-WETH) 0x relay
 * [Cryptoderivatives market](https://cryptoderivatives.market/token/AMIS)
 * [Decentrex](https://amisdex.github.io/decentrex/) **Instructions for token transfer**
