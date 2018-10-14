@@ -232,6 +232,7 @@ Official list of decentralized exchanges for AMIS token
 * [AMIS DEX #1](https://amis-delta.github.io/amisdelta/site) **New** *in beta*
 * [AMIS DEX #2](https://amis-erc20.github.io/amisdex/) **New** *in beta*
 * [AMIS DEX #3](https://amisdex.github.io/index/) **New** *in alpha*
+* [Amis Delta Dax Dev2](https://sprout-llama.glitch.me/) **New** *live*
 * [Bamboo relay](https://bamboorelay.com/trade/AMIS-WETH) 0x relay
 * [Cryptoderivatives market](https://cryptoderivatives.market/token/AMIS)
 * [Decentrex](https://amisdex.github.io/decentrex/) **Instructions for token transfer**
@@ -368,6 +369,8 @@ Amis Delta Dex Experimental Developments
 - [0x relay API 1](https://amis-erc20.github.io/0xygen-Relay/packages/frontend/public)
 - [0x relay API 2](https://amis-erc20.github.io/conduit)
 - [Amis Line Mobile Wallet](https://impartial-ellipse.glitch.me/)
+- [Amis Delta Dax Dev1](https://freckle-shield.glitch.me/)
+- [Amis Delta Dax Dev2](https://sprout-llama.glitch.me/)
 
 ## Wallet
 On Ethereum, one can easily create a wallet to store, send and receive AMIS:
