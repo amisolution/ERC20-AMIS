@@ -408,7 +408,7 @@ On Waves use either bitshares or the native wallet:
 
 - [Live history chart with Cross MA EMA50 EMA26 and Stochastic Oscillator Full (20,5,5) on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=StochO2055&ci0=BB50&p=6M)
 
-![Amis Chart by Crptocompare](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/cryptocompare-amis-chart-sto2055-28aug2018.png)
+![Amis Chart by Cryptocompare](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/cryptocompare-amis-chart-sto2055-28aug2018.png)
 
 - [Live history chart with Cross MA EMA50 EMA26 and RSI21 on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=RSI21&ci0=BB50&p=6M)
 
@@ -416,6 +416,7 @@ On Waves use either bitshares or the native wallet:
 
 - [Live history chart with Cross MA EMA50 EMA26 and OBV On Balance Volume on a 6 months duration timeframe - source cryptocompare](https://www.cryptocompare.com/coins/amis/charts/ETH?ci2=EMA50&ci1=EMA26&bc=OBV&ci0=BB50&p=6M)
 
+- [coinalerts chart https://www.coinalerts.io/coins/amis/](https://www.coinalerts.io/coins/amis/)
 
 ## Api
 - [Amis trade streamer https://amisdex.github.io/cryptoc0mpare/trade](https://amisdex.github.io/crypt0compare/streamer/trade/)
