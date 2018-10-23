@@ -385,6 +385,11 @@ On Ethereum, one can easily create a wallet to store, send and receive AMIS:
 - Metamask AMIS integration only supported manually (Metamask integration underway)
 - [MEW AMIS Integration completed](https://github.com/amisolution/ERC20-AMIS/wiki) (AMIS tokens added automatically)
 - [TrustWallet AMIS integration completed](https://github.com/TrustWallet/trust-api/commit/65cec408b22bec82d17260a628a851c7e7afb840)
+- [TrustWallet](trustwalletapp.com)
+- [MyCrypto](mycrypto.com)
+- [Nifty]()
+- [Balance.io](balance.io)
+- [CoinBase](wallet.coinbase.com)
 - [Amis Line Mobile Wallet](https://impartial-ellipse.glitch.me/)
 
 On BitShares use one of the following:
@@ -403,7 +408,8 @@ On Waves use either bitshares or the native wallet:
 ## Wiki
 [Wiki](https://github.com/amisolution/ERC20-AMIS/wiki)
 
-## Charts
+## Analytics
+### Live streaming Charts
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h)
 
 ![Amis Chart by Crptocompare](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/cryptocompare-amis-chart-macd-28aug2018.png)
@@ -426,22 +432,25 @@ On Waves use either bitshares or the native wallet:
 
 - [coinalerts chart https://www.coinalerts.io/coins/amis/](https://www.coinalerts.io/coins/amis/)
 
-### Other charts
+### Amis Population
+The Amis population has reached 1326 holders (23rd Oct 2018).
+Density and statistical composition can be found @ bloxy
+
 How many Amis subscribers compared to a set of tokens created around Q4 2016 (ARC, NXC, PLU, SWT, DGD, 1ST...):
+Similar tokens that went through an ICO:
 
-The Amis population has reached 1326 holders.
-Its density of 1326 Subscribers (23rd Oct 2018) which have mostly been acquired through 
-
-* ARC 187
-* BCAP 812
-* NXC 942
-* PLU 1151
-* SWT 2300
-* XAUR 4167
-* TIME 5302
-* SNGLS 8236
-* DGD 8258
-* 1ST 18851
+| Token Name | # of Subscribers | Creation Date |
+| ARC |187 | Oct-31-2016 |
+| BCAP |812 | Apr 10, 2017 |
+| NXC |942 | Nov-01-2016 |
+| PLU |1151 | Sep-04-2016 |
+| SWT |2300 | Nov 01, 2016 |
+| MLN | 2414 | Feb 15, 2017 |
+| XAUR |4167 | Aug-08-2016 |
+| TIME |5302 |  |
+| SNGLS |8236 |  |
+| DGD |8258 |  |
+| 1ST |18851 |  |
 
 
 ## Api
