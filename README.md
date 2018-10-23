@@ -419,8 +419,12 @@ On Waves use either bitshares or the native wallet:
 - [coinalerts chart https://www.coinalerts.io/coins/amis/](https://www.coinalerts.io/coins/amis/)
 
 ## Api
+
+### Cryptocompare Streamer
 - [Amis trade streamer https://amisdex.github.io/cryptoc0mpare/trade](https://amisdex.github.io/crypt0compare/streamer/trade/)
 - [Live stream  https://amisdex.github.io/crypt0compare/streamer/current/](https://amisdex.github.io/crypt0compare/streamer/current/)
+
+### Dex API review
 - [coingecko api request for tokenjar](https://api.coingecko.com/api/v3/exchanges/tokenjar)
 
 Response body
@@ -463,6 +467,14 @@ Response body
  - [etherscan api](http://api.etherscan.io/api?module=account&action=txlist&address=0xbeef281b81d383336aca8b2b067a526227638087&sort=asc)
  - [etherscan api etherdelta_2 topic0 trade](https://api.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0x8d12a197cb00d4747a1fe03395095ce2a5cc6819&topic0=0x6effdda786735d5033bfad5f53e5131abcced9e52be6c507b62d639685fbed6d&data3=0x000000000000000000000000949bed886c739f1a3273629b3320db0c5024c719)
  - [etherscan api etherdelta_2 topic0 order](https://api.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0x8d12a197cb00d4747a1fe03395095ce2a5cc6819&topic0=0x3f7f2eda73683c21a15f9435af1028c93185b5f1fa38270762dc32be606b3e85=0x000000000000000000000000949bed886c739f1a3273629b3320db0c5024c719)
+ 
+ Under development:
+### AmisEtherDeltApi
+
+### Conduit 0x API server
+
+### Flexible Telco API
+The AMIS pricing and exchange API allows interaction with mobile network IN prepaid platforms, postpaid billing systems, and mobile money accounts, via SMS, USSD, REST APIs, and Diameter.
  
 ## Support
 * Our support channel is available 24h/24h 365d 
