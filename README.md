@@ -21,9 +21,14 @@
 
 > What is an AMIS Token (AMIS)? The AMIS is a transactional vehicle acting as asset management instrument for decentralized services running on the ethereum blockchain.
 Main Features:
+* Long Term Investment program based on Low volume.
+* ATF vs ICO: Asset Traded Fund is what characterizes an AMIS; it's also an ICO in the sense of an Initial Coin Option.
+* No ICO as we voluntereed to promote and build the AMIS business case around the concept of Initial Coin Option sold as Asset traded Fund.
+* NO centralized Trading: Amis do not favor centralized trading platforms but rather engages natively with a set of Decentralized exchanges (Ether Delta, TokenJar, BambooRelay 0x relays, AmisDex) which will undoubtedly expand over time.
 Dematerialized, Decentralized, due to replace FIAT transactions in the real economy for the long term, Transborder proof. 
 Run on the ethereum blockchain natively since its experimental inception.
-Low supply of Tokens 37.000 (37 Tokens created so far) now 20 Mio
+
+The 1st instance of AMIS had a low supply of Tokens 37.000 (37 Tokens with 3 decimals) now it's 20 Mio
 Used as multi-purposes mediation instrument to interact with other decentralized exchanges and smart contracts.
 Note: The new AMIS contract provides 20 Mio Tokens with 9 decimals; old AMIS contract deactivated from the exchange.
 We also introduced AMIS tokens and assets on new blockchain technology such as Bitshares and Waves. We plan to burn the excess of AMIS Ethereum tokens equivalent to the supply issued on these respective blockchains. 
@@ -109,7 +114,7 @@ There is a function created in the AMISConverter that converts the old AMIS bala
 
 Security of the contract
 
-The contract is created using the most recent solidity compiler to date ( v0.4.9 )
+The contract was created using the most recent solidity compiler at the time ( v0.4.9 )
 
 The new token contract code is open source and can be reviewed [here:https://github.com/amisolution/ERC20-AMIS/blob/master/AMIS.sol](https://github.com/amisolution/ERC20-AMIS/blob/master/AMIS.sol)
 is available for review on etherscan: 
@@ -188,7 +193,8 @@ https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch
 ## Usage
 DAPP Contract usage interaction is constantly under development, however we recently released new contracts and interfaces with which it becomes much easier to call AMIS for your favorite DAPP project, for instance you could use it to develop your own smart contract for selfdrop, airdrop, exchange, transportation, insurance, conferences, concerts, ticket resale and trade it - see examples below:
 
-- [Stateofthedapps](https://www.stateofthedapps.com/dapps/amisdex)
+- [Amis Dex on Stateofthedapps](https://www.stateofthedapps.com/dapps/amisdex)
+- [Amis Dex on DappRadar](https://dappradar.com/app/1001/amisdex)
 - [Conference booking with AMIS ticket resale https://github.com/amisolution/ERC20-AMIS/amisforum/live/conference](https://amisolution.github.io/ERC20-AMIS/amisforum/live/conference) contract https://etherscan.io/address/0x7fe180e63198e50057c3f2817d058e8904c650e3
 - [AmisDapp Airdrop revenue generator on Ropsten, Kovan and soon mainnet](https://amisolution.github.io/ERC20-AMIS/airdrop)
 - [AMIS Trade on-chain with Amisdex an On-chain Orderbook contract with builtin https://amis-erc20.github.io/amisdex](https://amis-erc20.github.io/amisdex)
@@ -418,6 +424,24 @@ On Waves use either bitshares or the native wallet:
 
 - [coinalerts chart https://www.coinalerts.io/coins/amis/](https://www.coinalerts.io/coins/amis/)
 
+### Other charts
+How many Amis subscribers compared to a set of tokens created around Q4 2016 (ARC, NXC, PLU, SWT, DGD, 1ST...):
+
+The Amis population has reached 1326 holders.
+Its density of 1326 Subscribers (23rd Oct 2018) which have mostly been acquired through 
+
+* ARC 187
+* BCAP 812
+* NXC 942
+* PLU 1151
+* SWT 2300
+* XAUR 4167
+* TIME 5302
+* SNGLS 8236
+* DGD 8258
+* 1ST 18851
+
+
 ## Api
 
 ### Cryptocompare Streamer
@@ -468,10 +492,13 @@ Response body
  - [etherscan api etherdelta_2 topic0 trade](https://api.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0x8d12a197cb00d4747a1fe03395095ce2a5cc6819&topic0=0x6effdda786735d5033bfad5f53e5131abcced9e52be6c507b62d639685fbed6d&data3=0x000000000000000000000000949bed886c739f1a3273629b3320db0c5024c719)
  - [etherscan api etherdelta_2 topic0 order](https://api.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0x8d12a197cb00d4747a1fe03395095ce2a5cc6819&topic0=0x3f7f2eda73683c21a15f9435af1028c93185b5f1fa38270762dc32be606b3e85=0x000000000000000000000000949bed886c739f1a3273629b3320db0c5024c719)
  
- Under development:
+** Under development: **
+
 ### AmisEtherDeltApi
+- Currently developing [AmisEtherDeltApi](https://github.com/ami-solution/AmisEtherDeltApi)
 
 ### Conduit 0x API server
+- [Conduit](https://github.com/ami-solution/conduit) for 0x and [AmisDex](https://github.com/amis-erc20/amisdex)
 
 ### Flexible Telco API
 The AMIS pricing and exchange API allows interaction with mobile network IN prepaid platforms, postpaid billing systems, and mobile money accounts, via SMS, USSD, REST APIs, and Diameter.
