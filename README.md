@@ -195,6 +195,7 @@ DAPP Contract usage interaction is constantly under development, however we rece
 
 - [Amis Dex on Stateofthedapps](https://www.stateofthedapps.com/dapps/amisdex)
 - [Amis Dex on DappRadar](https://dappradar.com/app/1001/amisdex)
+- [Amis Dex on App.co](https://app.co/app/amisdex)
 - [Conference booking with AMIS ticket resale https://github.com/amisolution/ERC20-AMIS/amisforum/live/conference](https://amisolution.github.io/ERC20-AMIS/amisforum/live/conference) contract https://etherscan.io/address/0x7fe180e63198e50057c3f2817d058e8904c650e3
 - [AmisDapp Airdrop revenue generator on Ropsten, Kovan and soon mainnet](https://amisolution.github.io/ERC20-AMIS/airdrop)
 - [AMIS Trade on-chain with Amisdex an On-chain Orderbook contract with builtin https://amis-erc20.github.io/amisdex](https://amis-erc20.github.io/amisdex)
@@ -205,13 +206,14 @@ DAPP Contract usage interaction is constantly under development, however we rece
 - [Matching Market](https://ropsten.etherscan.io/address/0x435e01e15d10f3953cc0a3aa974c89ca74af791a#code)
 
 ### Instructions for installation
+
 - `npm install  `
 - [Download from Github](https://github.com/amisolution/ERC20-AMIS/archive/amis-kit.zip).
 - Install with [Docker](https://docker.com/): ```docker pull amis-kit```.
 - Clone the repo: `git clone https://github.com/amisolution/ERC20-AMIS`.
 - run -it
 
-For more details feel free to visit our chat room (slack/gitchat), blogs @Medium, reddit, Blogspot, erc20-amis.amisolution.net and / or [Wordpress](https://erc20amis.wordpress.com/).
+For more details feel free to visit our chat room ([slack](https://amisolution.slack.com)/[gitchat](https://gitter.im/amis-delta-dax/Lobby)), blogs [@Medium](https://medium.com/@amis_erc20), [reddit](https://reddit.com/r/amis_erc20), [Blogspot](https://blogspot.com), erc20-amis.amisolution.net and / or [Wordpress](https://erc20amis.wordpress.com/).
 
 ## Gui
 On the ethereum blockchain one can use one of these GUIs to interact with decentralized exchange smart contracts
