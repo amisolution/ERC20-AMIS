@@ -1,4 +1,4 @@
-<img align="left" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/amis-newlogo.png" alt="amis-newlogo"/>
+<img align="left" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/amis-newlogo.png" alt="amis-newlogo"/>
 <img align="right" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/AMIS-QRCODE.png" alt="AMIS-QRCODE" width="100"/>
 
 [![Website Down](https://img.shields.io/badge/website-up-green.svg)](http://erc20-amis.amisolution.net/)&nbsp;
