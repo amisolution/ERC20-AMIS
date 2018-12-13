@@ -12,6 +12,7 @@
 
 
 ![Product Gif](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/amisdex.gif)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/amisolution/ERC20-AMIS/master)
 
 
 
