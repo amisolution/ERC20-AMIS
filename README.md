@@ -194,6 +194,8 @@ https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch
 ## Usage
 DAPP Contract usage interaction is constantly under development, however we recently released new contracts and interfaces with which it becomes much easier to call AMIS for your favorite DAPP project, for instance you could use it to develop your own smart contract for selfdrop, airdrop, exchange, transportation, insurance, conferences, concerts, ticket resale and trade it - see examples below:
 
+- [Amis Dex dappvolume.com](https://dappvolume.com/dapp/820/amisdex)
+- [Amis Dex cryptoknowmics](https://www.cryptoknowmics.com/dapps/details/amisdex/260)
 - [Amis Dex on Stateofthedapps](https://www.stateofthedapps.com/dapps/amisdex)
 - [Amis Dex on DappRadar](https://dappradar.com/app/1001/amisdex)
 - [Amis Dex on App.co](https://app.co/app/amisdex)
