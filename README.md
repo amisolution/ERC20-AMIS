@@ -194,14 +194,15 @@ https://github.com/bokkypoobah/TokenTrader/wiki/AMIS-%E2%80%90-AMIS#how-to-watch
 ## Usage
 DAPP Contract usage interaction is constantly under development, however we recently released new contracts and interfaces with which it becomes much easier to call AMIS for your favorite DAPP project, for instance you could use it to develop your own smart contract for selfdrop, airdrop, exchange, transportation, insurance, conferences, concerts, ticket resale and trade it - see examples below:
 
-- [Amis Dex dappvolume.com](https://dappvolume.com/dapp/820/amisdex)
-- [Amis Dex cryptoknowmics](https://www.cryptoknowmics.com/dapps/details/amisdex/260)
-- [Amis Dex on Stateofthedapps](https://www.stateofthedapps.com/dapps/amisdex)
-- [Amis Dex on DappRadar](https://dappradar.com/app/1001/amisdex)
-- [Amis Dex on App.co](https://app.co/app/amisdex)
-- [Amis Dex on DappReview](https://dapp.review/dapp/1211)
-- [Amis Dex on DappFight](https://dappfight.com/dapp/amisdex)
-- [Amis Dex on DappSpy](http://www.dappspy.com/rankingDetails/eth/exchanges/1001)
+- [Amis Dex dappvolume.com](https://dappvolume.com/dapp/820/amisdex?utm_source=AmiSolution)
+- [Amis Dex cryptoknowmics](https://www.cryptoknowmics.com/dapps/details/amisdex/260?utm_source=AmiSolution)
+- [Amis Dex on Stateofthedapps](https://www.stateofthedapps.com/dapps/amisdex?utm_source=AmiSolution)
+- [Amis Dex on DappRadar](https://dappradar.com/app/1001/amisdex?utm_source=AmiSolution)
+- [Amis Dex on App.co](https://app.co/app/amisdex?utm_source=AmiSolution)
+- [Amis Dex on DappReview](https://dapp.review/dapp/1211?utm_source=AmiSolution)
+- [Amis Dex on DappFight](https://dappfight.com/dapp/amisdex?utm_source=AmiSolution)
+- [Amis Dex on DappSpy](http://www.dappspy.com/rankingDetails/eth/exchanges/1001?utm_source=AmiSolution)
+- [Amis Dex on ratingdapp](https://ratingdapp.net/dapps/eth/1220/AMIS-DEX?utm_source=AmiSolution)
 - [Conference booking with AMIS ticket resale https://github.com/amisolution/ERC20-AMIS/amisforum/live/conference](https://amisolution.github.io/ERC20-AMIS/amisforum/live/conference) contract https://etherscan.io/address/0x7fe180e63198e50057c3f2817d058e8904c650e3
 - [AmisDapp Airdrop revenue generator on Ropsten, Kovan and soon mainnet](https://amisolution.github.io/ERC20-AMIS/airdrop)
 - [AMIS Trade on-chain with Amisdex an On-chain Orderbook contract with builtin https://amis-erc20.github.io/amisdex](https://amis-erc20.github.io/amisdex)
