@@ -2,7 +2,7 @@
 <img align="right" src="https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/AMIS-QRCODE.png" alt="AMIS-QRCODE" width="100"/>
 
 [![Website Down](https://img.shields.io/badge/website-up-green.svg)](http://erc20-amis.amisolution.net/)&nbsp;
-[![Join the Gitchat at https://gitter.im/amis-delta-dex/Lobby](https://badges.gitter.im/amis-delta-dex/Lobby.svg)](https://gitter.im/AMIS-DELTA-DEX/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)&nbsp;[![Trade Bounty](https://img.shields.io/badge/trade-bounty-orange.svg)](http://amisdex.amisolution.net/exchange/?pairId=AMIS-ETH)&nbsp;[![Twitter AirDrop](https://img.shields.io/badge/Twitter-Airdrop-red.svg)](https://twitter.com/AMIStoken_ERC20)&nbsp;[![Official Twitter](https://img.shields.io/badge/official-twitter-brightgreen.svg)](https://twitter.com/amis_erc20)&nbsp;[![Official AmisForkdelta](https://img.shields.io/badge/official-forkdelta-brightgreen.svg)](https://forkdelta.app/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
+[![Join the Gitchat at https://gitter.im/amis-delta-dex/Lobby](https://badges.gitter.im/amis-delta-dex/Lobby.svg)](https://gitter.im/AMIS-DELTA-DEX/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)&nbsp;[![Trade Bounty](https://img.shields.io/badge/trade-bounty-orange.svg)](https://amisdex.amisolution.net/exchange/?pairId=AMIS-ETH)&nbsp;[![Twitter AirDrop](https://img.shields.io/badge/Twitter-Airdrop-red.svg)](https://twitter.com/AMIStoken_ERC20)&nbsp;[![Official Twitter](https://img.shields.io/badge/official-twitter-brightgreen.svg)](https://twitter.com/amis_erc20)&nbsp;[![Official AmisForkdelta](https://img.shields.io/badge/official-forkdelta-brightgreen.svg)](https://forkdelta.app/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
 &nbsp;[![Official AmisEtherDelta](https://img.shields.io/badge/official-etherdelta-brightgreen.svg)](https://etherdelta.com/#0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
 &nbsp;[![Official BambooRelay](https://img.shields.io/badge/official-bamboorelay-brightgreen.svg)](https://bamboorelay.com/trade/AMIS-WETH)&nbsp;[![Official AmisTokenJar](https://img.shields.io/badge/official-tokenjar-brightgreen.svg)](https://tokenjar.io/amis)
 &nbsp;[![ßtesting Dubiex](https://img.shields.io/badge/ßtesting-dubiex-yellow.svg)](https://dubiex.com/AMIS/ETH)&nbsp;[![Official AmisLedgerDex](https://img.shields.io/badge/official-ledgerdex-1330e3.svg)](https://app.ledgerdex.com/#/app/orders/maker-taker/AMIS/0x949bed886c739f1a3273629b3320db0c5024c719/WETH/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
@@ -199,6 +199,8 @@ DAPP Contract usage interaction is constantly under development, however we rece
 - [Amis Dex on Stateofthedapps](https://www.stateofthedapps.com/dapps/amisdex)
 - [Amis Dex on DappRadar](https://dappradar.com/app/1001/amisdex)
 - [Amis Dex on App.co](https://app.co/app/amisdex)
+- [Amis Dex on DappReview](https://dapp.review/dapp/1211)
+- [Amis Dex on DappFight](https://dappfight.com/dapp/amisdex)
 - [Conference booking with AMIS ticket resale https://github.com/amisolution/ERC20-AMIS/amisforum/live/conference](https://amisolution.github.io/ERC20-AMIS/amisforum/live/conference) contract https://etherscan.io/address/0x7fe180e63198e50057c3f2817d058e8904c650e3
 - [AmisDapp Airdrop revenue generator on Ropsten, Kovan and soon mainnet](https://amisolution.github.io/ERC20-AMIS/airdrop)
 - [AMIS Trade on-chain with Amisdex an On-chain Orderbook contract with builtin https://amis-erc20.github.io/amisdex](https://amis-erc20.github.io/amisdex)
