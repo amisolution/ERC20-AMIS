@@ -201,6 +201,7 @@ DAPP Contract usage interaction is constantly under development, however we rece
 - [Amis Dex on App.co](https://app.co/app/amisdex)
 - [Amis Dex on DappReview](https://dapp.review/dapp/1211)
 - [Amis Dex on DappFight](https://dappfight.com/dapp/amisdex)
+- [Amis Dex on DappSpy](http://www.dappspy.com/rankingDetails/eth/exchanges/1001)
 - [Conference booking with AMIS ticket resale https://github.com/amisolution/ERC20-AMIS/amisforum/live/conference](https://amisolution.github.io/ERC20-AMIS/amisforum/live/conference) contract https://etherscan.io/address/0x7fe180e63198e50057c3f2817d058e8904c650e3
 - [AmisDapp Airdrop revenue generator on Ropsten, Kovan and soon mainnet](https://amisolution.github.io/ERC20-AMIS/airdrop)
 - [AMIS Trade on-chain with Amisdex an On-chain Orderbook contract with builtin https://amis-erc20.github.io/amisdex](https://amis-erc20.github.io/amisdex)
