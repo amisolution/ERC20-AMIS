@@ -238,12 +238,18 @@ On the waves blockchain one can interact with the AMIS token natively and in a d
 - WAVES [wavesplatform.com](https://beta.wavesplatform.com/market/AMIS_WAVES) or https://beta.wavesplatform.com/dex?assetId2=WWiqqx527CUweb8eB5xLUPtLfzyFs371FkT2dtX49DC&assetId1=WAVES
 
 ## Exchange
+
 Official list of decentralized exchanges for AMIS token
+* [crypto-bridge OPENAMIS-ETH](https://wallet.crypto-bridge.org/market/OPENAMIS_BRIDGE.ETH)
+* [crypto-bridge OPENAMIS-BTC](https://wallet.crypto-bridge.org/market/OPENAMIS_BRIDGE.BTC)
+* [crypto-bridge OPENAMIS-USDT](https://wallet.crypto-bridge.org/market/OPENAMIS_BRIDGE.USDT)
 * [crypto-bridge AMIS-BTC](https://wallet.crypto-bridge.org/market/OPENAMIS_BTC) **New** *on BitShares*
 * [crypto-bridge AMIS-BTS](https://wallet.crypto-bridge.org/market/OPENAMIS_BTS) **New** *on BitShares*
 * [openledger.io AMIS-BitUSD](https://openledger.io/market/OPENAMIS_BTS) **New** *on BitShares*
 * [openledger.info AMIS-BitCNY](https://bitshares.openledger.info/market/OPENAMIS_BTS) **New** *on BitShares*
-* [Waves AMIS](https://beta.wavesplatform.com/market/AMIS_WAVES) **New** *on Waves*
+* [AMIS-BTC on Waves](https://client.wavesplatform.com/dex?assetId1=8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS&assetId2=WWiqqx527CUweb8eB5xLUPtLfzyFs371FkT2dtX49DC)
+* [Waves AMIS](https://client.wavesplatform.com/dex?assetId1=WAVES&assetId2=WWiqqx527CUweb8eB5xLUPtLfzyFs371FkT2dtX49DC) **New** *on Waves*
+* [AMIS-ETH on Waves](https://client.wavesplatform.com/dex?assetId1=WWiqqx527CUweb8eB5xLUPtLfzyFs371FkT2dtX49DC&assetId2=474jTeYx2r2Va35794tCScAXWJG9hU2HcgxzMowaZUnu)
 * [AMIS DEX #1](https://amis-delta.github.io/amisdelta/site) **New** *in beta*
 * [AMIS DEX #2](https://amis-erc20.github.io/amisdex/) **New** *in beta*
 * [AMIS DEX #3](https://amisdex.github.io/index/) **New** *in alpha*
@@ -417,6 +423,9 @@ On Waves use either bitshares or the native wallet:
 
 ## Analytics
 ### Live streaming Charts
+
+- [CoinGecko](https://www.coingecko.com/en/coins/amis)
+
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h)
 
 ![Amis Chart by Crptocompare](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/cryptocompare-amis-chart-macd-28aug2018.png)
@@ -463,11 +472,14 @@ Similar tokens that went through an ICO:
 ## Api
 
 ### Cryptocompare Streamer
+
 - [Amis trade streamer https://amisdex.github.io/cryptoc0mpare/trade](https://amisdex.github.io/crypt0compare/streamer/trade/)
 - [Live stream  https://amisdex.github.io/crypt0compare/streamer/current/](https://amisdex.github.io/crypt0compare/streamer/current/)
 
 ### Dex API review
+
 - [coingecko api request for tokenjar](https://api.coingecko.com/api/v3/exchanges/tokenjar)
+- [coingecko api request for Amis tickers](https://api.coingecko.com/api/v3/coins/amis/tickers)
 
 Response body
 
