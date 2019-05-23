@@ -344,10 +344,11 @@ Etherscan have introduced the dex tracker feature which could serve to provide R
 Yes and no. On one hand they provide relatively accurate data for most of the pairs, regarding dex tracked events, it's a little less clear since they don't read the data from the blocks but rather from the API of the dex which in return do not meet the expected reliability found by reading data blocks as available in the dex tracker feature for example. On the other hand side we acknowledge that Amis was initially designed as an experimental asset management token used to be traded on a large variety of DEX primarily for testing purposes, for that reason we never expected to be successful in establishing the market condition for Amis however during the course of its history we felt to be perceived as an exception due to our mode of introduction on the marketplace (No ICO). We also faced resistance and challenges in having AMIS continuously listed on decentralized exchanges (see Etherdelta/Idex experiences) besides the miscommunication of unexpected changes that affected the operations ruling the decentralized exchange UI e.g. min order size changes from 0.001 to 0.01 then back to 0.001, suppression of crosspair trading in the UI and many others.
 
 * Is AMIS delisted from CoinMarketCap? Where else is it listed ?
+
 AMIS is not delisted from CoinMarketCap; CoinMarketCap decided to set the token as inactive and freeze AMIS's price @1174.93 USD.
 - Cryptocompare holds historical up-to-date AMIS trading data and never stopped polling Etherdelta's API as CoinMarketCap did.
-- Coingecko relays AMIS/WETH price information retrieved from TokenJar'API, data source is inaccurate most of the time.
-- 0xtracker provide accurate price information based on what's being read from the ethereum blockchain.
+- Coingecko relays [AMIS/WETH](https://www.coingecko.com/en/coins/amis/) price information retrieved from TokenJar'API, data source is 99% accurate.
+- 0xtracker provides NRT accurate price information based on what's being read from the ethereum blockchain via its 0x relayers.
 
 * How can one verify the true value of the AMIS token ?
 Data analytics modelling can help generating the chart based on etherscan dex tracker results; it provides the list of trades upon which one can plot the relevant data to provide a true accurate graphical representation of the Asset Instrument. 
