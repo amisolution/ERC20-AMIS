@@ -483,6 +483,9 @@ Similar tokens that went through an ICO:
 
 - [coingecko api request for tokenjar](https://api.coingecko.com/api/v3/exchanges/tokenjar)
 - [coingecko api request for Amis tickers](https://api.coingecko.com/api/v3/coins/amis/tickers)
+- [TokenJar API](https://tokenjar.io/api/cmc/ticker)
+- [Bamboorelay API](https://sra.bamboorelay.com/0x/v2/)
+- [Ledgerdex](https://api-v2.ledgerdex.com/sra/v2/)
 
 Response body
 
