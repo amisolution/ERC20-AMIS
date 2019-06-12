@@ -67,11 +67,11 @@ library SafeMath {
 
 // change contract name to your contract's name
 // i.e. "contract AMIS is ERC223Token"
-contract YourNewToken is ERC223Token {
+contract Amis is ERC223Token {
   using SafeMath for uint256;
   // for example, "AMIS"
   string public name = "AMIS";
-  // for example, "BTC"
+  // for example, "AMIS"
   string public symbol = "AMIS";
   // set token's precision
   // pick any number from 0 to 18
