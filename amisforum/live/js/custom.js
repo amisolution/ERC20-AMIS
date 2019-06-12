@@ -1,7 +1,7 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Dec 31, 2018 00:00:00").getTime();
+var countDownDate = new Date("Dec 31, 2019 00:00:00").getTime();
 
-var url = "https:///api" 
+var url = "https://api.coinranking.com/v1/public/coin/4467" 
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -297,7 +297,7 @@ employees = {
 
           { 
               "id":"1",
-              "name":"Laurent G",
+              "name":"Amisolution",
               "designation":"Founder and investor",
               "description":`Short description needed.
               `,
@@ -350,9 +350,10 @@ if (win) {
 }
 }
 
-var url = "https://account.amicorum.live/api";
+var url = "https://api.coinranking.com/v1/public/coin/4468";
 $.ajax({
-  url: url + "/user/getTokenRemain",
+  //url: url + "/user/getTokenRemain", *//
+  url: url + "/history/1y",
   type: "get",
 
   data: {
