@@ -1,6 +1,6 @@
-// # https://remix.ethereum.org/#version=soljson-v0.5.24+commit.e67f0147.js&optimize=true&gist=6ba2843f228efec36624338245bd09dd
+// # https://remix.ethereum.org/#version=soljson-v0.5.9+commit.e560f70d.js&optimize=true&gist=6ba2843f228efec36624338245bd09dd
 // 
-pragma solidity ^0.5.24;
+pragma solidity ^0.5.9;
 
 // change contract name to your contract's name
 // i.e. "contract AMIS is ERC223Token"
