@@ -2,7 +2,7 @@
 var countDownDate = new Date("Dec 31, 2019 00:00:00").getTime();
 
 var url = "https://api.coinranking.com/v1/public/coin/4467" 
-
+var circulatingSupply = new Date("Dec 31, 2019 00:00:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function () {
 
@@ -111,10 +111,6 @@ bar2.text.style.fontFamily = 'pronova';
 bar2.text.style.fontSize = '3rem';
 bar2.text.style.color = '#15bdff';
 bar2.animate(0.15);   // Number from 0.0 to 1.0
-
-
-
-
 
 var bar3 = new ProgressBar.Circle(progressBar3, {
   color: '#15bdff',
@@ -350,10 +346,11 @@ if (win) {
 }
 }
 
-var url = "https://api.coinranking.com/v1/public/coin/4468";
+//var url = "https://api.coinranking.com/v1/public/coin/4468";
+var url = "https://api.coinranking.com/v1/public/coin";
 $.ajax({
   //url: url + "/user/getTokenRemain", *//
-  url: url + "/history/1y",
+  url: url + "/4468",
   type: "get",
 
   data: {
