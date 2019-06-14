@@ -8,6 +8,8 @@
 &nbsp;[![ßtesting Dubiex](https://img.shields.io/badge/ßtesting-dubiex-yellow.svg)](https://dubiex.com/AMIS/ETH)&nbsp;[![Official AmisLedgerDex](https://img.shields.io/badge/official-ledgerdex-1330e3.svg)](https://app.ledgerdex.com/#/app/orders/maker-taker/AMIS/0x949bed886c739f1a3273629b3320db0c5024c719/WETH/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
 )&nbsp;[![Official Cryptoderivatives](https://img.shields.io/badge/official-cryptoderivatives-4330e7.svg)](https://cryptoderivatives.market/token/AMIS)&nbsp;[![Official Cryptocompare](https://img.shields.io/badge/official-cryptocompare-brightgreen.svg)](https://www.cryptocompare.com/coins/amis)&nbsp;[![Official DexTracker](https://img.shields.io/badge/official-dextracker-brightgreen.svg)](https://etherscan.io/dextracker?filter=&q=AMIS)
 &nbsp;[![ßtesting TokenStore](https://img.shields.io/badge/ßtesting-TokenStore-yellow.svg)](https://token.store/trade/0x949bed886c739f1a3273629b3320db0c5024c719)
+&nbsp;[![coinchangex](https://img.shields.io/badge/αtesting-ethenmarket-lightgrey.svg)](https://www.coinchangex.com/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
+&nbsp;[![Saturn](https://img.shields.io/badge/αtesting-ethenmarket-lightgrey.svg)](https://www.saturn.network/exchange/ETH/order-book/0x949bed886c739f1a3273629b3320db0c5024c719/0x0000000000000000000000000000000000000000)
 &nbsp;[![αtesting EthenMarket](https://img.shields.io/badge/αtesting-ethenmarket-lightgrey.svg)](https://ethen.market/949bed886c739f1a3273629b3320db0c5024c719)&nbsp;[![ßtesting AmisDex](https://img.shields.io/badge/ßtesting-amisdex-lightblue.svg)](https://amisdex.github.io/amis-exchange-www)&nbsp;[![Dapp Airdropper](https://img.shields.io/badge/dapp-airdropper-brightgreen.svg)](https://amisolution.github.io/ERC20-AMIS/airdrop)
 
 
@@ -241,7 +243,7 @@ On the waves blockchain one can interact with the AMIS token natively and in a d
 
 The Official list of decentralized exchanges for the AMIS tokens is given below:
 * [Saturn.network AMIS-ETH](https://www.saturn.network/exchange/ETH/order-book/0x949bed886c739f1a3273629b3320db0c5024c719/0x0000000000000000000000000000000000000000)
-* [Saturn.network AMIS-ETC](https://www.saturn.network/exchange/ETC/order-book/0x949bed886c739f1a3273629b3320db0c5024c719/0x0000000000000000000000000000000000000000)
+* [coinchangex AMIS-ETH](https://img.shields.io/badge/αtesting-ethenmarket-lightgrey.svg)](https://www.coinchangex.com/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
 * [crypto-bridge OPENAMIS-ETH](https://wallet.crypto-bridge.org/market/OPENAMIS_BRIDGE.ETH)
 * [crypto-bridge OPENAMIS-BTC](https://wallet.crypto-bridge.org/market/OPENAMIS_BRIDGE.BTC)
 * [crypto-bridge OPENAMIS-USDT](https://wallet.crypto-bridge.org/market/OPENAMIS_BRIDGE.USDT)
