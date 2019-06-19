@@ -11,7 +11,7 @@
 &nbsp;[![coinchangex](https://img.shields.io/badge/Dex-coinchangex-orange.svg)](https://www.coinchangex.com/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
 &nbsp;[![Saturn](https://img.shields.io/badge/Dex-saturn-magenta.svg)](https://www.saturn.network/exchange/ETH/order-book/0x949bed886c739f1a3273629b3320db0c5024c719/0x0000000000000000000000000000000000000000)
 &nbsp;[![αtesting EthenMarket](https://img.shields.io/badge/αtesting-ethenmarket-lightgrey.svg)](https://ethen.market/949bed886c739f1a3273629b3320db0c5024c719)&nbsp;[![ßtesting AmisDex](https://img.shields.io/badge/ßtesting-amisdex-lightblue.svg)](https://amisdex.github.io/amis-exchange-www)&nbsp;[![Dapp Airdropper](https://img.shields.io/badge/dapp-airdropper-brightgreen.svg)](https://amisolution.github.io/ERC20-AMIS/airdrop)
-&nbsp;[![Dapp Ethermium](https://img.shields.io/badge/dapp-ethermium-brightmagenta.svg)](https://ethermium.com/t/AMIS-AMIS)
+&nbsp;[![Ethermium](https://img.shields.io/badge/Dex-ethermium-magenta.svg)](https://ethermium.com/t/AMIS-AMIS)
 
 
 [!Product Gif](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/amisdex.gif)
