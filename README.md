@@ -260,6 +260,7 @@ The Official list of decentralized exchanges for the AMIS tokens is given below:
 * [AMIS DEX #3](https://amisdex.github.io/index/) **New** *in alpha*
 * [Amis Delta Dax Dev2](https://sprout-llama.glitch.me/) **New** *live*
 * [Bamboo relay](https://bamboorelay.com/trade/AMIS-WETH) 0x relay
+* [Ethermium](https://ethermium.com/t/AMIS-AMIS) **New** *live*
 * [Cryptoderivatives market](https://cryptoderivatives.market/token/AMIS)
 * [Decentrex](https://amisdex.github.io/decentrex/) **Instructions for token transfer**
 * [Dubiex](https://dubiex.com/AMIS/ETH) *in beta*
@@ -461,18 +462,19 @@ Density and statistical composition can be found @ bloxy
 How many Amis subscribers compared to a set of tokens created around Q4 2016 (ARC, NXC, PLU, SWT, DGD, 1ST...):
 Similar tokens that went through an ICO:
 
-| Token Name | # of Subscribers | Creation Date |
-| ARC |187 | Oct-31-2016 |
-| BCAP |812 | Apr 10, 2017 |
-| NXC |942 | Nov-01-2016 |
-| PLU |1151 | Sep-04-2016 |
-| SWT |2300 | Nov 01, 2016 |
-| MLN | 2414 | Feb 15, 2017 |
-| XAUR |4167 | Aug-08-2016 |
-| TIME |5302 |  |
-| SNGLS |8236 |  |
-| DGD |8258 |  |
-| 1ST |18851 |  |
+| Token Name | # of Subscribers |Creation Date|
+|------------|------------------|-------------|
+| ARC        |187               | Oct-31-2016 |
+| BCAP       |812               | Apr-10-2017 |
+| NXC        |942               | Nov-01-2016 |
+| PLU        |1151              | Sep-04-2016 |
+| SWT        |2300              | Nov-01-2016 |
+| MLN        |2414              | Feb-15-2017 |
+| XAUR       |4167              | Aug-08-2016 |
+| TIME       |5302              |             |
+| SNGLS      |8236              |             |
+| DGD        |8258              |             |
+| 1ST        |18851             |             |
 
 
 ## Api
@@ -489,6 +491,8 @@ Similar tokens that went through an ICO:
 - [TokenJar API](https://tokenjar.io/api/cmc/ticker)
 - [Bamboorelay API](https://sra.bamboorelay.com/0x/v2/)
 - [Ledgerdex](https://api-v2.ledgerdex.com/sra/v2/)
+- [Ethermium API Wrapper](https://github.com/ethermium-dex/nodejs-api-wrapper)
+- [Ethermium API example](https://api.ethermium.com/v1/tokenTickers)
 
 Response body
 
