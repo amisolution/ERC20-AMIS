@@ -28,7 +28,7 @@ Main Features:
 * Long Term Investment program based on Low volume.
 * ATF vs ICO: Asset Traded Fund is what characterizes an AMIS; it's also an ICO in the sense of an Initial Coin Option.
 * No ICO as we voluntereed to promote and build the AMIS business case around the concept of Initial Coin Option sold as Asset traded Fund.
-* NO centralized Trading: Amis do not favor centralized trading platforms but rather engages natively with a set of Decentralized exchanges (Ether Delta, TokenJar, BambooRelay 0x relays, AmisDex) which will undoubtedly expand over time.
+* NO centralized Trading: Amis do not favor centralized trading platforms but rather engages natively with a set of Decentralized exchanges (Ether Delta, TokenJar, BambooRelay 0x relays, AmisDex, Saturn) which will undoubtedly expand over time.
 Dematerialized, Decentralized, due to replace FIAT transactions in the real economy for the long term, Transborder proof. 
 Run on the ethereum blockchain natively since its experimental inception.
 
@@ -164,6 +164,8 @@ Remember that AMIS is unique; each and everyone can verify the official and genu
 
 Read AMIS token smart contract balance:
 [Etherscan https://etherscan.io/token/0x949bed886c739f1a3273629b3320db0c5024c719#readContract](https://etherscan.io/token/0x949bed886c739f1a3273629b3320db0c5024c719#readContract)
+
+[AMIS / ETC on Blockscout](https://blockscout.com/etc/mainnet/address/0xd8ebe4e6ac8d3c85e2f243e11e8b96c9b12c85af)
 
 AMIS unique code:
 [https://etherscan.io/address/0x949bEd886c739f1A3273629b3320db0C5024c719#code](https://etherscan.io/address/0x949bed886c739f1a3273629b3320db0c5024c719#code)
