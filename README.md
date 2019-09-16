@@ -244,6 +244,7 @@ On the waves blockchain one can interact with the AMIS token natively and in a d
 
 The Official list of decentralized exchanges for the AMIS tokens is given below:
 * [Saturn.network AMIS-ETH](https://www.saturn.network/exchange/ETH/order-book/0x949bed886c739f1a3273629b3320db0c5024c719/0x0000000000000000000000000000000000000000)
+* [Saturn.network AMIS-ETC](https://www.saturn.network/exchange/ETC/order-book/0xd8ebe4e6ac8d3c85e2f243e11e8b96c9b12c85af/0x0000000000000000000000000000000000000000)
 * [coinchangex AMIS-ETH](https://www.coinchangex.com/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
 * [crypto-bridge OPENAMIS-ETH](https://wallet.crypto-bridge.org/market/OPENAMIS_BRIDGE.ETH)
 * [crypto-bridge OPENAMIS-BTC](https://wallet.crypto-bridge.org/market/OPENAMIS_BRIDGE.BTC)
@@ -408,6 +409,7 @@ On Ethereum, one can easily create a wallet to store, send and receive AMIS:
 - [TrustWallet](trustwalletapp.com)
 - [MyCrypto](mycrypto.com)
 - [Nifty]()
+- [SaturnWallet]()
 - [Balance.io](balance.io)
 - [CoinBase](wallet.coinbase.com)
 - [Amis Line Mobile Wallet](https://impartial-ellipse.glitch.me/)
