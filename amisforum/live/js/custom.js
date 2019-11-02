@@ -1,10 +1,10 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Dec 31, 2020 00:00:00").getTime();
+var countDownDate = new Date("Nov 03, 2020 00:00:00").getTime();
 // https://amis-erc20-api.glitch.me/ERC20Tokens/0x949bEd886c739f1A3273629b3320db0C5024c719
-// var url = "https://api.coinranking.com/v1/public/coin/4467" 
+// var url = "https://api.coinranking.com/v1/public/coin/4468" 
 // var url = "https://api.coingecko.com/api/v3/coins/amis"
 var url = "https://amis-erc20-api.glitch.me/ERC20Tokens/0x949bEd886c739f1A3273629b3320db0C5024c719"
-var circulatingSupply = new Date("Dec 31, 2020 00:00:00").getTime();
+var circulatingSupply = new Date("Nov 03, 2019 00:00:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function () {
 
