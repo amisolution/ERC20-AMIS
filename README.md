@@ -280,7 +280,21 @@ The Official list of decentralized exchanges for the AMIS tokens is given below:
 * [Simex](https://simex.global) Discontinued
 
 ## Reserve
-###Facts by numbers 29 Aug 2018
+### Distribution
+
+### Total Supply
+totalSupply: 20000000
+
+### Total Reserve
+totalReserve: 5846014.484763184
+
+### Total Burnt
+totalBurnt: 320000
+
+### Circulating Supply
+circulatingSupply: 14153986
+
+### Facts by numbers 29 Aug 2018
 - The AMIS circulation supply was decreased by 1.55% in the last couple of days; here is what happened and what it means for our subscribers:
 - Initial Coin Outset: 20.000.000 Mio - 3rd JAN 2017
 - Decimals: 9
