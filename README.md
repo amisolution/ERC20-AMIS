@@ -292,7 +292,7 @@ totalReserve: 5846014.484763184
 totalBurnt: 320000
 
 ### Circulating Supply
-circulatingSupply: 14153986
+circulatingSupply: 14153986-320000=13833986
 
 ### Facts by numbers 29 Aug 2018
 - The AMIS circulation supply was decreased by 1.55% in the last couple of days; here is what happened and what it means for our subscribers:
@@ -303,7 +303,7 @@ circulatingSupply: 14153986
 - Buy Back Program Incentives - The buy back program incentization campaign analyzes the trading behavior pattern of all participants to better determine how traders are able to identify trading sweet spots and how to position for their next move traded,  to allow max return on investment from our eligible subscribers.
 - Lender/Borrower program underway
 
-###AMIS present exhaustion regime
+### AMIS present exhaustion regime
 
 -Not only have we prepared the path to deliberatly drain the amount of AMIS resources available at a particular time according to the market condition but we also took precautionary measures to maintain and to widen the scope of use of crypto derivatives asset class offered by AMIS product portfolio on the decentralized market whether it would be Bitshare, Ethereum or Waves blockchained orders. 
 
@@ -349,7 +349,7 @@ Block Explorer Analytics<img align="center" src="https://raw.githubusercontent.c
 
 <a href='https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/XAU-GBP-100Y.png'>GBP - Gold Prices - 100 Year Historical Chart</a>
 
-###Is AMIS a stablecoin ?
+### Is AMIS a stablecoin ?
 * What's causing concerns to believe that AMIS has become a true Stablecoin?
 On etherscan AMIS Token price varies at tick level, one can easily notice that the valuation of AMIS is pegged to 1174.93 USD.
 
