@@ -282,6 +282,15 @@ The Official list of decentralized exchanges for the AMIS tokens is given below:
 ## Reserve
 ### Distribution
 
+Total
+20,000,000
+Founders, Advisors, Reserve, Bonus (0x5b878ba97bae92fc0aa6133edbf2f58d52350d65)
+- 5,846,014.484763184
+(0x0000)
+- 320,000
+Est. Circulating Supply
+13,833,986
+
 ### Total Supply
 totalSupply: 20000000
 
