@@ -349,7 +349,7 @@ if (win) {
 }
 }
 
-var url = "https://amis-erc20-api.glitch.me/api";
+var url = "https://amis-erc20-api.glitch.me";
 $.ajax({
   url: url + "/ERC20Tokens/amis",
   type: "get",
