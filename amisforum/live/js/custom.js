@@ -351,7 +351,7 @@ if (win) {
 
 var url = "https://amis-erc20-api.glitch.me/api";
 $.ajax({
-  url: url + "/user/getTokenRemain",
+  url: url + "/ERC20Tokens/amis",
   type: "get",
 
   data: {
