@@ -297,8 +297,18 @@ employees = {
           { 
               "id":"1",
               "name":"Amisolution",
-              "designation":"Social Media and Community Manager",
-              "description":"Short description needed.",
+              "designation":"Founder and investor",
+              "description":`Short description needed.
+              `,
+              "pictureURL":"images/photo1.png",
+              "linkedIn":"https://www.linkedin.com/in/ "
+          
+          },
+          { 
+              "id":"2",
+              "name":"Amisolution",
+              "designation":"AMI Solution Product Development",
+              "description":`Short description needed.
               `,
               "pictureURL":"images/photo1.jpg",
               "linkedIn":"https://www.linkedin.com/in/"
