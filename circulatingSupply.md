@@ -1,0 +1,1 @@
+{"addr":"0x949bEd886c739f1A3273629b3320db0C5024c719","decimals":9,"name":"AMIS","symbol":"AMIS","circulatingSupply":"13833986515236816","totalSupply":"20000000000000000","image":"https://raw.githubusercontent.com/TrustWallet/tokens/master/images/amis.png"}
