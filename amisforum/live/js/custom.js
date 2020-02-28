@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jul 01, 2018 15:37:25").getTime();
+var countDownDate = new Date("Nov 03, 2020 15:37:25").getTime();
 
 var url = "https://amis-erc20-api.glitch.me/ERC20Tokens/amis" 
 
