@@ -16,7 +16,7 @@ var etherscanUrl = "https://blockscout.com/etc/mainnet/address/0x6C984aA53cfE7Ab
 web3.version.getNetwork((err, netId) => {
     switch (netId) {
         case "1":
-        $('#network').text("");
+        $('#network').text("ETH mainnet");
         contractAddress = '0x8F3f14d8C8db1D544404Ab2A2273dB97740a8eb7';
         break;
         case "2":
