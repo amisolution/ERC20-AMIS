@@ -12,7 +12,7 @@
 &nbsp;[![Saturn-Eth](https://img.shields.io/badge/Saturn-Eth-magenta.svg)](https://www.saturn.network/exchange/ETH/order-book/0x949bed886c739f1a3273629b3320db0c5024c719/0x0000000000000000000000000000000000000000)
 &nbsp;[![Saturn-Etc](https://img.shields.io/badge/Saturn-Etc-magenta.svg)](https://www.saturn.network/exchange/ETC/order-book/0xd8ebe4e6ac8d3c85e2f243e11e8b96c9b12c85af/0x0000000000000000000000000000000000000000)
 &nbsp;[![αtesting EthenMarket](https://img.shields.io/badge/αtesting-ethenmarket-lightgrey.svg)](https://ethen.market/949bed886c739f1a3273629b3320db0c5024c719)&nbsp;[![ßtesting AmisDex](https://img.shields.io/badge/ßtesting-amisdex-lightblue.svg)](https://amisdex.github.io/amis-exchange-www)&nbsp;[![Dapp Airdropper](https://img.shields.io/badge/dapp-airdropper-brightgreen.svg)](https://amisolution.github.io/ERC20-AMIS/airdrop)
-&nbsp;[![Ethermium](https://img.shields.io/badge/Dex-ethermium-magenta.svg)](https://ethermium.com/t/AMIS-AMIS)&nbsp;[![Official UniSwap](https://img.shields.io/badge/official-uniswap-cyan.svg)](https://uniswap.exchange/swap/AMIS)
+&nbsp;[![Ethermium](https://img.shields.io/badge/Dex-ethermium-magenta.svg)](https://ethermium.com/t/AMIS-AMIS)&nbsp;[![UniSwap v1](https://img.shields.io/badge/official-uniswap-cyan.svg)](https://app.uniswap.org/#/swap?use=v1&inputCurrency=ETH&outputCurrency=0x949bed886c739f1a3273629b3320db0c5024c719)&nbsp;[![UniSwap v2](https://img.shields.io/badge/official-uniswap-cyan.svg)](https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x949bed886c739f1a3273629b3320db0c5024c719)&nbsp;[![HoneySwap](https://img.shields.io/badge/official-uniswap-yellow.svg)](https://honeyswap.org/#/swap?outputCurrency=0xd51e1ddd116fff9a71c1b8feeb58113afa2b4d93)
 
 
 [!Product Gif](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/amisdex.gif)
@@ -29,7 +29,7 @@ Main Features:
 * Long Term Investment program based on Low volume.
 * ATF vs ICO: Asset Traded Fund is what characterizes an AMIS; it's also an ICO in the sense of an Initial Coin Option.
 * No ICO as we voluntereed to promote and build the AMIS business case around the concept of Initial Coin Option sold as Asset traded Fund.
-* NO centralized Trading: Amis do not favor centralized trading platforms but rather engages natively with a set of Decentralized exchanges (Ether Delta, TokenJar, BambooRelay 0x relays, AmisDex, Saturn) which will undoubtedly expand over time.
+* NO centralized Trading: Amis do not favor centralized trading platforms but rather engages natively with a set of Decentralized exchanges (Ether Delta, TokenJar, BambooRelay 0x relays, AmisDex, Saturn, UniSwap, HoneySwap) which will undoubtedly expand over time.
 Dematerialized, Decentralized, due to replace FIAT transactions in the real economy for the long term, Transborder proof. 
 Run on the ethereum blockchain natively since its experimental inception.
 
@@ -166,6 +166,8 @@ Remember that AMIS is unique; each and everyone can verify the official and genu
 Read AMIS token smart contract balance:
 [Etherscan https://etherscan.io/token/0x949bed886c739f1a3273629b3320db0c5024c719#readContract](https://etherscan.io/token/0x949bed886c739f1a3273629b3320db0c5024c719#readContract)
 
+[AMIS / xDAI on Blockscout](https://blockscout.com/poa/xdai/address/0xd51e1ddd116fff9a71c1b8feeb58113afa2b4d93)
+
 [AMIS / ETC on Blockscout](https://blockscout.com/etc/mainnet/address/0xd8ebe4e6ac8d3c85e2f243e11e8b96c9b12c85af)
 
 AMIS unique code:
@@ -246,6 +248,10 @@ On the waves blockchain one can interact with the AMIS token natively and in a d
 ## Exchange
 
 The Official list of decentralized exchanges for the AMIS tokens is given below:
+
+* [UniSwap v1](https://app.uniswap.org/#/swap?use=v1&inputCurrency=ETH&outputCurrency=0x949bed886c739f1a3273629b3320db0c5024c719) AMIS-ETH
+* [UniSwap v2](https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x949bed886c739f1a3273629b3320db0c5024c719) AMIS-ETH
+* [HoneySwap v2](https://honeyswap.org/#/swap?outputCurrency=0xd51e1ddd116fff9a71c1b8feeb58113afa2b4d93) AMIS-xDAI
 * [Saturn.network AMIS-ETH](https://www.saturn.network/exchange/ETH/order-book/0x949bed886c739f1a3273629b3320db0c5024c719/0x0000000000000000000000000000000000000000)
 * [Saturn.network AMIS-ETC](https://www.saturn.network/exchange/ETC/order-book/0xd8ebe4e6ac8d3c85e2f243e11e8b96c9b12c85af/0x0000000000000000000000000000000000000000)
 * [coinchangex AMIS-ETH](https://www.coinchangex.com/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
@@ -273,7 +279,7 @@ The Official list of decentralized exchanges for the AMIS tokens is given below:
 * [Forkdelta](https://forkdelta.github.io/#!/trade/0x949bed886c739f1a3273629b3320db0c5024c719-ETH)
 * [Instex](https://app.instex.io/0x949bed886c739f1a3273629b3320db0c5024c719-WETH) 0x *in beta*
 * [SingularX](https://ex.singularx.com/exchange/AMIS/ETH) *in beta*
-* [Token Jar](https://tokenjar.io/amis) 0x relay
+* [Token Jar](https://tokenjar.io/amis) 0x relay **Discontinued**
 * [Token Store](https://token.store/trade/0x949bed886c739f1a3273629b3320db0c5024c719)
 * [ecex](ecex.exchange/portal/token_list) vote for listing ongoing
 * [Idex]()  Discontinued
@@ -458,7 +464,7 @@ On Waves use either bitshares or the native wallet:
 
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/24h)
 
-![Amis Chart by Crptocompare](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/cryptocompare-amis-chart-macd-28aug2018.png)
+![Amis Chart by Cryptocompare](https://raw.githubusercontent.com/amisolution/ERC20-AMIS/master/images/cryptocompare-amis-chart-macd-28aug2018.png)
 
 - [24h Live streaming Chart: https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d](https://amisolution.github.io/ERC20-AMIS/charts/amis-usd/cryptohistory/7d)
 
